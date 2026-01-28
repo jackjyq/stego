@@ -1,0 +1,580 @@
+{
+  "name": "Stego Nightmare",  
+  "colors": {
+    // Base Colors
+    // https://code.visualstudio.com/api/references/theme-color#base-colors
+    "focusBorder": "#FFFFFF00",
+    // Editor colors
+    "editor.background": "${BLACK}",
+    "editor.foreground": "${WHITE}",
+    "editorCursor.foreground": "#FFFFFF",
+    "editorRuler.foreground": "${GREY}",
+    "editorLineNumber.activeForeground": "${WHITE}",
+    "editorLineNumber.foreground": "${GREY}",
+    // Peek view colors
+    // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
+    "peekView.border": "#383838",
+    "peekViewEditor.background": "#2E2E2E",
+    "peekViewResult.background": "#323232",
+    "peekViewResult.fileForeground": "${WHITE}",
+    "peekViewResult.lineForeground": "${WHITE}",
+    "peekViewTitle.background": "#383838",
+    "peekViewTitleLabel.foreground": "${WHITE}",
+    "peekViewTitleDescription.foreground": "${GREY}",
+    // Title Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
+    "titleBar.activeBackground": "#383838",
+    "titleBar.activeForeground": "${WHITE}",
+    "titleBar.inactiveBackground": "#383838",
+    "titleBar.inactiveForeground": "${GREY}",
+    // Status Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+    "statusBar.background": "#383838",
+    "statusBar.foreground": "${WHITE}",
+    "statusBar.focusBorder": "#FFFFFF00",
+    "statusBar.border": "#FFFFFF00",
+    "statusBar.debuggingBackground": "#383838",
+    "statusBar.debuggingForeground": "${WHITE}",
+    "statusBar.debuggingBorder": "#FFFFFF00",
+    "statusBar.noFolderBackground": "#383838",
+    "statusBar.noFolderForeground": "${WHITE}",
+    "statusBar.noFolderBorder": "#FFFFFF00",
+    // Debug Icons colors
+    // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+    "debugConsole.errorForeground": "${RED}",
+    "debugConsole.warningForeground": "${YELLOW}",
+    "debugConsole.infoForeground": "${GREEN}",
+    "debugConsole.sourceForeground": "${WHITE}",
+    // Editor Groups & Tabs
+    // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+    "editorGroupHeader.tabsBackground": "#262626",
+    "tab.activeBackground": "#323232",
+    "tab.activeForeground": "${WHITE}",
+    "tab.inactiveBackground": "#262626",
+    "tab.inactiveForeground": "${WHITE}",
+    "tab.activeModifiedBorder": "${YELLOW}",
+    "tab.hoverBackground": "#323232",
+    // Breadcrumbs colors
+    // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
+    "breadcrumb.background": "#323232",
+    "breadcrumb.foreground": "${GREY}",
+    // Side Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#side-bar
+    "sideBar.background": "#282828",
+    "sideBar.foreground": "${WHITE}",
+    "sideBarSectionHeader.background": "#323232",
+    "sideBarSectionHeader.foreground": "${WHITE}",
+    // Activity Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#activity-bar
+    "activityBar.background": "#383838",
+    "activityBar.foreground": "${WHITE}",
+    "activityBar.inactiveForeground": "${GREY}",
+    "activityBar.activeBorder": "${WHITE}",
+    "activityBarBadge.background": "${RED}",
+    "activityBarBadge.foreground": "${WHITE}",
+    // Panel Colors
+    // https://code.visualstudio.com/api/references/theme-color#panel-colors
+    "panel.background": "#282828",
+    "panelTitle.activeForeground": "${WHITE}",
+    "panelTitle.inactiveForeground": "${GREY}",
+    "panelTitle.activeBorder": "${WHITE}",
+    // Terminal Colors
+    "terminal.foreground": "#FBFBFB",
+    "terminal.background": "${BLACK}",
+    "terminal.ansiBlack": "${BLACK}",
+    "terminal.ansiBlue": "${BLUE}",
+    "terminal.ansiCyan": "${CYAN}",
+    "terminal.ansiGreen": "${GREEN}",
+    "terminal.ansiMagenta": "${MAGENTA}",
+    "terminal.ansiRed": "${RED}",
+    "terminal.ansiWhite": "#FBFBFB",
+    "terminal.ansiYellow": "${YELLOW}",
+    "terminal.ansiBrightBlack": "#373737",
+    "terminal.ansiBrightBlue": "#48c0ff",
+    "terminal.ansiBrightCyan": "#51f1ff",
+    "terminal.ansiBrightGreen": "#3bfb9d",
+    "terminal.ansiBrightMagenta": "#9ea7ff",
+    "terminal.ansiBrightRed": "#ff5542",
+    "terminal.ansiBrightWhite": "#FFFFFF",
+    "terminal.ansiBrightYellow": "#ffd60d",
+    "terminal.selectionBackground": "#264f78",
+    "terminalCursor.foreground": "#FFFFFF"
+  },
+  "tokenColors": [
+    // Base Colors
+    {
+      "name": "Comment",
+      "scope": ["comment", "string.quoted.docstring"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "${GREY}"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {
+        "foreground": "${MAGENTA}"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": ["entity"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "fontStyle": " bold",
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "${YELLOW}"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "${CYAN}"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "${WHITE}"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Entity inherited-class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "String embedded-source",
+      "scope": "string.quoted source",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "${YELLOW}"
+      }
+    },
+    {
+      "name": "String constant",
+      "scope": "string constant",
+      "settings": {
+        "foreground": "${MAGENTA}"
+      }
+    },
+    {
+      "name": "String.regexp",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "String variable",
+      "scope": "string variable",
+      "settings": {
+        "foreground": "#E67E22"
+      }
+    },
+    {
+      "name": "Support.function",
+      "scope": "support.function",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "Support.constant",
+      "scope": "support.constant",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "C/C++ Preprocessor Line",
+      "scope": "other.preprocessor.c",
+      "settings": {
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "C/C++ Preprocessor Directive",
+      "scope": "other.preprocessor.c entity",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "Javascript object literal separator",
+      "scope": "punctuation.separator.key-value.js",
+      "settings": {
+        "foreground": "${MAGENTA}"
+      }
+    },
+    {
+      "name": "Javascript object literal key",
+      "scope": "meta.object-literal.key.js",
+      "settings": {
+        "foreground": "${YELLOW}"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "Meta.tag.A",
+      "scope": [
+        "declaration.tag",
+        "declaration.tag entity",
+        "meta.tag",
+        "meta.tag entity"
+      ],
+      "settings": {
+        "foreground": "${WHITE}"
+      }
+    },
+    {
+      "name": "css tag-name",
+      "scope": "meta.selector.css entity.name.tag",
+      "settings": {
+        "foreground": "#1ABC9C"
+      }
+    },
+    {
+      "name": "css#id",
+      "scope": "meta.selector.css entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "css.class",
+      "scope": "meta.selector.css entity.other.attribute-name.class",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "css property-name:",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "${BLUE}",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "css property-value;",
+      "scope": [
+        "meta.property-group support.constant.property-value.css",
+        "meta.property-value support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "${GREEN}",
+        "fontStyle": " italic"
+      }
+    },
+    {
+      "name": "css @at-rule",
+      "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
+      "settings": {
+        "foreground": "${YELLOW}",
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "css additional-constants",
+      "scope": [
+        "meta.property-value support.constant.named-color.css",
+        "meta.property-value constant"
+      ],
+      "settings": {
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "css constructor.argument",
+      "scope": "meta.constructor.argument.css",
+      "settings": {
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "diff.header",
+      "scope": ["meta.diff", "meta.diff.header"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "${WHITE}"
+      }
+    },
+    {
+      "name": "diff.deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "diff.changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "${YELLOW}"
+      }
+    },
+    {
+      "name": "diff.inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "markdown heading",
+      "scope": ["punctuation.definition.heading.markdown"],
+      "settings": {
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "markdown puncuation",
+      "scope": ["punctuation.definition.markdown"],
+      "settings": {
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "html id",
+      "scope": "entity.other.attribute-name.id.html",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "html class",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "${GREEN}"
+      }
+    },
+    {
+      "name": "html punctuations tags",
+      "scope": [
+        "punctuation.definition.tag.end",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "${WHITE}"
+      }
+    },
+    {
+      "name": "CSS @import",
+      "scope": "keyword.control.at-rule.import.css",
+      "settings": {
+        "foreground": "${YELLOW}",
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "LESS variables",
+      "scope": "variable.other.less",
+      "settings": {
+        "foreground": "${WHITE}"
+      }
+    },
+    {
+      "name": "LESS variables",
+      "scope": "entity.other.less.mixin",
+      "settings": {
+        "foreground": "#9B59B6"
+      }
+    },
+    {
+      "name": "LESS units",
+      "scope": "source.css.less keyword.unit.css",
+      "settings": {
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "Angular",
+      "scope": [
+        "entity.other.attribute-name.angular.html",
+        "source.angular.embedded.html"
+      ],
+      "settings": {
+        "foreground": "${RED}"
+      }
+    },
+    {
+      "name": "HTML Entities",
+      "scope": "constant.character.entity.html",
+      "settings": {
+        "foreground": "${BLUE}"
+      }
+    },
+    {
+      "name": "coffee instance var",
+      "scope": "variable.other.readwrite.instance.coffee",
+      "settings": {
+        "foreground": "#E67E22"
+      }
+    },
+    {
+      "name": "coffee brace",
+      "scope": ["meta.brace.round.coffee", "meta.brace.square.coffee"],
+      "settings": {
+        "foreground": "${YELLOW}"
+      }
+    },
+    {
+      "name": "coffee embeded",
+      "scope": "punctuation.section.embedded.coffee",
+      "settings": {
+        "foreground": "#5EEBB8"
+      }
+    },
+    {
+      "name": "Coffee vars",
+      "scope": "variable.assignment.coffee variable.assignment.coffee",
+      "settings": {
+        "foreground": "${WHITE}"
+      }
+    },
+    {
+      "name": "Coffee dots",
+      "scope": "meta.delimiter.method.period.coffee",
+      "settings": {
+        "foreground": "#3CADD7"
+      }
+    },
+    {
+      "name": "Coffee curleys",
+      "scope": "meta.brace.curly.coffee",
+      "settings": {
+        "foreground": "#1ABC9C"
+      }
+    },
+    {
+      "name": "Doctype/XML Processing",
+      "scope": [
+        "meta.tag.sgml.doctype.xml",
+        "declaration.sgml.html declaration.doctype",
+        "declaration.sgml.html declaration.doctype entity",
+        "declaration.sgml.html declaration.doctype string",
+        "declaration.xml-processing",
+        "declaration.xml-processing entity",
+        "declaration.xml-processing string",
+        "doctype"
+      ],
+      "settings": {
+        "foreground": "#3C444D"
+      }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    // https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-scope-map
+    "namespace": {
+      // For identifiers that declare or reference a namespace, module, or package.
+      "foreground": "${GREEN}"
+    },
+    "type": {
+      "foreground": "${GREEN}"
+    },
+    "type.defaultLibrary": {
+      "foreground": "${CYAN}"
+    },
+    "struct": {
+      "foreground": "${BLUE}"
+    },
+    "class": {
+      "foreground": "${GREEN}"
+    },
+    "interface": {
+      "foreground": "${GREEN}"
+    },
+    "enum": {
+      "foreground": "${GREEN}"
+    },
+    "function": {
+      "foreground": "${GREEN}"
+    },
+    "function.defaultLibrary": {
+      "foreground": "${CYAN}"
+    },
+    "method": {
+      "foreground": "${GREEN}"
+    },
+    "macro": {
+      "foreground": "${GREEN}"
+    },
+    "variable": {
+      "foreground": "${WHITE}"
+    },
+    "variable.readonly": {
+      "foreground": "${WHITE}"
+    },
+    "variable.readonly:python": {
+      "foreground": "${MAGENTA}"
+    },
+    "parameter": {
+      "foreground": "#E67E22"
+    },
+    "property": {
+      "foreground": "${WHITE}"
+    },
+    "property.readonly": {
+      "foreground": "${WHITE}"
+    },
+    "enumMember": {
+      "foreground": "${WHITE}"
+    },
+    "event": {
+      "foreground": "${WHITE}"
+    },
+    //TypeHint Patch, keep it to the bottom
+    "*.typeHint": "${GREY}"
+  }
+}

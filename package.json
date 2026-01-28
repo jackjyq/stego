@@ -1,0 +1,26 @@
+{
+  "name": "stego",
+  "displayName": "Stego Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Stego Nightmare",
+        "uiTheme": "vs-dark",
+        "path": "./themes/stego-nightmare.json"
+      },
+        {
+        "label": "Stego Daydream",
+        "uiTheme": "vs",
+        "path": "./themes/stego-daydream.json"
+      }
+    ]
+  }
+}
