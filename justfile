@@ -15,7 +15,7 @@ build-vscode: setup
     sed -f {{SRC_PALETTE}}/stego-nightmare.sed <{{SRC_TEMPLATE}}/stego-nightmare.template.jsonc >{{DIST_VSCODE_THEME}}/stego-nightmare.json
 
 publish-vscode: build-vscode build-icon
-    vsce publish minor
+    vsce publish minor && git push
 
 build-icon: setup
     #!/usr/bin/env bash
