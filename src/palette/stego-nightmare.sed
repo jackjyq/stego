@@ -6,4 +6,3 @@ s/\${BLUE}/#3498DB/g
 s/\${MAGENTA}/#6C71C4/g
 s/\${CYAN}/#3CC9D6/g
 s/\${WHITE}/#FFFFFFDE/g
-s/\${GREY}/#FFFFFF99/g

@@ -8,9 +8,9 @@
     "editor.background": "${BLACK}",
     "editor.foreground": "${WHITE}",
     "editorCursor.foreground": "#FFFFFF",
-    "editorRuler.foreground": "${GREY}",
+    "editorRuler.foreground": "#FFFFFF99",
     "editorLineNumber.activeForeground": "${WHITE}",
-    "editorLineNumber.foreground": "${GREY}",
+    "editorLineNumber.foreground": "#FFFFFF99",
     // Peek view colors
     // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
     "peekView.border": "#383838",
@@ -20,13 +20,13 @@
     "peekViewResult.lineForeground": "${WHITE}",
     "peekViewTitle.background": "#383838",
     "peekViewTitleLabel.foreground": "${WHITE}",
-    "peekViewTitleDescription.foreground": "${GREY}",
+    "peekViewTitleDescription.foreground": "#FFFFFF99",
     // Title Bar colors
     // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
     "titleBar.activeBackground": "#383838",
     "titleBar.activeForeground": "${WHITE}",
     "titleBar.inactiveBackground": "#383838",
-    "titleBar.inactiveForeground": "${GREY}",
+    "titleBar.inactiveForeground": "#FFFFFF99",
     // Status Bar colors
     // https://code.visualstudio.com/api/references/theme-color#status-bar-colors
     "statusBar.background": "#383838",
@@ -57,7 +57,7 @@
     // Breadcrumbs colors
     // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
     "breadcrumb.background": "#323232",
-    "breadcrumb.foreground": "${GREY}",
+    "breadcrumb.foreground": "#FFFFFF99",
     // Side Bar colors
     // https://code.visualstudio.com/api/references/theme-color#side-bar
     "sideBar.background": "#282828",
@@ -68,7 +68,7 @@
     // https://code.visualstudio.com/api/references/theme-color#activity-bar
     "activityBar.background": "#383838",
     "activityBar.foreground": "${WHITE}",
-    "activityBar.inactiveForeground": "${GREY}",
+    "activityBar.inactiveForeground": "#FFFFFF99",
     "activityBar.activeBorder": "${WHITE}",
     "activityBarBadge.background": "${RED}",
     "activityBarBadge.foreground": "${WHITE}",
@@ -76,7 +76,7 @@
     // https://code.visualstudio.com/api/references/theme-color#panel-colors
     "panel.background": "#282828",
     "panelTitle.activeForeground": "${WHITE}",
-    "panelTitle.inactiveForeground": "${GREY}",
+    "panelTitle.inactiveForeground": "#FFFFFF99",
     "panelTitle.activeBorder": "${WHITE}",
     // Terminal Colors
     "terminal.foreground": "#FBFBFB",
@@ -107,7 +107,7 @@
       "scope": ["comment", "string.quoted.docstring"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "${GREY}"
+        "foreground": "#FFFFFF99"
       }
     },
     {
@@ -575,6 +575,6 @@
       "foreground": "${WHITE}"
     },
     //TypeHint Patch, keep it to the bottom
-    "*.typeHint": "${GREY}"
+    "*.typeHint": "#FFFFFF99"
   }
 }

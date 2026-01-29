@@ -1,10 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(just:*)",
-      "Bash(bash -c '. ./palette/dark.env && envsubst < ./templates/stego-nightmare.jsonc')",
-      "Bash(bash:*)",
-      "Bash(envsubst:*)"
+      "Bash(just:*)"
     ]
   }
 }
