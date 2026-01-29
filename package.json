@@ -2,7 +2,7 @@
   "name": "stego",
   "displayName": "Stego Theme",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.108.1"
   },
@@ -10,8 +10,8 @@
     "Themes"
   ],
   "repository": "",
-	"publisher": "jackjyq",
-	"icon": "./src/icon/stego-nightmare.png",
+  "publisher": "jackjyq",
+  "icon": "./src/icon/stego-nightmare.png",
   "contributes": {
     "themes": [
       {
@@ -19,7 +19,7 @@
         "uiTheme": "vs-dark",
         "path": "./build/vscode/stego-nightmare.json"
       },
-        {
+      {
         "label": "Stego Daydream",
         "uiTheme": "vs",
         "path": "./build/vscode/stego-daydream.json"
