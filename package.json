@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/jackjyq/stego",
   "publisher": "jackjyq",
-  "icon": "./src/icon/stego-nightmare.ico",
+  "icon": "./dist/icon/stego-nightmare.ico",
   "contributes": {
     "themes": [
       {
