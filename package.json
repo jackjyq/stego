@@ -11,18 +11,18 @@
   ],
   "repository": "https://github.com/jackjyq/stego",
   "publisher": "jackjyq",
-  "icon": "./src/icon/stego-nightmare.png",
+  "icon": "./src/icon/stego-nightmare.ico",
   "contributes": {
     "themes": [
       {
         "label": "Stego Nightmare",
         "uiTheme": "vs-dark",
-        "path": "./build/vscode/stego-nightmare.svg"
+        "path": "./build/vscode/stego-nightmare.json"
       },
       {
         "label": "Stego Daydream",
         "uiTheme": "vs",
-        "path": "./build/vscode/stego-daydream.svg"
+        "path": "./build/vscode/stego-daydream.json"
       }
     ]
   }
