@@ -37,9 +37,5 @@ build-vscode: build-palette build-icon
         <"{{SRC_VSCODE}}/stego-nightmare.template.jsonc" \
         >"{{DIST_VSCODE}}/stego-nightmare.json"
 
-publish-vscode: build-vscode build-icon
-    if [[ -n $(git status --porcelain) ]]; then
-        echo "Error: There are uncommitted changes. Please commit or stash them before publishing."
-        exit 1
-    fi
+publish-vscode: build-vscode
     vsce publish minor && git push
