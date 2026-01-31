@@ -1,8 +1,0 @@
-s/\${BLACK}/#121212/g
-s/\${RED}/#E74C3C/g
-s/\${GREEN}/#2ECC71/g
-s/\${YELLOW}/#F1C40F/g
-s/\${BLUE}/#3498DB/g
-s/\${MAGENTA}/#6C71C4/g
-s/\${CYAN}/#3CC9D6/g
-s/\${WHITE}/#FFFFFFDE/g
