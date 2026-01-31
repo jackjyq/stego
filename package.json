@@ -1,5 +1,6 @@
 {
   "name": "stego",
+  "preview": true,
   "displayName": "Stego Theme",
   "description": "",
   "version": "0.9.0",
