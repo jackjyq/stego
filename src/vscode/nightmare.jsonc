@@ -3,42 +3,42 @@
   "colors": {
     // Base Colors
     // https://code.visualstudio.com/api/references/theme-color#base-colors
-    "focusBorder": "#FFFFFF00",
+    "focusBorder": "__TRANSPARENT",
     // Editor colors
     "editor.background": "__ANSI_BLACK",
     "editor.foreground": "__ANSI_WHITE",
-    "editorCursor.foreground": "#FFFFFF",
-    "editorRuler.foreground": "#FFFFFF99",
+    "editorCursor.foreground": "__WHITE",
+    "editorRuler.foreground": "__MEDIUM_EMPHASIS",
     "editorLineNumber.activeForeground": "__ANSI_WHITE",
-    "editorLineNumber.foreground": "#FFFFFF99",
+    "editorLineNumber.foreground": "__MEDIUM_EMPHASIS",
     // Peek view colors
     // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
-    "peekView.border": "#383838",
-    "peekViewEditor.background": "#2E2E2E",
-    "peekViewResult.background": "#323232",
+    "peekView.border": "__UI_24_DP",
+    "peekViewEditor.background": "__UI_08_DP",
+    "peekViewResult.background": "__UI_12_DP",
     "peekViewResult.fileForeground": "__ANSI_WHITE",
     "peekViewResult.lineForeground": "__ANSI_WHITE",
-    "peekViewTitle.background": "#383838",
+    "peekViewTitle.background": "__UI_24_DP",
     "peekViewTitleLabel.foreground": "__ANSI_WHITE",
-    "peekViewTitleDescription.foreground": "#FFFFFF99",
+    "peekViewTitleDescription.foreground": "__MEDIUM_EMPHASIS",
     // Title Bar colors
     // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
-    "titleBar.activeBackground": "#383838",
+    "titleBar.activeBackground": "__UI_24_DP",
     "titleBar.activeForeground": "__ANSI_WHITE",
-    "titleBar.inactiveBackground": "#383838",
-    "titleBar.inactiveForeground": "#FFFFFF99",
+    "titleBar.inactiveBackground": "__UI_24_DP",
+    "titleBar.inactiveForeground": "__MEDIUM_EMPHASIS",
     // Status Bar colors
     // https://code.visualstudio.com/api/references/theme-color#status-bar-colors
-    "statusBar.background": "#383838",
+    "statusBar.background": "__UI_24_DP",
     "statusBar.foreground": "__ANSI_WHITE",
-    "statusBar.focusBorder": "#FFFFFF00",
-    "statusBar.border": "#FFFFFF00",
-    "statusBar.debuggingBackground": "#383838",
+    "statusBar.focusBorder": "__TRANSPARENT",
+    "statusBar.border": "__TRANSPARENT",
+    "statusBar.debuggingBackground": "__UI_24_DP",
     "statusBar.debuggingForeground": "__ANSI_WHITE",
-    "statusBar.debuggingBorder": "#FFFFFF00",
-    "statusBar.noFolderBackground": "#383838",
+    "statusBar.debuggingBorder": "__TRANSPARENT",
+    "statusBar.noFolderBackground": "__UI_24_DP",
     "statusBar.noFolderForeground": "__ANSI_WHITE",
-    "statusBar.noFolderBorder": "#FFFFFF00",
+    "statusBar.noFolderBorder": "__TRANSPARENT",
     // Debug Icons colors
     // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
     "debugConsole.errorForeground": "__ANSI_RED",
@@ -47,39 +47,39 @@
     "debugConsole.sourceForeground": "__ANSI_WHITE",
     // Editor Groups & Tabs
     // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
-    "editorGroupHeader.tabsBackground": "#262626",
-    "tab.activeBackground": "#323232",
+    "editorGroupHeader.tabsBackground": "__UI_04_DP",
+    "tab.activeBackground": "__UI_12_DP",
     "tab.activeForeground": "__ANSI_WHITE",
-    "tab.inactiveBackground": "#262626",
+    "tab.inactiveBackground": "__UI_04_DP",
     "tab.inactiveForeground": "__ANSI_WHITE",
     "tab.activeModifiedBorder": "__ANSI_YELLOW",
-    "tab.hoverBackground": "#323232",
+    "tab.hoverBackground": "__UI_12_DP",
     // Breadcrumbs colors
     // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
-    "breadcrumb.background": "#323232",
-    "breadcrumb.foreground": "#FFFFFF99",
+    "breadcrumb.background": "__UI_12_DP",
+    "breadcrumb.foreground": "__MEDIUM_EMPHASIS",
     // Side Bar colors
     // https://code.visualstudio.com/api/references/theme-color#side-bar
-    "sideBar.background": "#282828",
+    "sideBar.background": "__UI_03_DP",
     "sideBar.foreground": "__ANSI_WHITE",
-    "sideBarSectionHeader.background": "#323232",
+    "sideBarSectionHeader.background": "__UI_12_DP",
     "sideBarSectionHeader.foreground": "__ANSI_WHITE",
     // Activity Bar colors
     // https://code.visualstudio.com/api/references/theme-color#activity-bar
-    "activityBar.background": "#383838",
+    "activityBar.background": "__UI_24_DP",
     "activityBar.foreground": "__ANSI_WHITE",
-    "activityBar.inactiveForeground": "#FFFFFF99",
+    "activityBar.inactiveForeground": "__MEDIUM_EMPHASIS",
     "activityBar.activeBorder": "__ANSI_WHITE",
     "activityBarBadge.background": "__ANSI_RED",
     "activityBarBadge.foreground": "__ANSI_WHITE",
     // Panel Colors
     // https://code.visualstudio.com/api/references/theme-color#panel-colors
-    "panel.background": "#282828",
+    "panel.background": "__UI_03_DP",
     "panelTitle.activeForeground": "__ANSI_WHITE",
-    "panelTitle.inactiveForeground": "#FFFFFF99",
+    "panelTitle.inactiveForeground": "__MEDIUM_EMPHASIS",
     "panelTitle.activeBorder": "__ANSI_WHITE",
     // Terminal Colors
-    "terminal.foreground": "#FBFBFB",
+    "terminal.foreground": "__ANSI_WHITE",
     "terminal.background": "__ANSI_BLACK",
     "terminal.ansiBlack": "__ANSI_BLACK",
     "terminal.ansiBlue": "__ANSI_BLUE",
@@ -87,18 +87,18 @@
     "terminal.ansiGreen": "__ANSI_GREEN",
     "terminal.ansiMagenta": "__ANSI_MAGENTA",
     "terminal.ansiRed": "__ANSI_RED",
-    "terminal.ansiWhite": "#FBFBFB",
+    "terminal.ansiWhite": "__ANSI_WHITE",
     "terminal.ansiYellow": "__ANSI_YELLOW",
-    "terminal.ansiBrightBlack": "#373737",
-    "terminal.ansiBrightBlue": "#48c0ff",
-    "terminal.ansiBrightCyan": "#51f1ff",
-    "terminal.ansiBrightGreen": "#3bfb9d",
-    "terminal.ansiBrightMagenta": "#9ea7ff",
-    "terminal.ansiBrightRed": "#ff5542",
-    "terminal.ansiBrightWhite": "#FFFFFF",
-    "terminal.ansiBrightYellow": "#ffd60d",
-    "terminal.selectionBackground": "#264f78",
-    "terminalCursor.foreground": "#FFFFFF"
+    "terminal.ansiBrightBlack": "__ANSI_BLACK",
+    "terminal.ansiBrightBlue": "__ANSI_BLUE",
+    "terminal.ansiBrightCyan": "__ANSI_CYAN",
+    "terminal.ansiBrightGreen": "__ANSI_GREEN",
+    "terminal.ansiBrightMagenta": "__ANSI_MAGENTA",
+    "terminal.ansiBrightRed": "__ANSI_RED",
+    "terminal.ansiBrightWhite": "__ANSI_WHITE",
+    "terminal.ansiBrightYellow": "__ANSI_YELLOW",
+    "terminal.selectionBackground": "__ANSI_BLUE",
+    "terminalCursor.foreground": "__WHITE"
   },
   "tokenColors": [
     // Base Colors
@@ -107,7 +107,7 @@
       "scope": ["comment", "string.quoted.docstring"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#FFFFFF99"
+        "foreground": "__MEDIUM_EMPHASIS"
       }
     },
     {
@@ -202,7 +202,7 @@
       "name": "String variable",
       "scope": "string variable",
       "settings": {
-        "foreground": "#E67E22"
+        "foreground": "__ANSI_WHITE"
       }
     },
     {
@@ -279,7 +279,7 @@
       "name": "css tag-name",
       "scope": "meta.selector.css entity.name.tag",
       "settings": {
-        "foreground": "#1ABC9C"
+        "foreground": "__ANSI_GREEN"
       }
     },
     {
@@ -427,7 +427,7 @@
       "name": "LESS variables",
       "scope": "entity.other.less.mixin",
       "settings": {
-        "foreground": "#9B59B6"
+        "foreground": "__ANSI_MAGENTA"
       }
     },
     {
@@ -458,7 +458,7 @@
       "name": "coffee instance var",
       "scope": "variable.other.readwrite.instance.coffee",
       "settings": {
-        "foreground": "#E67E22"
+        "foreground": "__ANSI_YELLOW"
       }
     },
     {
@@ -472,7 +472,7 @@
       "name": "coffee embeded",
       "scope": "punctuation.section.embedded.coffee",
       "settings": {
-        "foreground": "#5EEBB8"
+        "foreground": "__ANSI_CYAN"
       }
     },
     {
@@ -486,14 +486,14 @@
       "name": "Coffee dots",
       "scope": "meta.delimiter.method.period.coffee",
       "settings": {
-        "foreground": "#3CADD7"
+        "foreground": "__ANSI_BLUE"
       }
     },
     {
       "name": "Coffee curleys",
       "scope": "meta.brace.curly.coffee",
       "settings": {
-        "foreground": "#1ABC9C"
+        "foreground": "__ANSI_GREEN"
       }
     },
     {
@@ -509,7 +509,7 @@
         "doctype"
       ],
       "settings": {
-        "foreground": "#3C444D"
+        "foreground": "__ANSI_BLUE"
       }
     }
   ],
@@ -575,6 +575,6 @@
       "foreground": "__ANSI_WHITE"
     },
     //TypeHint Patch, keep it to the bottom
-    "*.typeHint": "#FFFFFF99"
+    "*.typeHint": "__MEDIUM_EMPHASIS"
   }
 }

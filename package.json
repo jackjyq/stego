@@ -12,13 +12,13 @@
   ],
   "repository": "https://github.com/jackjyq/stego",
   "publisher": "jackjyq",
-  "icon": "dist/icon/stego-daydream.ico",
+  "icon": "dist/icon/daydream.ico",
   "contributes": {
     "themes": [
       {
         "label": "Stego Nightmare",
         "uiTheme": "vs-dark",
-        "path": "./dist/vscode/stego-nightmare.json"
+        "path": "./dist/vscode/nightmare.json"
       }
     ]
   }

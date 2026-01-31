@@ -13,3 +13,4 @@
 - [ ] theme for terminals
 - [ ] theme for Claude Code
 - [ ] theme for OpenCode
+

@@ -16,26 +16,26 @@ setup:
     @mkdir -p {{DIST_PALETTE}}\
 
 build-palette: setup
-    jq -r 'to_entries[] | "s/\(.key)/\(.value)/g"' {{SRC_PALETTE}}/stego-nightmare.jsonc \
-        > {{DIST_PALETTE}}/stego-nightmare.sed
+    jq -r 'to_entries[] | "s/\(.key)/\(.value)/g"' {{SRC_PALETTE}}/nightmare.jsonc \
+        > {{DIST_PALETTE}}/nightmare.sed
 
 build-icon: setup
     set -e
     convert \
         -define icon:auto-resize=256,48,32,24,16 \
         -background none \
-        "{{SRC_ICON}}/stego-nightmare.svg" \
-        "{{DIST_ICON}}/stego-nightmare.ico"
+        "{{SRC_ICON}}/nightmare.svg" \
+        "{{DIST_ICON}}/nightmare.ico"
     convert \
         -define icon:auto-resize=256,48,32,24,16 \
         -background none \
-        "{{SRC_ICON}}/stego-daydream.svg" \
-        "{{DIST_ICON}}/stego-daydream.ico"
+        "{{SRC_ICON}}/daydream.svg" \
+        "{{DIST_ICON}}/daydream.ico"
 
 build-vscode: build-palette build-icon
-    sed -f "{{DIST_PALETTE}}/stego-nightmare.sed" \
-        <"{{SRC_VSCODE}}/stego-nightmare.template.jsonc" \
-        >"{{DIST_VSCODE}}/stego-nightmare.json"
+    sed -f "{{DIST_PALETTE}}/nightmare.sed" \
+        <"{{SRC_VSCODE}}/nightmare.jsonc" \
+        >"{{DIST_VSCODE}}/nightmare.json"
 
 publish-vscode: build-vscode
     vsce publish minor && git push
