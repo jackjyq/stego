@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env just
 
 SRC_VSCODE := "./src/vscode"
 SRC_PALETTE := "./src/palette"
@@ -11,16 +11,13 @@ default:
     just --list
 
 setup:
-    @mkdir -p {{DIST_VSCODE}}
-    @mkdir -p {{DIST_ICON}}
-    @mkdir -p {{DIST_PALETTE}}\
+    @mkdir -p {{DIST_VSCODE}} {{DIST_ICON}} {{DIST_PALETTE}}
 
 build-palette: setup
     jq -r 'to_entries[] | "s/\(.key)/\(.value)/g"' {{SRC_PALETTE}}/nightmare.jsonc \
         > {{DIST_PALETTE}}/nightmare.sed
 
 build-icon: setup
-    set -e
     convert \
         -define icon:auto-resize=256,48,32,24,16 \
         -background none \
