@@ -35,7 +35,7 @@ badge: '__ANSI_BLUE'
 # cursor_guide: # defaults to cursor
 # cursor_text: # defaults to foreground
 # link:
-selection_text: '__SELECTION_BACKGROUND'  # defaults to background
-# selection: # defaults to foreground
+# selection_text:  # defaults to background
+selection: '__SELECTION_BACKGROUND' # defaults to foreground
 # tab:
 # underline:
