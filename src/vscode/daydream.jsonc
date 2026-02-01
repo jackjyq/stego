@@ -5,22 +5,14 @@
     // https://code.visualstudio.com/api/references/theme-color#base-colors
     "focusBorder": "__TRANSPARENT",
     // Editor colors
-    "editor.background": "__ANSI_BLACK",
+    "editor.background": "__WHITE",
     "editor.foreground": "__HIGH_EMPHASIS",
-    "editorCursor.foreground": "__WHITE",
+    "editorCursor.foreground": "__BLACK",
     "editorRuler.foreground": "__MEDIUM_EMPHASIS",
     "editorLineNumber.activeForeground": "__HIGH_EMPHASIS",
     "editorLineNumber.foreground": "__MEDIUM_EMPHASIS",
     // Peek view colors
     // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
-    "peekView.border": "__UI_24_DP",
-    "peekViewEditor.background": "__UI_08_DP",
-    "peekViewResult.background": "__UI_12_DP",
-    "peekViewResult.fileForeground": "__HIGH_EMPHASIS",
-    "peekViewResult.lineForeground": "__HIGH_EMPHASIS",
-    "peekViewTitle.background": "__UI_24_DP",
-    "peekViewTitleLabel.foreground": "__HIGH_EMPHASIS",
-    "peekViewTitleDescription.foreground": "__MEDIUM_EMPHASIS",
     // Title Bar colors
     // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
     "titleBar.activeBackground": "__UI_24_DP",
@@ -47,22 +39,20 @@
     "debugConsole.sourceForeground": "__HIGH_EMPHASIS",
     // Editor Groups & Tabs
     // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
-    "editorGroupHeader.tabsBackground": "__UI_04_DP",
-    "tab.activeBackground": "__UI_12_DP",
-    "tab.activeForeground": "__HIGH_EMPHASIS",
-    "tab.inactiveBackground": "__UI_04_DP",
-    "tab.inactiveForeground": "__HIGH_EMPHASIS",
+    "editorGroupHeader.tabsBackground": "__UI_24_DP",
+    "tab.activeBackground": "__WHITE",
+    "tab.activeForeground": "#3B3B3B",
+    "tab.inactiveBackground": "__UI_24_DP",
+    "tab.inactiveForeground": "#868686",
     "tab.activeModifiedBorder": "__ANSI_YELLOW",
-    "tab.hoverBackground": "__UI_12_DP",
+    "tab.hoverBackground": "__WHITE",
     // Breadcrumbs colors
     // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
-    "breadcrumb.background": "__UI_12_DP",
-    "breadcrumb.foreground": "__MEDIUM_EMPHASIS",
     // Side Bar colors
     // https://code.visualstudio.com/api/references/theme-color#side-bar
-    "sideBar.background": "__UI_03_DP",
+    "sideBar.background": "__UI_24_DP",
     "sideBar.foreground": "__HIGH_EMPHASIS",
-    "sideBarSectionHeader.background": "__UI_12_DP",
+    "sideBarSectionHeader.background": "__UI_24_DP",
     "sideBarSectionHeader.foreground": "__HIGH_EMPHASIS",
     // Activity Bar colors
     // https://code.visualstudio.com/api/references/theme-color#activity-bar
@@ -72,13 +62,13 @@
     "activityBar.activeBorder": "__HIGH_EMPHASIS",
     // Panel Colors
     // https://code.visualstudio.com/api/references/theme-color#panel-colors
-    "panel.background": "__UI_03_DP",
+    "panel.background": "__UI_24_DP",
     "panelTitle.activeForeground": "__HIGH_EMPHASIS",
     "panelTitle.inactiveForeground": "__MEDIUM_EMPHASIS",
     "panelTitle.activeBorder": "__HIGH_EMPHASIS",
     // Terminal Colors
     "terminal.foreground": "__HIGH_EMPHASIS",
-    "terminal.background": "__ANSI_BLACK",
+    "terminal.background": "__WHITE",
     "terminal.ansiBlack": "__ANSI_BLACK",
     "terminal.ansiBlue": "__ANSI_BLUE",
     "terminal.ansiCyan": "__ANSI_CYAN",
@@ -96,7 +86,7 @@
     "terminal.ansiBrightWhite": "__HIGH_EMPHASIS",
     "terminal.ansiBrightYellow": "__ANSI_YELLOW",
     "terminal.selectionBackground": "__ANSI_BLUE",
-    "terminalCursor.foreground": "__WHITE"
+    "terminalCursor.foreground": "__BLACK"
   },
   "tokenColors": [
     // Base Colors

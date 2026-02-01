@@ -16,6 +16,8 @@ setup:
 build-palette: setup
     jq -r 'to_entries[] | "s/\(.key)/\(.value)/g"' {{SRC_PALETTE}}/nightmare.jsonc \
         > {{DIST_PALETTE}}/nightmare.sed
+    jq -r 'to_entries[] | "s/\(.key)/\(.value)/g"' {{SRC_PALETTE}}/daydream.jsonc \
+        > {{DIST_PALETTE}}/daydream.sed
 
 build-icon: setup
     convert \
@@ -33,6 +35,9 @@ build-vscode: build-palette build-icon
     sed -f "{{DIST_PALETTE}}/nightmare.sed" \
         <"{{SRC_VSCODE}}/nightmare.jsonc" \
         >"{{DIST_VSCODE}}/nightmare.json"
-
+    sed -f "{{DIST_PALETTE}}/daydream.sed" \
+        <"{{SRC_VSCODE}}/daydream.jsonc" \
+        >"{{DIST_VSCODE}}/daydream.json"
+        
 publish-vscode: build-vscode
     vsce publish minor && git push

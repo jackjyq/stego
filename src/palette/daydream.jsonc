@@ -1,0 +1,17 @@
+{
+    "__ANSI_BLACK": "#000000DE",
+    "__ANSI_RED": "#E74C3C",
+    "__ANSI_GREEN": "#2ECC71",
+    "__ANSI_YELLOW": "#F1C40F",
+    "__ANSI_BLUE": "#3498DB",
+    "__ANSI_MAGENTA": "#6C71C4",
+    "__ANSI_CYAN": "#3CC9D6",
+    "__ANSI_WHITE": "#FFFFFFDE",
+    "__HIGH_EMPHASIS": "#000000DE",
+    "__MEDIUM_EMPHASIS": "#00000099",
+    "__DISABLED": "#00000061",
+    "__BLACK": "#000000",
+    "__WHITE": "#FFFFFF",
+    "__TRANSPARENT": "#FFFFFF00",
+    "__UI_24_DP": "#F8F8F8"
+}

@@ -3,10 +3,10 @@
   <defs>
     <style>
       .background {
-        fill: #121212;
+        fill: #000000DE;
       }
       .foreground {
-        fill: #ffffff;
+        fill: #FFFFFFDE;
       }
     </style>
   </defs>
