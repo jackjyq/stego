@@ -70,8 +70,6 @@
     "activityBar.foreground": "__ANSI_WHITE",
     "activityBar.inactiveForeground": "__MEDIUM_EMPHASIS",
     "activityBar.activeBorder": "__ANSI_WHITE",
-    "activityBarBadge.background": "__ANSI_RED",
-    "activityBarBadge.foreground": "__ANSI_WHITE",
     // Panel Colors
     // https://code.visualstudio.com/api/references/theme-color#panel-colors
     "panel.background": "__UI_03_DP",

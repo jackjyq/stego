@@ -1,3 +1,6 @@
 {
-    "editor.defaultColorDecorators": "always"
+    "editor.defaultColorDecorators": "always",
+    "files.associations": {
+        "*.json": "jsonc"
+    }
 }
