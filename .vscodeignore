@@ -1,4 +1,6 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-src/**
+**/*
+!dist/icon/*
+!dist/vscode/*
+!LICENSE.txt
+!package.json
+!README.md

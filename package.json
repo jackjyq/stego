@@ -12,7 +12,7 @@
   ],
   "repository": "https://github.com/jackjyq/stego",
   "publisher": "jackjyq",
-  "icon": "dist/icon/daydream.ico",
+  "icon": "dist/icon/stego.ico",
   "contributes": {
     "themes": [
       {

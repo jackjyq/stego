@@ -85,7 +85,7 @@
     "terminal.ansiBrightRed": "__ANSI_RED",
     "terminal.ansiBrightWhite": "__HIGH_EMPHASIS",
     "terminal.ansiBrightYellow": "__ANSI_YELLOW",
-    "terminal.selectionBackground": "__ANSI_BLUE",
+    "terminal.selectionBackground": "__SELECTION_BACKGROUND",
     "terminalCursor.foreground": "__BLACK"
   },
   "tokenColors": [
