@@ -8,13 +8,10 @@
 
 ## Requirement
 
-libjpeg-dev zlib1g-dev libpng-dev
-
 ## Roadmap
 
-- [ ] theme for terminals
-- [ ] theme for Claude Code
 - [ ] theme for OpenCode
+- [ ] Build Github Action
 
 ## Acknowledgements
 
