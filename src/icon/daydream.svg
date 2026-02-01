@@ -6,7 +6,7 @@
         fill: #000000DE;
       }
       .foreground {
-        fill: #FFFFFFDE;
+        fill: #FFFFFF;
       }
     </style>
   </defs>
