@@ -2,7 +2,7 @@
   "name": "stego",
   "preview": true,
   "displayName": "Stego Theme",
-  "description": "",
+  "description": "A theme with consistent, readable syntax highlighting in both light and dark modes.",
   "version": "0.18.0",
   "engines": {
     "vscode": "^1.108.1"

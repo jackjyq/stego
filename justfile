@@ -9,12 +9,13 @@ DIST_VSCODE := "./dist/vscode"
 DIST_PALETTE := "./dist/palette"
 DIST_ICON := "./dist/icon"
 DIST_TERMINAL := "./dist/terminal/yaml"
+DIST_RELEASE := "./dist/release"
 
 default:
     just --list
 
 setup:
-    @mkdir -p {{DIST_VSCODE}} {{DIST_ICON}} {{DIST_PALETTE}} {{DIST_TERMINAL}}
+    @mkdir -p {{DIST_VSCODE}} {{DIST_ICON}} {{DIST_PALETTE}} {{DIST_TERMINAL}} {{DIST_RELEASE}}
 
 build-icon: setup
     convert \
@@ -44,6 +45,10 @@ build-vscode: build-palette build-icon
 
 publish-vscode: build-vscode
     vsce publish minor && git push
+
+package-all: build-icon build-terminal
+    @timestamp=$(date +%Y%m%d-%H%M%S) && \
+    cd dist && zip -r "release/stego-$timestamp.zip" terminal icon
 
 clean:
     rm -rf {{DIST_ROOT}}
