@@ -1,0 +1,41 @@
+---
+name: 'Stego Daydream'
+author: 'https://github.com/jackjyq/stego'    # 'Author Name (http://website.com)'
+variant: 'Dark'                               # Dark or Light
+
+# Required Colors
+# https://github.com/Gogh-Co/Gogh/
+color_01: '#000000DE'    # Black (Host)
+color_02: '#B60000'      # Red (Syntax string)
+color_03: '#006800'    # Green (Command)
+color_04: '#9E6900'   # Yellow (Command second)
+color_05: '#0000FF'     # Blue (Path)
+color_06: '#9F009F'  # Magenta (Syntax var)
+color_07: '#006363'     # Cyan (Prompt)
+color_08: '#FFFFFFDE'    # White
+
+color_09: '#000000DE'    # Bright Black
+color_10: '#B60000'      # Bright Red (Command error)
+color_11: '#006800'    # Bright Green (Exec)
+color_12: '#9E6900'   # Bright Yellow
+color_13: '#0000FF'     # Bright Blue (Folder)
+color_14: '#9F009F'  # Bright Magenta
+color_15: '#006363'     # Bright Cyan
+color_16: '#FFFFFFDE'    # Bright White
+
+background: '#FFFFFF'  # Background
+foreground: '#000000DE'  # Foreground (Text)
+
+cursor: '#000000'      # Cursor
+
+# Optional Colors
+# https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/yaml
+badge: '#0000FF'
+# bold: # defaults to foreground
+# cursor_guide: # defaults to cursor
+# cursor_text: # defaults to foreground
+# link:
+# selection_text:  # defaults to background
+selection: '#ADD6FF' # defaults to foreground
+# tab:
+# underline:

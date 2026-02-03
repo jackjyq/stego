@@ -1,0 +1,23 @@
+{
+  "name": "Stego Nightmare",
+  "black": "#121212",
+  "red": "#e74c3c",
+  "green": "#2ecc71",
+  "yellow": "#f1c40f",
+  "blue": "#3498db",
+  "purple": "#6c71c4",
+  "cyan": "#3cc9d6",
+  "white": "#ffffff",
+  "brightBlack": "#454545",
+  "brightRed": "#e74c3c",
+  "brightGreen": "#2ecc71",
+  "brightYellow": "#f1c40f",
+  "brightBlue": "#3498db",
+  "brightPurple": "#6c71c4",
+  "brightCyan": "#3cc9d6",
+  "brightWhite": "#ffffff",
+  "background": "#121212",
+  "foreground": "#ffffff",
+  "cursor": "#ffffff",
+  "selection": "#264f78"
+}

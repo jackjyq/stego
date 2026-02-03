@@ -1,0 +1,43 @@
+!
+! Stego Nightmare
+!
+*.foreground:  #ffffff
+*.background:  #121212
+*.cursorColor: #ffffff
+!
+! Black
+*.color0:      #121212
+*.color8:      #454545
+!
+! Red
+*.color1:      #e74c3c
+*.color9:      #e74c3c
+!
+! Green
+*.color2:      #2ecc71
+*.color10:     #2ecc71
+!
+! Yellow
+*.color3:      #f1c40f
+*.color11:     #f1c40f
+!
+! Blue
+*.color4:      #3498db
+*.color12:     #3498db
+!
+! Magenta
+*.color5:      #6c71c4
+*.color13:     #6c71c4
+!
+! Cyan
+*.color6:      #3cc9d6
+*.color14:     #3cc9d6
+!
+! White
+*.color7:      #ffffff
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline
+*.colorBD:     #ffffff
+!*.colorIT:
+!*.colorUL:

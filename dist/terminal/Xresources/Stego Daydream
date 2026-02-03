@@ -1,0 +1,43 @@
+!
+! Stego Daydream
+!
+*.foreground:  #000000
+*.background:  #ffffff
+*.cursorColor: #000000
+!
+! Black
+*.color0:      #000000
+*.color8:      #000000
+!
+! Red
+*.color1:      #b60000
+*.color9:      #b60000
+!
+! Green
+*.color2:      #006800
+*.color10:     #006800
+!
+! Yellow
+*.color3:      #9e6900
+*.color11:     #9e6900
+!
+! Blue
+*.color4:      #0000ff
+*.color12:     #0000ff
+!
+! Magenta
+*.color5:      #9f009f
+*.color13:     #9f009f
+!
+! Cyan
+*.color6:      #006363
+*.color14:     #006363
+!
+! White
+*.color7:      #bfbfbf
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline
+*.colorBD:     #000000
+!*.colorIT:
+!*.colorUL:

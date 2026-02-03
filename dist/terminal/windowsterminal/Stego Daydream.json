@@ -1,0 +1,23 @@
+{
+  "name": "Stego Daydream",
+  "black": "#000000",
+  "red": "#b60000",
+  "green": "#006800",
+  "yellow": "#9e6900",
+  "blue": "#0000ff",
+  "purple": "#9f009f",
+  "cyan": "#006363",
+  "white": "#bfbfbf",
+  "brightBlack": "#000000",
+  "brightRed": "#b60000",
+  "brightGreen": "#006800",
+  "brightYellow": "#9e6900",
+  "brightBlue": "#0000ff",
+  "brightPurple": "#9f009f",
+  "brightCyan": "#006363",
+  "brightWhite": "#ffffff",
+  "background": "#ffffff",
+  "foreground": "#000000",
+  "cursorColor": "#000000",
+  "selectionBackground": "#add6ff"
+}

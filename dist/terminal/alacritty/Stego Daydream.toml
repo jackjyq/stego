@@ -1,0 +1,33 @@
+# Colors (Stego Daydream)
+
+[colors.bright]
+black = '#000000'
+blue = '#0000ff'
+cyan = '#006363'
+green = '#006800'
+magenta = '#9f009f'
+red = '#b60000'
+white = '#ffffff'
+yellow = '#9e6900'
+
+[colors.cursor]
+cursor = '#000000'
+text = '#ffffff'
+
+[colors.normal]
+black = '#000000'
+blue = '#0000ff'
+cyan = '#006363'
+green = '#006800'
+magenta = '#9f009f'
+red = '#b60000'
+white = '#bfbfbf'
+yellow = '#9e6900'
+
+[colors.primary]
+background = '#ffffff'
+foreground = '#000000'
+
+[colors.selection]
+background = '#add6ff'
+text = '#999999'

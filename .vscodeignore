@@ -1,6 +1,6 @@
 **/*
-!dist/icon/*
-!dist/vscode/*
+!build/vscode/*.json
+!dist/icon/*.ico
 !LICENSE.txt
 !package.json
 !README.md

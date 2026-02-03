@@ -1,0 +1,24 @@
+[colors]
+background = #121212
+cursor = #ffffff
+cursor_foreground = #121212
+foreground = #ffffff
+color0 = #121212
+color1 = #e74c3c
+color2 = #2ecc71
+color3 = #f1c40f
+color4 = #3498db
+color5 = #6c71c4
+color6 = #3cc9d6
+color7 = #ffffff
+color8 = #454545
+color9 = #e74c3c
+color10 = #2ecc71
+color11 = #f1c40f
+color12 = #3498db
+color13 = #6c71c4
+color14 = #3cc9d6
+color15 = #ffffff
+colorBD = #ffffff
+colorIT =
+colorUL =

@@ -4,8 +4,8 @@ A theme featuring consistent, readable syntax highlighting in both light and dar
 
 ## Usage
 
- - [Releases Page](https://github.com/jackjyq/stego/releases)
- - [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.stego)
+- [VSCode](https://marketplace.visualstudio.com/items?itemName=jackjyq.stego)
+- [Windows Terminal](./dist/terminal/windowsterminal/)
 
 ## Roadmap
 

@@ -18,12 +18,12 @@
       {
         "label": "Stego Nightmare",
         "uiTheme": "vs-dark",
-        "path": "./dist/vscode/nightmare.json"
+        "path": "./build/vscode/nightmare.json"
       },
       {
         "label": "Stego Daydream",
         "uiTheme": "vs",
-        "path": "./dist/vscode/daydream.json"
+        "path": "./build/vscode/daydream.json"
       }
     ]
   }
