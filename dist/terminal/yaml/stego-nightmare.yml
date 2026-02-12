@@ -6,21 +6,21 @@ variant: 'Dark'                               # Dark or Light
 # Required Colors
 # https://github.com/Gogh-Co/Gogh/
 color_01: '#121212'    # Black (Host)
-color_02: '#E74C3C'      # Red (Syntax string)
-color_03: '#2ECC71'    # Green (Command)
-color_04: '#F1C40F'   # Yellow (Command second)
-color_05: '#3498DB'     # Blue (Path)
-color_06: '#6C71C4'  # Magenta (Syntax var)
-color_07: '#3CC9D6'     # Cyan (Prompt)
+color_02: '#ff735f'      # Red (Syntax string)
+color_03: '#39b606'    # Green (Command)
+color_04: '#c19a07'   # Yellow (Command second)
+color_05: '#649efe'     # Blue (Path)
+color_06: '#ff55f6'  # Magenta (Syntax var)
+color_07: '#01b1b1'     # Cyan (Prompt)
 color_08: '#FFFFFFDE'    # White
 
 color_09: '#121212'    # Bright Black
-color_10: '#E74C3C'      # Bright Red (Command error)
-color_11: '#2ECC71'    # Bright Green (Exec)
-color_12: '#F1C40F'   # Bright Yellow
-color_13: '#3498DB'     # Bright Blue (Folder)
-color_14: '#6C71C4'  # Bright Magenta
-color_15: '#3CC9D6'     # Bright Cyan
+color_10: '#ff735f'      # Bright Red (Command error)
+color_11: '#39b606'    # Bright Green (Exec)
+color_12: '#c19a07'   # Bright Yellow
+color_13: '#649efe'     # Bright Blue (Folder)
+color_14: '#ff55f6'  # Bright Magenta
+color_15: '#01b1b1'     # Bright Cyan
 color_16: '#FFFFFFDE'    # Bright White
 
 background: '#121212'  # Background
@@ -30,7 +30,7 @@ cursor: '#FFFFFF'      # Cursor
 
 # Optional Colors
 # https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/yaml
-badge: '#3498DB'
+badge: '#649efe'
 # bold: # defaults to foreground
 # cursor_guide: # defaults to cursor
 # cursor_text: # defaults to foreground

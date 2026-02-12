@@ -15,46 +15,46 @@ hi Normal guifg=#000000 guibg=#ffffff
 
 " Syntax highlighting groups
 hi Comment guifg=#000000
-hi Constant guifg=#9e6900
-hi Identifier guifg=#0000ff
-hi Statement guifg=#b60000
-hi PreProc guifg=#9f009f
-hi Type guifg=#006800
-hi Special guifg=#006363
-hi Underlined guifg=#0000ff gui=underline
-hi Error guifg=#b60000 guibg=#ffffff
-hi Todo guifg=#9e6900 guibg=#ffffff
+hi Constant guifg=#6e5604
+hi Identifier guifg=#0151c5
+hi Statement guifg=#b40c00
+hi PreProc guifg=#a1019c
+hi Type guifg=#1d6703
+hi Special guifg=#036364
+hi Underlined guifg=#0151c5 gui=underline
+hi Error guifg=#b40c00 guibg=#ffffff
+hi Todo guifg=#6e5604 guibg=#ffffff
 
 " Additional groups for better compatibility
-hi String guifg=#006800
-hi Character guifg=#006800
-hi Number guifg=#9e6900
-hi Boolean guifg=#9e6900
-hi Float guifg=#9e6900
+hi String guifg=#1d6703
+hi Character guifg=#1d6703
+hi Number guifg=#6e5604
+hi Boolean guifg=#6e5604
+hi Float guifg=#6e5604
 
-hi Function guifg=#0000ff
+hi Function guifg=#0151c5
 
-hi Conditional guifg=#b60000
-hi Repeat guifg=#b60000
-hi Label guifg=#b60000
+hi Conditional guifg=#b40c00
+hi Repeat guifg=#b40c00
+hi Label guifg=#b40c00
 hi Operator guifg=#bfbfbf
-hi Keyword guifg=#b60000
-hi Exception guifg=#b60000
+hi Keyword guifg=#b40c00
+hi Exception guifg=#b40c00
 
-hi Include guifg=#9f009f
-hi Define guifg=#9f009f
-hi Macro guifg=#9f009f
-hi PreCondit guifg=#9f009f
+hi Include guifg=#a1019c
+hi Define guifg=#a1019c
+hi Macro guifg=#a1019c
+hi PreCondit guifg=#a1019c
 
-hi StorageClass guifg=#006800
-hi Structure guifg=#006800
-hi Typedef guifg=#006800
+hi StorageClass guifg=#1d6703
+hi Structure guifg=#1d6703
+hi Typedef guifg=#1d6703
 
-hi SpecialChar guifg=#006363
-hi Tag guifg=#006363
+hi SpecialChar guifg=#036364
+hi Tag guifg=#036364
 hi Delimiter guifg=#bfbfbf
 hi SpecialComment guifg=#000000
-hi Debug guifg=#9e6900
+hi Debug guifg=#6e5604
 
 hi Ignore guifg=#ffffff
 
@@ -67,8 +67,8 @@ hi CursorColumn guibg=#add6ff
 hi Visual guibg=#add6ff
 
 " Search highlighting
-hi Search guibg=#9e6900 guifg=#ffffff
-hi IncSearch guibg=#9e6900 guifg=#ffffff
+hi Search guibg=#6e5604 guifg=#ffffff
+hi IncSearch guibg=#6e5604 guifg=#ffffff
 
 " Line numbers
 hi LineNr guifg=#000000
@@ -90,35 +90,35 @@ hi PmenuSbar guibg=#000000
 hi PmenuThumb guibg=#000000
 
 " Diff highlighting
-hi DiffAdd guibg=#006800
-hi DiffChange guibg=#9e6900
-hi DiffDelete guibg=#b60000
-hi DiffText guibg=#0000ff
+hi DiffAdd guibg=#1d6703
+hi DiffChange guibg=#6e5604
+hi DiffDelete guibg=#b40c00
+hi DiffText guibg=#0151c5
 
 " Fold highlighting
 hi Folded guifg=#000000 guibg=#ffffff
 hi FoldColumn guifg=#000000 guibg=#ffffff
 
 " Spell checking
-hi SpellBad gui=undercurl guisp=#b60000
-hi SpellCap gui=undercurl guisp=#0000ff
-hi SpellRare gui=undercurl guisp=#9f009f
-hi SpellLocal gui=undercurl guisp=#006363
+hi SpellBad gui=undercurl guisp=#b40c00
+hi SpellCap gui=undercurl guisp=#0151c5
+hi SpellRare gui=undercurl guisp=#a1019c
+hi SpellLocal gui=undercurl guisp=#036364
 
 " Error and warning messages
-hi ErrorMsg guifg=#b60000
-hi WarningMsg guifg=#9e6900
-hi MoreMsg guifg=#0000ff
-hi Question guifg=#006800
+hi ErrorMsg guifg=#b40c00
+hi WarningMsg guifg=#6e5604
+hi MoreMsg guifg=#0151c5
+hi Question guifg=#1d6703
 
 " Mode message
-hi ModeMsg guifg=#006800
+hi ModeMsg guifg=#1d6703
 
 " Directory
-hi Directory guifg=#0000ff
+hi Directory guifg=#0151c5
 
 " Title
-hi Title guifg=#9f009f
+hi Title guifg=#a1019c
 
 " Match parenthesis
 hi MatchParen guibg=#000000

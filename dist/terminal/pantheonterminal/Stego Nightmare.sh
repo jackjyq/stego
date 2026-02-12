@@ -5,5 +5,5 @@ name='Stego Nightmare'
 cursor-color='#ffffff'
 foreground='#ffffff'
 background='rgba(18,18,18,.95)'
-palette='#121212:#e74c3c:#2ecc71:#f1c40f:#3498db:#6c71c4:#3cc9d6:#ffffff:#454545:#e74c3c:#2ecc71:#f1c40f:#3498db:#6c71c4:#3cc9d6:#ffffff'
+palette='#121212:#ff735f:#39b606:#c19a07:#649efe:#ff55f6:#01b1b1:#ffffff:#454545:#ff735f:#39b606:#c19a07:#649efe:#ff55f6:#01b1b1:#ffffff'
 COLORS

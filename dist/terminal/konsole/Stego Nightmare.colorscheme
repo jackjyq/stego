@@ -19,22 +19,22 @@ Color=255,255,255
 Color=18,18,18
 
 [Color1]
-Color=231,76,60
+Color=255,115,95
 
 [Color2]
-Color=46,204,113
+Color=57,182,6
 
 [Color3]
-Color=241,196,15
+Color=193,154,7
 
 [Color4]
-Color=52,152,219
+Color=100,158,254
 
 [Color5]
-Color=108,113,196
+Color=255,85,246
 
 [Color6]
-Color=60,201,214
+Color=1,177,177
 
 [Color7]
 Color=255,255,255
@@ -43,22 +43,22 @@ Color=255,255,255
 Color=69,69,69
 
 [Color1Intense]
-Color=231,76,60
+Color=255,115,95
 
 [Color2Intense]
-Color=46,204,113
+Color=57,182,6
 
 [Color3Intense]
-Color=241,196,15
+Color=193,154,7
 
 [Color4Intense]
-Color=52,152,219
+Color=100,158,254
 
 [Color5Intense]
-Color=108,113,196
+Color=255,85,246
 
 [Color6Intense]
-Color=60,201,214
+Color=1,177,177
 
 [Color7Intense]
 Color=255,255,255
@@ -67,22 +67,22 @@ Color=255,255,255
 Color=18,18,18
 
 [Color1Faint]
-Color=231,76,60
+Color=255,115,95
 
 [Color2Faint]
-Color=46,204,113
+Color=57,182,6
 
 [Color3Faint]
-Color=241,196,15
+Color=193,154,7
 
 [Color4Faint]
-Color=52,152,219
+Color=100,158,254
 
 [Color5Faint]
-Color=108,113,196
+Color=255,85,246
 
 [Color6Faint]
-Color=60,201,214
+Color=1,177,177
 
 [Color7Faint]
 Color=255,255,255
