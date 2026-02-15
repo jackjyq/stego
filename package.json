@@ -2,7 +2,7 @@
   "name": "tropical-theme",
   "preview": true,
   "displayName": "Tropical Theme",
-  "description": "A theme with consistent, readable syntax highlighting in both light and dark modes.",
+  "description": "Sensual, tropical-inspired palette.",
   "version": "0.1.0",
   "engines": {
     "vscode": "^1.108.1"
@@ -16,13 +16,13 @@
   "contributes": {
     "themes": [
       {
-        "id": "Bold and Sensual Dark Theme",
+        "id": "Bold and Sensual",
         "label": "Tropical Nightmare",
         "uiTheme": "vs-dark",
         "path": "./dist/vscode/tropical_nightmare.json"
       },
       {
-        "id": "Clean and Elegant Light Theme",
+        "id": "Clean and Elegant ",
         "label": "Tropical Daydream",
         "uiTheme": "vs",
         "path": "./dist/vscode/tropical_daydream.json"

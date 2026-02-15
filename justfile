@@ -1,31 +1,37 @@
 #!/usr/bin/env just
 
-TARGET := "./dist"
-TARGET_SCHEMES := TARGET + "/schemes"
-TARGET_MAC_TERMINAL := TARGET + "/mac_terminal"
-TARGET_VSCODE := "."
+DIST := "./dist"
+DIST_SCHEMES := DIST + "/schemes"
+DIST_MAC_TERMINAL := DIST + "/mac_terminal"
+DIST_VSCODE := "."
+DIST_OPENCODE := DIST + "/opencode"
+
+OPENCODE_THEMES := "$HOME/.config/opencode/themes"
 
 default:
     just --list
 
 setup:
-    @mkdir -p {{ TARGET_MAC_TERMINAL }}
-
-build-schemes: setup
-    uv run "./src/generate_schemes.py"
-
-build-terminal: build-schemes
-    uv run "./src/iterm2terminal.py" "{{ TARGET_SCHEMES }}" "{{ TARGET_MAC_TERMINAL }}"
-
-build-vscode: build-schemes
-    npx vsce package --out "{{ TARGET_VSCODE }}/tropical-theme.vsix"
-    @echo " * $(realpath {{ TARGET_VSCODE }}/tropical-theme.vsix)"
-
-build: build-terminal build-vscode
+    @mkdir -p {{ DIST_MAC_TERMINAL }}
 
 clean:
-    @rm -rf {{ TARGET }}
+    @rm -rf {{ DIST }}
 
+build-terminal: setup
+    uv run "./src/generate_schemes.py"
+
+build-mac-terminal: build-terminal
+    uv run "./src/iterm2terminal.py" "{{ DIST_SCHEMES }}" "{{ DIST_MAC_TERMINAL }}"
+
+build-vscode: build-terminal
+    npx vsce package --out "{{ DIST_VSCODE }}/tropical-theme.vsix"
+    @echo " * $(realpath {{ DIST_VSCODE }}/tropical-theme.vsix)"
+
+build: build-mac-terminal build-vscode
+
+install-opencode: build-terminal
+    @mkdir -p {{ OPENCODE_THEMES }}
+    rsync -av {{ DIST_OPENCODE }}/ {{ OPENCODE_THEMES }}/
 
 publish-vscode: build-vscode
     npx vsce publish minor && git push
