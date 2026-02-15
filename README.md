@@ -1,4 +1,4 @@
-# Tropical Time Theme
+# Tropical Time
 
 Sensual, tropical-inspired theme. 
 

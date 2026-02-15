@@ -10,7 +10,7 @@
   "categories": [
     "Themes"
   ],
-  "repository": "https://github.com/jackjyq/tropical-theme",
+  "repository": "https://github.com/jackjyq/tropical-time",
   "publisher": "jackjyq",
   "icon": "src/static/favicon/apple-touch-icon.png",
   "contributes": {
