@@ -1,7 +1,8 @@
 #!/usr/bin/env just
 
-TARGET_SCHEMES := "./dist/schemes"
-TARGET_MAC_TERMINAL := "./dist/mac_terminal"
+TARGET := "./dist"
+TARGET_SCHEMES := "{{ TARGET }}/{{ TARGET_SCHEMES }}"
+TARGET_MAC_TERMINAL := "{{ TARGET }}/{{ TARGET_MAC_TERMINAL }}"
 TARGET_VSCODE := "."
 
 default:
@@ -21,6 +22,10 @@ build-vscode: build-schemes
     @echo " * $(realpath {{ TARGET_VSCODE }}/tropical-theme.vsix)"
 
 build: build-terminal build-vscode
+
+clean:
+    @rm -rf {{ TARGET }}
+
 
 publish-vscode: build-vscode
     npx vsce publish minor && git push

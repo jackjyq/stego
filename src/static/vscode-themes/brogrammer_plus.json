@@ -1,40 +1,104 @@
 {
-	"$schema": "vscode://schemas/color-theme",
-  "name": "{{ scheme_name }}",  
-{% if Dark_Theme %} 
-	"include": "../../src/static/vscode-themes/brogrammer_plus.json",
-{% else %}
-	"include": "../../src/static/vscode-themes/github_light_default.json",
-{% endif %}
+  "name": "Brogrammer Plus",
   "colors": {
+    // Base Colors
+    // https://code.visualstudio.com/api/references/theme-color#base-colors
+    "focusBorder": "#ffffff00",
     // Editor colors
-    "editor.background": "#{{ Background_Color.hex }}",
-    "editor.foreground": "#{{ Foreground_Color.hex }}",
-    "editorCursor.foreground": "#{{ Cursor_Color.hex }}",
+    "editor.background": "#121212",
+    "editor.foreground": "#ffffffde",
+    "editorCursor.foreground": "#ffffff",
+    "editorRuler.foreground": "#ffffff99",
+    "editorLineNumber.activeForeground": "#ffffffde",
+    "editorLineNumber.foreground": "#ffffff99",
+    // Peek view colors
+    // https://code.visualstudio.com/api/references/theme-color#peek-view-colors
+    "peekView.border": "#383838",
+    "peekViewEditor.background": "#2E2E2E",
+    "peekViewResult.background": "#323232",
+    "peekViewResult.fileForeground": "#ffffffde",
+    "peekViewResult.lineForeground": "#ffffffde",
+    "peekViewTitle.background": "#383838",
+    "peekViewTitleLabel.foreground": "#ffffffde",
+    "peekViewTitleDescription.foreground": "#ffffff99",
+    // Title Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#title-bar-colors
+    "titleBar.activeBackground": "#383838",
+    "titleBar.activeForeground": "#ffffffde",
+    "titleBar.inactiveBackground": "#383838",
+    "titleBar.inactiveForeground": "#ffffff99",
+    // Status Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#status-bar-colors
+    "statusBar.background": "#383838",
+    "statusBar.foreground": "#ffffffde",
+    "statusBar.focusBorder": "#ffffff00",
+    "statusBar.border": "#ffffff00",
+    "statusBar.debuggingBackground": "#383838",
+    "statusBar.debuggingForeground": "#ffffffde",
+    "statusBar.debuggingBorder": "#ffffff00",
+    "statusBar.noFolderBackground": "#383838",
+    "statusBar.noFolderForeground": "#ffffffde",
+    "statusBar.noFolderBorder": "#ffffff00",
+    // Debug Icons colors
+    // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+    "debugConsole.errorForeground": "#e74c3c",
+    "debugConsole.warningForeground": "#f1c40f",
+    "debugConsole.infoForeground": "#2ecc71",
+    "debugConsole.sourceForeground": "#ffffffde",
+    // Editor Groups & Tabs
+    // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
+    "editorGroupHeader.tabsBackground": "#262626",
+    "tab.activeBackground": "#323232",
+    "tab.activeForeground": "#ffffffde",
+    "tab.inactiveBackground": "#262626",
+    "tab.inactiveForeground": "#ffffffde",
+    "tab.activeModifiedBorder": "#f1c40f",
+    "tab.hoverBackground": "#323232",
+    // Breadcrumbs colors
+    // https://code.visualstudio.com/api/references/theme-color#breadcrumbs-colors
+    "breadcrumb.background": "#323232",
+    "breadcrumb.foreground": "#ffffff99",
+    // Side Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#side-bar
+    "sideBar.background": "#282828",
+    "sideBar.foreground": "#ffffffde",
+    "sideBarSectionHeader.background": "#323232",
+    "sideBarSectionHeader.foreground": "#ffffffde",
+    // Activity Bar colors
+    // https://code.visualstudio.com/api/references/theme-color#activity-bar
+    "activityBar.background": "#383838",
+    "activityBar.foreground": "#ffffffde",
+    "activityBar.inactiveForeground": "#ffffff99",
+    "activityBar.activeBorder": "#ffffffde",
+    "activityBarBadge.background": "#e74c3c",
+    "activityBarBadge.foreground": "#ffffffde",
+    // Panel Colors
+    // https://code.visualstudio.com/api/references/theme-color#panel-colors
+    "panel.background": "#282828",
+    "panelTitle.activeForeground": "#ffffffde",
+    "panelTitle.inactiveForeground": "#ffffff99",
+    "panelTitle.activeBorder": "#ffffffde",
     // Terminal Colors
-    "terminal.foreground": "#{{ Foreground_Color.hex }}",
-    "terminal.background": "#{{ Background_Color.hex }}",
-    "terminal.ansiBlack": "#{{ Ansi_0_Color.hex }}",
-    "terminal.ansiBlue": "#{{ Ansi_4_Color.hex }}",
-    "terminal.ansiCyan": "#{{ Ansi_6_Color.hex }}",
-    "terminal.ansiGreen": "#{{ Ansi_2_Color.hex }}",
-    "terminal.ansiMagenta": "#{{ Ansi_5_Color.hex }}",
-    "terminal.ansiRed": "#{{ Ansi_1_Color.hex }}",
-    "terminal.ansiWhite": "#{{ Ansi_7_Color.hex }}",
-    "terminal.ansiYellow": "#{{ Ansi_3_Color.hex }}",
-    "terminal.ansiBrightBlack": "#{{ Ansi_8_Color.hex }}",
-    "terminal.ansiBrightBlue": "#{{ Ansi_12_Color.hex }}",
-    "terminal.ansiBrightCyan": "#{{ Ansi_14_Color.hex }}",
-    "terminal.ansiBrightGreen": "#{{ Ansi_10_Color.hex }}",
-    "terminal.ansiBrightMagenta": "#{{ Ansi_13_Color.hex }}",
-    "terminal.ansiBrightRed": "#{{ Ansi_9_Color.hex }}",
-    "terminal.ansiBrightWhite": "#{{ Ansi_15_Color.hex }}",
-    "terminal.ansiBrightYellow": "#{{ Ansi_11_Color.hex }}",
-    "terminal.selectionBackground": "#{{ Selection_Color.hex }}",
-{% if Cursor_Text_Color %}
-    "terminalCursor.background": "#{{ Cursor_Text_Color.hex }}",
-{% endif %}
-    "terminalCursor.foreground": "#{{ Cursor_Color.hex }}"
+    "terminal.foreground": "#fbfbfb",
+    "terminal.background": "#121212",
+    "terminal.ansiBlack": "#121212",
+    "terminal.ansiBlue": "#3498db",
+    "terminal.ansiCyan": "#3cc9d6",
+    "terminal.ansiGreen": "#2ecc71",
+    "terminal.ansiMagenta": "#6c71c4",
+    "terminal.ansiRed": "#e74c3c",
+    "terminal.ansiWhite": "#fbfbfb",
+    "terminal.ansiYellow": "#f1c40f",
+    "terminal.ansiBrightBlack": "#373737",
+    "terminal.ansiBrightBlue": "#48c0ff",
+    "terminal.ansiBrightCyan": "#51f1ff",
+    "terminal.ansiBrightGreen": "#3bfb9d",
+    "terminal.ansiBrightMagenta": "#9ea7ff",
+    "terminal.ansiBrightRed": "#ff5542",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffd60d",
+    "terminal.selectionBackground": "#264f78",
+    "terminalCursor.foreground": "#ffffff"
   },
   "tokenColors": [
     // Base Colors
@@ -43,14 +107,14 @@
       "scope": ["comment", "string.quoted.docstring"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ Hint_Text_Color.hex }}"
+        "foreground": "#ffffff99"
       }
     },
     {
       "name": "Constant",
       "scope": "constant",
       "settings": {
-        "foreground": "#{{ Ansi_5_Color.hex }}"
+        "foreground": "#6c71c4"
       }
     },
     {
@@ -58,7 +122,7 @@
       "scope": ["entity"],
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
@@ -66,35 +130,35 @@
       "scope": "keyword",
       "settings": {
         "fontStyle": " bold",
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
       "name": "String",
       "scope": "string",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}"
+        "foreground": "#f1c40f"
       }
     },
     {
       "name": "Support",
       "scope": "support",
       "settings": {
-        "foreground": "#{{ Ansi_6_Color.hex }}"
+        "foreground": "#3cc9d6"
       }
     },
     {
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#ffffffde"
       }
     },
     {
@@ -109,7 +173,7 @@
       "scope": "entity.other.inherited-class",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
@@ -117,28 +181,28 @@
       "scope": "string.quoted source",
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ Ansi_3_Color.hex }}"
+        "foreground": "#f1c40f"
       }
     },
     {
       "name": "String constant",
       "scope": "string constant",
       "settings": {
-        "foreground": "#{{ Ansi_5_Color.hex }}"
+        "foreground": "#6c71c4"
       }
     },
     {
       "name": "String.regexp",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
       "name": "String variable",
       "scope": "string variable",
       "settings": {
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#e67e22"
       }
     },
     {
@@ -146,7 +210,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
@@ -154,49 +218,49 @@
       "scope": "support.constant",
       "settings": {
         "fontStyle": "",
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
       "name": "C/C++ Preprocessor Line",
       "scope": "other.preprocessor.c",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
       "name": "C/C++ Preprocessor Directive",
       "scope": "other.preprocessor.c entity",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
       "name": "Javascript object literal separator",
       "scope": "punctuation.separator.key-value.js",
       "settings": {
-        "foreground": "#{{ Ansi_5_Color.hex }}"
+        "foreground": "#6c71c4"
       }
     },
     {
       "name": "Javascript object literal key",
       "scope": "meta.object-literal.key.js",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}"
+        "foreground": "#f1c40f"
       }
     },
     {
       "name": "Tag name",
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
@@ -208,35 +272,35 @@
         "meta.tag entity"
       ],
       "settings": {
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#ffffffde"
       }
     },
     {
       "name": "css tag-name",
       "scope": "meta.selector.css entity.name.tag",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#1abc9c"
       }
     },
     {
       "name": "css#id",
       "scope": "meta.selector.css entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
       "name": "css.class",
       "scope": "meta.selector.css entity.other.attribute-name.class",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
       "name": "css property-name:",
       "scope": "support.type.property-name.css",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}",
+        "foreground": "#3498db",
         "fontStyle": ""
       }
     },
@@ -247,7 +311,7 @@
         "meta.property-value support.constant.property-value.css"
       ],
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}",
+        "foreground": "#2ecc71",
         "fontStyle": " italic"
       }
     },
@@ -255,7 +319,7 @@
       "name": "css @at-rule",
       "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}",
+        "foreground": "#f1c40f",
         "fontStyle": " bold"
       }
     },
@@ -266,14 +330,14 @@
         "meta.property-value constant"
       ],
       "settings": {
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
       "name": "css constructor.argument",
       "scope": "meta.constructor.argument.css",
       "settings": {
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
@@ -281,56 +345,56 @@
       "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#ffffffde"
       }
     },
     {
       "name": "diff.deleted",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
       "name": "diff.changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}"
+        "foreground": "#f1c40f"
       }
     },
     {
       "name": "diff.inserted",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
       "name": "markdown heading",
       "scope": ["punctuation.definition.heading.markdown"],
       "settings": {
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
       "name": "markdown puncuation",
       "scope": ["punctuation.definition.markdown"],
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
       "name": "html id",
       "scope": "entity.other.attribute-name.id.html",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
       "name": "html class",
       "scope": "entity.other.attribute-name.html",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#2ecc71"
       }
     },
     {
@@ -341,14 +405,14 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#ffffffde"
       }
     },
     {
       "name": "CSS @import",
       "scope": "keyword.control.at-rule.import.css",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}",
+        "foreground": "#f1c40f",
         "fontStyle": " bold"
       }
     },
@@ -356,21 +420,21 @@
       "name": "LESS variables",
       "scope": "variable.other.less",
       "settings": {
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#ffffffde"
       }
     },
     {
       "name": "LESS variables",
       "scope": "entity.other.less.mixin",
       "settings": {
-        "foreground": "#{{ Ansi_5_Color.hex }}"
+        "foreground": "#9b59b6"
       }
     },
     {
       "name": "LESS units",
       "scope": "source.css.less keyword.unit.css",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
@@ -380,56 +444,56 @@
         "source.angular.embedded.html"
       ],
       "settings": {
-        "foreground": "#{{ Ansi_1_Color.hex }}"
+        "foreground": "#e74c3c"
       }
     },
     {
       "name": "HTML Entities",
       "scope": "constant.character.entity.html",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3498db"
       }
     },
     {
       "name": "coffee instance var",
       "scope": "variable.other.readwrite.instance.coffee",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}"
+        "foreground": "#e67e22"
       }
     },
     {
       "name": "coffee brace",
       "scope": ["meta.brace.round.coffee", "meta.brace.square.coffee"],
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}"
+        "foreground": "#f1c40f"
       }
     },
     {
       "name": "coffee embeded",
       "scope": "punctuation.section.embedded.coffee",
       "settings": {
-        "foreground": "#{{ Ansi_6_Color.hex }}"
+        "foreground": "#5eebb8"
       }
     },
     {
       "name": "Coffee vars",
       "scope": "variable.assignment.coffee variable.assignment.coffee",
       "settings": {
-        "foreground": "#{{ Foreground_Color.hex }}"
+        "foreground": "#ffffffde"
       }
     },
     {
       "name": "Coffee dots",
       "scope": "meta.delimiter.method.period.coffee",
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3cadd7"
       }
     },
     {
       "name": "Coffee curleys",
       "scope": "meta.brace.curly.coffee",
       "settings": {
-        "foreground": "#{{ Ansi_2_Color.hex }}"
+        "foreground": "#1abc9c"
       }
     },
     {
@@ -445,7 +509,7 @@
         "doctype"
       ],
       "settings": {
-        "foreground": "#{{ Ansi_4_Color.hex }}"
+        "foreground": "#3c444d"
       }
     }
   ],
@@ -454,63 +518,63 @@
     // https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-scope-map
     "namespace": {
       // For identifiers that declare or reference a namespace, module, or package.
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "type": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "type.defaultLibrary": {
-      "foreground": "#{{ Ansi_6_Color.hex }}"
+      "foreground": "#3cc9d6"
     },
     "struct": {
-      "foreground": "#{{ Ansi_4_Color.hex }}"
+      "foreground": "#3498db"
     },
     "class": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "interface": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "enum": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "function": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "function.defaultLibrary": {
-      "foreground": "#{{ Ansi_6_Color.hex }}"
+      "foreground": "#3cc9d6"
     },
     "method": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "macro": {
-      "foreground": "#{{ Ansi_2_Color.hex }}"
+      "foreground": "#2ecc71"
     },
     "variable": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#ffffffde"
     },
     "variable.readonly": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#ffffffde"
     },
     "variable.readonly:python": {
-      "foreground": "#{{ Ansi_5_Color.hex }}"
+      "foreground": "#6c71c4"
     },
     "parameter": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#e67e22"
     },
     "property": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#ffffffde"
     },
     "property.readonly": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#ffffffde"
     },
     "enumMember": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#ffffffde"
     },
     "event": {
-      "foreground": "#{{ Foreground_Color.hex }}"
+      "foreground": "#ffffffde"
     },
     //TypeHint Patch, keep it to the bottom
-    "*.typeHint": "#{{ Hint_Text_Color.hex }}"
+    "*.typeHint": "#ffffff99"
   }
 }

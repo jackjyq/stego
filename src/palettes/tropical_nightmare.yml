@@ -4,7 +4,7 @@ author: "Jack Jiang (https://github.com/jackjyq/tropical-theme)" # 'Author Name 
 variant: "Dark" # Dark or Light
 
 # Required Colors
-# https://github.com/Gogh-Co/Gogh/
+# https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
 color_01: "#121212" # Black (Host)
 color_02: "#ff7764" # Red (Syntax string)
 color_03: "#01b955" # Green (Command)
@@ -12,7 +12,7 @@ color_04: "#c49c06" # Yellow (Command second)
 color_05: "#7f9cfe" # Blue (Path)
 color_06: "#ec72e3" # Magenta (Syntax var)
 color_07: "#00b1c6" # Cyan (Prompt)
-color_08: "#ffffff" # White
+color_08: "#E0E0E0" # White
 
 color_09: "#121212" # Bright Black
 color_10: "#ff7764" # Bright Red (Command error)
@@ -21,10 +21,21 @@ color_12: "#c49c06" # Bright Yellow
 color_13: "#7f9cfe" # Bright Blue (Folder)
 color_14: "#ec72e3" # Bright Magenta
 color_15: "#00b1c6" # Bright Cyan
-color_16: "#ffffff" # Bright White
+color_16: "#E0E0E0" # Bright White
 
 background: "#121212" # Background
-foreground: "#ffffff" # Foreground (Text)
-hint: "#ffffff"
+foreground: "#E0E0E0" # Foreground (Text)
+hint: "#A0A0A0" # Hint (Text)
 
 cursor: "#ffffff" # Cursor
+
+# Optional Colors
+# https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/yaml
+# badge: 
+# bold: # defaults to foreground
+# cursor_guide: # defaults to cursor
+# cursor_text: # defaults to foreground
+# link:
+# selection_text:  # defaults to background
+selection: '#264F78' # defaults to foreground
+# tab:
