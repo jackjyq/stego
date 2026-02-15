@@ -1,4 +1,4 @@
-# Tropical Theme
+# Tropical Time Color Theme
 
 Sensual, tropical-inspired palette.
 

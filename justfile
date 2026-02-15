@@ -24,8 +24,8 @@ build-mac-terminal: build-terminal
     uv run "./src/iterm2terminal.py" "{{ DIST_SCHEMES }}" "{{ DIST_MAC_TERMINAL }}"
 
 build-vscode: build-terminal
-    npx vsce package --out "{{ DIST_VSCODE }}/tropical-theme.vsix"
-    @echo " * $(realpath {{ DIST_VSCODE }}/tropical-theme.vsix)"
+    npx vsce package --out "{{ DIST_VSCODE }}/tropical-time.vsix"
+    @echo " * $(realpath {{ DIST_VSCODE }}/tropical-time.vsix)"
 
 build: build-mac-terminal build-vscode
 

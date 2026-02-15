@@ -1,7 +1,7 @@
 {
-  "name": "tropical",
+  "name": "tropical-time",
   "preview": true,
-  "displayName": "Tropical Theme",
+  "displayName": "Tropical Time",
   "description": "Sensual, tropical-inspired palette.",
   "version": "0.3.0",
   "engines": {
