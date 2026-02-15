@@ -1,22 +1,22 @@
 {
-  "name": "stego",
+  "name": "tropical_theme",
   "preview": true,
-  "displayName": "Stego Theme",
+  "displayName": "Tropical Theme",
   "description": "A theme with consistent, readable syntax highlighting in both light and dark modes.",
-  "version": "0.20.0",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.108.1"
   },
   "categories": [
     "Themes"
   ],
-  "repository": "https://github.com/jackjyq/stego",
+  "repository": "https://github.com/jackjyq/tropical_theme",
   "publisher": "jackjyq",
-  "icon": "dist/icon/stego.ico",
+  "icon": "src/static/favicon.png",
   "contributes": {
     "themes": [
       {
-        "label": "Stego Nightmare",
+        "label": "Tropical Nightmare",
         "uiTheme": "vs-dark",
         "path": "./build/vscode/nightmare.json"
       },

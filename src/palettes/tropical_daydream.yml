@@ -1,0 +1,30 @@
+---
+name: "Stego Daydream"
+author: "Jack Jiang (https://github.com/jackjyq/tropical_theme)" # 'Author Name (http://website.com)'
+variant: "Light" # Dark or Light
+
+# Required Colors
+# https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
+color_01: "#000000" # Black (Host)
+color_02: "#c31c0e" # Red (Syntax string)
+color_03: "#027635" # Green (Command)
+color_04: "#7e6301" # Yellow (Command second)
+color_05: "#4159db" # Blue (Path)
+color_06: "#a830a2" # Magenta (Syntax var)
+color_07: "#06717f" # Cyan (Prompt)
+color_08: "#fafafa" # White
+
+color_09: "#000000" # Bright Black
+color_10: "#c31c0e" # Bright Red (Command error)
+color_11: "#027635" # Bright Green (Exec)
+color_12: "#7e6301" # Bright Yellow
+color_13: "#4159db" # Bright Blue (Folder)
+color_14: "#a830a2" # Bright Magenta
+color_15: "#06717f" # Bright Cyan
+color_16: "#fafafa" # Bright White
+
+background: "#fafafa" # Background
+foreground: "#000000" # Foreground (Text)
+hint: "#000000" # Hint (Text)
+
+cursor: "#000000" # Cursor

@@ -42,6 +42,7 @@ build-vscode: build-palette build-icon
     sed -f "{{TARGET_PALETTE}}/daydream.sed" <"{{SRC_VSCODE}}/daydream.jsonc" \
         >"{{TARGET_VSCODE}}/daydream.json"
     vsce package --out "{{TARGET_VSCODE}}/stego-theme.vsix"
+    echo "$(realpath {{TARGET_VSCODE}}/stego-theme.vsix)"
 
 publish-vscode: build-vscode
     vsce publish minor && git push

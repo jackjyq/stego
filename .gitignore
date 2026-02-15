@@ -1,5 +1,5 @@
-# Intermediate files
-/build/
+# Build files
+*.vsix
 
 # Node.js
 node_modules

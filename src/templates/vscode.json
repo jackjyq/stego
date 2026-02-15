@@ -1,0 +1,516 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+  "name": "{{ scheme_name }}",  
+{% if Dark_Theme %} 
+	"include": "../../src/static/vscode-themes/dark_modern.json",
+{% else %}
+	"include": "../../src/static/vscode-themes/light_modern.json",
+{% endif %}
+  "colors": {
+    // Editor colors
+    "editor.background": "#{{ Background_Color.hex }}",
+    "editor.foreground": "#{{ Foreground_Color.hex }}",
+    "editorCursor.foreground": "#{{ Cursor_Color.hex }}",
+    // Terminal Colors
+    "terminal.foreground": "#{{ Foreground_Color.hex }}",
+    "terminal.background": "#{{ Background_Color.hex }}",
+    "terminal.ansiBlack": "#{{ Ansi_0_Color.hex }}",
+    "terminal.ansiBlue": "#{{ Ansi_4_Color.hex }}",
+    "terminal.ansiCyan": "#{{ Ansi_6_Color.hex }}",
+    "terminal.ansiGreen": "#{{ Ansi_2_Color.hex }}",
+    "terminal.ansiMagenta": "#{{ Ansi_5_Color.hex }}",
+    "terminal.ansiRed": "#{{ Ansi_1_Color.hex }}",
+    "terminal.ansiWhite": "#{{ Ansi_7_Color.hex }}",
+    "terminal.ansiYellow": "#{{ Ansi_3_Color.hex }}",
+    "terminal.ansiBrightBlack": "#{{ Ansi_8_Color.hex }}",
+    "terminal.ansiBrightBlue": "#{{ Ansi_12_Color.hex }}",
+    "terminal.ansiBrightCyan": "#{{ Ansi_14_Color.hex }}",
+    "terminal.ansiBrightGreen": "#{{ Ansi_10_Color.hex }}",
+    "terminal.ansiBrightMagenta": "#{{ Ansi_13_Color.hex }}",
+    "terminal.ansiBrightRed": "#{{ Ansi_9_Color.hex }}",
+    "terminal.ansiBrightWhite": "#{{ Ansi_15_Color.hex }}",
+    "terminal.ansiBrightYellow": "#{{ Ansi_11_Color.hex }}",
+    "terminal.selectionBackground": "#{{ Selection_Color.hex }}",
+{% if Cursor_Text_Color %}
+    "terminalCursor.background": "#{{ Cursor_Text_Color.hex }}",
+{% endif %}
+    "terminalCursor.foreground": "#{{ Cursor_Color.hex }}"
+  },
+  "tokenColors": [
+    // Base Colors
+    {
+      "name": "Comment",
+      "scope": ["comment", "string.quoted.docstring"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#{{ Hint_Text_Color.hex }}"
+      }
+    },
+    {
+      "name": "Constant",
+      "scope": "constant",
+      "settings": {
+        "foreground": "#{{ Ansi_5_Color.hex }}"
+      }
+    },
+    {
+      "name": "Entity",
+      "scope": ["entity"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "settings": {
+        "fontStyle": " bold",
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}"
+      }
+    },
+    {
+      "name": "Support",
+      "scope": "support",
+      "settings": {
+        "foreground": "#{{ Ansi_6_Color.hex }}"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Entity inherited-class",
+      "scope": "entity.other.inherited-class",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "String embedded-source",
+      "scope": "string.quoted source",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#{{ Ansi_3_Color.hex }}"
+      }
+    },
+    {
+      "name": "String constant",
+      "scope": "string constant",
+      "settings": {
+        "foreground": "#{{ Ansi_5_Color.hex }}"
+      }
+    },
+    {
+      "name": "String.regexp",
+      "scope": "string.regexp",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "String variable",
+      "scope": "string variable",
+      "settings": {
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "Support.function",
+      "scope": "support.function",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "Support.constant",
+      "scope": "support.constant",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "C/C++ Preprocessor Line",
+      "scope": "other.preprocessor.c",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "C/C++ Preprocessor Directive",
+      "scope": "other.preprocessor.c entity",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "Javascript object literal separator",
+      "scope": "punctuation.separator.key-value.js",
+      "settings": {
+        "foreground": "#{{ Ansi_5_Color.hex }}"
+      }
+    },
+    {
+      "name": "Javascript object literal key",
+      "scope": "meta.object-literal.key.js",
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}"
+      }
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "Meta.tag.A",
+      "scope": [
+        "declaration.tag",
+        "declaration.tag entity",
+        "meta.tag",
+        "meta.tag entity"
+      ],
+      "settings": {
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "css tag-name",
+      "scope": "meta.selector.css entity.name.tag",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "css#id",
+      "scope": "meta.selector.css entity.other.attribute-name.id",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "css.class",
+      "scope": "meta.selector.css entity.other.attribute-name.class",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "css property-name:",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "css property-value;",
+      "scope": [
+        "meta.property-group support.constant.property-value.css",
+        "meta.property-value support.constant.property-value.css"
+      ],
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}",
+        "fontStyle": " italic"
+      }
+    },
+    {
+      "name": "css @at-rule",
+      "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}",
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "css additional-constants",
+      "scope": [
+        "meta.property-value support.constant.named-color.css",
+        "meta.property-value constant"
+      ],
+      "settings": {
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "css constructor.argument",
+      "scope": "meta.constructor.argument.css",
+      "settings": {
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "diff.header",
+      "scope": ["meta.diff", "meta.diff.header"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "diff.deleted",
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "diff.changed",
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}"
+      }
+    },
+    {
+      "name": "diff.inserted",
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "markdown heading",
+      "scope": ["punctuation.definition.heading.markdown"],
+      "settings": {
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "markdown puncuation",
+      "scope": ["punctuation.definition.markdown"],
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "html id",
+      "scope": "entity.other.attribute-name.id.html",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "html class",
+      "scope": "entity.other.attribute-name.html",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "html punctuations tags",
+      "scope": [
+        "punctuation.definition.tag.end",
+        "punctuation.definition.tag.begin",
+        "punctuation.definition.tag"
+      ],
+      "settings": {
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "CSS @import",
+      "scope": "keyword.control.at-rule.import.css",
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}",
+        "fontStyle": " bold"
+      }
+    },
+    {
+      "name": "LESS variables",
+      "scope": "variable.other.less",
+      "settings": {
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "LESS variables",
+      "scope": "entity.other.less.mixin",
+      "settings": {
+        "foreground": "#{{ Ansi_5_Color.hex }}"
+      }
+    },
+    {
+      "name": "LESS units",
+      "scope": "source.css.less keyword.unit.css",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "Angular",
+      "scope": [
+        "entity.other.attribute-name.angular.html",
+        "source.angular.embedded.html"
+      ],
+      "settings": {
+        "foreground": "#{{ Ansi_1_Color.hex }}"
+      }
+    },
+    {
+      "name": "HTML Entities",
+      "scope": "constant.character.entity.html",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "coffee instance var",
+      "scope": "variable.other.readwrite.instance.coffee",
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}"
+      }
+    },
+    {
+      "name": "coffee brace",
+      "scope": ["meta.brace.round.coffee", "meta.brace.square.coffee"],
+      "settings": {
+        "foreground": "#{{ Ansi_3_Color.hex }}"
+      }
+    },
+    {
+      "name": "coffee embeded",
+      "scope": "punctuation.section.embedded.coffee",
+      "settings": {
+        "foreground": "#{{ Ansi_6_Color.hex }}"
+      }
+    },
+    {
+      "name": "Coffee vars",
+      "scope": "variable.assignment.coffee variable.assignment.coffee",
+      "settings": {
+        "foreground": "#{{ Foreground_Color.hex }}"
+      }
+    },
+    {
+      "name": "Coffee dots",
+      "scope": "meta.delimiter.method.period.coffee",
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    },
+    {
+      "name": "Coffee curleys",
+      "scope": "meta.brace.curly.coffee",
+      "settings": {
+        "foreground": "#{{ Ansi_2_Color.hex }}"
+      }
+    },
+    {
+      "name": "Doctype/XML Processing",
+      "scope": [
+        "meta.tag.sgml.doctype.xml",
+        "declaration.sgml.html declaration.doctype",
+        "declaration.sgml.html declaration.doctype entity",
+        "declaration.sgml.html declaration.doctype string",
+        "declaration.xml-processing",
+        "declaration.xml-processing entity",
+        "declaration.xml-processing string",
+        "doctype"
+      ],
+      "settings": {
+        "foreground": "#{{ Ansi_4_Color.hex }}"
+      }
+    }
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    // https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#semantic-token-scope-map
+    "namespace": {
+      // For identifiers that declare or reference a namespace, module, or package.
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "type": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "type.defaultLibrary": {
+      "foreground": "#{{ Ansi_6_Color.hex }}"
+    },
+    "struct": {
+      "foreground": "#{{ Ansi_4_Color.hex }}"
+    },
+    "class": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "interface": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "enum": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "function": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "function.defaultLibrary": {
+      "foreground": "#{{ Ansi_6_Color.hex }}"
+    },
+    "method": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "macro": {
+      "foreground": "#{{ Ansi_2_Color.hex }}"
+    },
+    "variable": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    "variable.readonly": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    "variable.readonly:python": {
+      "foreground": "#{{ Ansi_5_Color.hex }}"
+    },
+    "parameter": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    "property": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    "property.readonly": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    "enumMember": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    "event": {
+      "foreground": "#{{ Foreground_Color.hex }}"
+    },
+    //TypeHint Patch, keep it to the bottom
+    "*.typeHint": "#{{ Hint_Text_Color.hex }}"
+  }
+}

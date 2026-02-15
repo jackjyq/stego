@@ -1,21 +1,28 @@
-# Stego Themes
+# Tropical Theme
 
 A theme featuring consistent, readable syntax highlighting in both light and dark modes.
 
 ## Usage
 
-- [VSCode](https://marketplace.visualstudio.com/items?itemName=jackjyq.stego)
-- [Windows Terminal](./dist/terminal/windowsterminal/)
+Install VSCode theme at [Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical_theme) and other themes at [Dist](./dist/) folder.
+
+## Color Palattes
+
+### [Tropical Nightmare](https://harmonizer.evilmartians.com/#VdHBTsMwDAbgd_l3jVDbCU3kuCJxYRfGBSEOXuqlEWkyJdkGqvruKAWtQT7Zn2U5zogLh2i8g6wFLF_YRsj3EY4GhkRH4RMCyrsUKCbIzV0joPrgB4KslqSl05xPHwL9mf8NeeEOAuS0Zch1NYmbvLG1_rrgQ4lPgdktVt-X2H5TYU1d2taeubBNaTvS7BIV-6yrvHPklIzTEXK8vXbnO7aQuCrSEOhMYJWMd7kOiaN-9dsMvxf4qw70BYGDbr314dnoPkFidaQcCzzmu0qs6ibHXJ9794lCmv9C5bb9iVQeGoM-YJp-AA)
+
+A bold, sensual dark color palette.
+
+### [Tropical Daydream](https://harmonizer.evilmartians.com/#XdHBasMwDAbgd_l3NSNpKWU-NoNe1svayxg7qI7qhDl2sN12I-Tdh8PaeMMn6ZOFLA-4sA-ts5ClgOELmwD5PsBSx5AwrW4iBJSz0VOIkOuVgGq86wiyeFzcgor6KR4_BJoz_2nyyjUEyGrDkMtiFHd5Y2PcdcanHLee2c5WrnKsvimzRZnbxpw5s3VuO9JsI2XzLIs0c-AYW6sD5HB_7M7VbCBBvUoX6taziq2zKQ-Jkz64jcZtA7_Zjr4gcNSVM86_TOuTeDhROjM8k__8l59q95F8nP5CpbJ9Tyo1DV4fMY4_)
+
+A clean, elegant light color palette.
 
 ## Roadmap
 
 - [x] VSCode Theme
 - [x] Terminal Theme
 - [ ] OpenCode Theme
-- [ ] Wallpaper
 
 ## Acknowledgements
 
-- [Harmonizer](https://harmonizer.evilmartians.com/#fZHBbsIwEET_ZXq1UGJIUnyESr2US-mlqnpYwmIijI0cA60Q_16ZVsRQKevbPM_sen3CgX3bOAuVCxg-sGmhPk6wtGUojLIMArWzwVMboMaDQqBee7clqGyQV4-5vCpT2kHZvTFncQ0o7gKq1C7Louy3l3f20W1_WfW6q97mssjSKv8nfQqs93yzkFdeQoCsNgw1zJJm72yMO3ZwnMJnz2w7lo9SOP2mlI2LhE3Mnjsmy9Q3I802UDLPMIsztxxCY3ULdbo-fuaWbKBwrElDYNl4rkPjbNShsNJvbhLB7wr-1C19QWChp844_9LodYDCw-pSHXgiv4l6LuO56Je780A-QMn4A8b5-Y7qGNp6vcD5_AM)
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-- [Brogrammer Plus](https://github.com/jackjyq/vscode-theme-brogrammer-plus)
+- [VSCode Default Themes](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
