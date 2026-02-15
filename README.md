@@ -1,15 +1,15 @@
-# Tropical Time Color Theme
+# Tropical Time Theme
 
-Sensual, tropical-inspired palette.
+Sensual, tropical-inspired theme. 
 
 ## Usage
 
-Install theme at [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical_theme) and [Dist](./dist/) folder, include:
+Please follow the links below to install the theme:
 
+- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time)
 - [Windows Terminal](./dist/windowsterminal)
-- [Mac Terminal](./dist/mac_terminal)
 - [OpenCode](./dist/opencode)
-- [Vim](./dist/vim)
+- [more...](./dist/)
 
 ## Color Palattes
 
@@ -23,17 +23,11 @@ clean and elegant light theme.
 
 ## Text and Background
 
-### Dark Background: #121212
-
-- High-emphasis text (87%): #E0E0E0
-- Medium-emphasis text (60%): #A0A0A0
-- Low-emphasis text (38%): #6C6C6C
-
-### Light Background: #fafafa
-
-- High-emphasis text (87%): #212121
-- Medium-emphasis text (60%): #646464
-- Low-emphasis text (38%): #9B9B9B
+| Background            | Dark (#121212) | Light (#fafafa) |
+| :-------------------- | :------------- | :-------------- |
+| High-emphasis (87%)   | #E0E0E0        | #212121         |
+| Medium-emphasis (60%) | #A0A0A0        | #646464         |
+| Low-emphasis (38%)    | #6C6C6C        | #9B9B9B         |
 
 ## Acknowledgements
 
