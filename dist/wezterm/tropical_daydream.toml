@@ -1,0 +1,12 @@
+# tropical_daydream
+[colors]
+foreground = "#212121"
+background = "#fafafa"
+cursor_bg = "#000000"
+cursor_border = "#000000"
+cursor_fg = "#fafafa"
+selection_bg = "#add6ff"
+selection_fg = "#949494"
+
+ansi = ["#212121","#c31c0e","#027635","#7e6301","#4159db","#a830a2","#06717f","#bababa"]
+brights = ["#212121","#c31c0e","#027635","#7e6301","#4159db","#a830a2","#06717f","#fafafa"]

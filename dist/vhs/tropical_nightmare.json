@@ -1,0 +1,23 @@
+{
+  "name": "tropical_nightmare",
+  "black": "#121212",
+  "red": "#ff7764",
+  "green": "#01b955",
+  "yellow": "#c49c06",
+  "blue": "#7f9cfe",
+  "purple": "#ec72e3",
+  "cyan": "#00b1c6",
+  "white": "#e0e0e0",
+  "brightBlack": "#454545",
+  "brightRed": "#ff7764",
+  "brightGreen": "#01b955",
+  "brightYellow": "#c49c06",
+  "brightBlue": "#7f9cfe",
+  "brightPurple": "#ec72e3",
+  "brightCyan": "#00b1c6",
+  "brightWhite": "#e0e0e0",
+  "background": "#121212",
+  "foreground": "#e0e0e0",
+  "cursor": "#ffffff",
+  "selection": "#264f78"
+}

@@ -1,0 +1,43 @@
+!
+! tropical_nightmare
+!
+*.foreground:  #e0e0e0
+*.background:  #121212
+*.cursorColor: #ffffff
+!
+! Black
+*.color0:      #121212
+*.color8:      #454545
+!
+! Red
+*.color1:      #ff7764
+*.color9:      #ff7764
+!
+! Green
+*.color2:      #01b955
+*.color10:     #01b955
+!
+! Yellow
+*.color3:      #c49c06
+*.color11:     #c49c06
+!
+! Blue
+*.color4:      #7f9cfe
+*.color12:     #7f9cfe
+!
+! Magenta
+*.color5:      #ec72e3
+*.color13:     #ec72e3
+!
+! Cyan
+*.color6:      #00b1c6
+*.color14:     #00b1c6
+!
+! White
+*.color7:      #e0e0e0
+*.color15:     #e0e0e0
+!
+! Bold, Italic, Underline
+*.colorBD:     #e0e0e0
+!*.colorIT:
+!*.colorUL:

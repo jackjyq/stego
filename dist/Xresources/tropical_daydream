@@ -1,0 +1,43 @@
+!
+! tropical_daydream
+!
+*.foreground:  #212121
+*.background:  #fafafa
+*.cursorColor: #000000
+!
+! Black
+*.color0:      #212121
+*.color8:      #212121
+!
+! Red
+*.color1:      #c31c0e
+*.color9:      #c31c0e
+!
+! Green
+*.color2:      #027635
+*.color10:     #027635
+!
+! Yellow
+*.color3:      #7e6301
+*.color11:     #7e6301
+!
+! Blue
+*.color4:      #4159db
+*.color12:     #4159db
+!
+! Magenta
+*.color5:      #a830a2
+*.color13:     #a830a2
+!
+! Cyan
+*.color6:      #06717f
+*.color14:     #06717f
+!
+! White
+*.color7:      #bababa
+*.color15:     #fafafa
+!
+! Bold, Italic, Underline
+*.colorBD:     #212121
+!*.colorIT:
+!*.colorUL:

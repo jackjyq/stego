@@ -4,7 +4,9 @@ A theme featuring consistent, readable syntax highlighting in both light and dar
 
 ## Usage
 
-Install VSCode theme at [Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical_theme) and other themes at [Dist](./dist/) folder.
+Install theme at [Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical_theme) and [Dist](./dist/) folder, include:
+
+- [Windows Terminal](./dist/windowsterminal)
 
 ## Color Palattes
 
@@ -13,21 +15,17 @@ Install VSCode theme at [Marketplace](https://marketplace.visualstudio.com/items
 
 ## Text and Background
 
-### Dark
+### Dark Background: #121212
 
-- Background: #121212
 - High-emphasis text (87%): #E0E0E0
 - Medium-emphasis text (60%): #A0A0A0
 - Low-emphasis text (38%): #6C6C6C
 
+### Light Background: #fafafa
 
-### Light
-
-- Background: #fafafa
 - High-emphasis text (87%): #212121
 - Medium-emphasis text (60%): #646464
 - Low-emphasis text (38%): #9B9B9B
-
 
 ## Roadmap
 
@@ -38,4 +36,5 @@ Install VSCode theme at [Marketplace](https://marketplace.visualstudio.com/items
 ## Acknowledgements
 
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-- [VSCode Default Themes](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
+- [Github VSCode Themes](https://github.com/primer/github-vscode-theme)
+- [Brogrammer Plus](https://github.com/jackjyq/vscode-theme-brogrammer-plus)

@@ -1,0 +1,33 @@
+# Colors (tropical_nightmare)
+
+[colors.bright]
+black = '#454545'
+blue = '#7f9cfe'
+cyan = '#00b1c6'
+green = '#01b955'
+magenta = '#ec72e3'
+red = '#ff7764'
+white = '#e0e0e0'
+yellow = '#c49c06'
+
+[colors.cursor]
+cursor = '#ffffff'
+text = '#121212'
+
+[colors.normal]
+black = '#121212'
+blue = '#7f9cfe'
+cyan = '#00b1c6'
+green = '#01b955'
+magenta = '#ec72e3'
+red = '#ff7764'
+white = '#e0e0e0'
+yellow = '#c49c06'
+
+[colors.primary]
+background = '#121212'
+foreground = '#e0e0e0'
+
+[colors.selection]
+background = '#264f78'
+text = '#121212'

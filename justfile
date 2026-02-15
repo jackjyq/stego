@@ -1,15 +1,15 @@
 #!/usr/bin/env just
 
 TARGET := "./dist"
-TARGET_SCHEMES := "{{ TARGET }}/{{ TARGET_SCHEMES }}"
-TARGET_MAC_TERMINAL := "{{ TARGET }}/{{ TARGET_MAC_TERMINAL }}"
+TARGET_SCHEMES := TARGET + "/schemes"
+TARGET_MAC_TERMINAL := TARGET + "/mac_terminal"
 TARGET_VSCODE := "."
 
 default:
     just --list
 
 setup:
-    @mkdir -p {{ TARGET_VSCODE }} {{ TARGET_MAC_TERMINAL }}
+    @mkdir -p {{ TARGET_MAC_TERMINAL }}
 
 build-schemes: setup
     uv run "./src/generate_schemes.py"

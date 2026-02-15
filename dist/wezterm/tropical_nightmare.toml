@@ -1,0 +1,12 @@
+# tropical_nightmare
+[colors]
+foreground = "#e0e0e0"
+background = "#121212"
+cursor_bg = "#ffffff"
+cursor_border = "#ffffff"
+cursor_fg = "#121212"
+selection_bg = "#264f78"
+selection_fg = "#121212"
+
+ansi = ["#121212","#ff7764","#01b955","#c49c06","#7f9cfe","#ec72e3","#00b1c6","#e0e0e0"]
+brights = ["#454545","#ff7764","#01b955","#c49c06","#7f9cfe","#ec72e3","#00b1c6","#e0e0e0"]

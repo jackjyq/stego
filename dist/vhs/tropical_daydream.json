@@ -1,0 +1,23 @@
+{
+  "name": "tropical_daydream",
+  "black": "#212121",
+  "red": "#c31c0e",
+  "green": "#027635",
+  "yellow": "#7e6301",
+  "blue": "#4159db",
+  "purple": "#a830a2",
+  "cyan": "#06717f",
+  "white": "#bababa",
+  "brightBlack": "#212121",
+  "brightRed": "#c31c0e",
+  "brightGreen": "#027635",
+  "brightYellow": "#7e6301",
+  "brightBlue": "#4159db",
+  "brightPurple": "#a830a2",
+  "brightCyan": "#06717f",
+  "brightWhite": "#fafafa",
+  "background": "#fafafa",
+  "foreground": "#212121",
+  "cursor": "#000000",
+  "selection": "#add6ff"
+}

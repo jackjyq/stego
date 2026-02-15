@@ -1,0 +1,33 @@
+# Colors (tropical_daydream)
+
+[colors.bright]
+black = '#212121'
+blue = '#4159db'
+cyan = '#06717f'
+green = '#027635'
+magenta = '#a830a2'
+red = '#c31c0e'
+white = '#fafafa'
+yellow = '#7e6301'
+
+[colors.cursor]
+cursor = '#000000'
+text = '#fafafa'
+
+[colors.normal]
+black = '#212121'
+blue = '#4159db'
+cyan = '#06717f'
+green = '#027635'
+magenta = '#a830a2'
+red = '#c31c0e'
+white = '#bababa'
+yellow = '#7e6301'
+
+[colors.primary]
+background = '#fafafa'
+foreground = '#212121'
+
+[colors.selection]
+background = '#add6ff'
+text = '#949494'
