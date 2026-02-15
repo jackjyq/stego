@@ -56,15 +56,15 @@ import math
 import rich.progress
 from jinja2 import Environment, FileSystemLoader
 
-REPO_PATH = pathlib.Path(__file__).parent.parent.parent
+REPO_PATH = pathlib.Path(__file__).parent.parent
 SRC_PATH = REPO_PATH / "src"
 DIST_PATH = REPO_PATH / "dist"
 assert SRC_PATH.is_dir()
 assert DIST_PATH.is_dir()
 
-TEMPLATES_PATH = SRC_PATH / 'tools' / "templates"
-YAML_SCHEMES_PATH = DIST_PATH / "terminal" / "yaml"
-OUT_DIR = DIST_PATH / "terminal"
+TEMPLATES_PATH = SRC_PATH  / "templates"
+YAML_SCHEMES_PATH = SRC_PATH / "palettes"
+OUT_DIR = DIST_PATH
 assert TEMPLATES_PATH.is_dir()
 assert YAML_SCHEMES_PATH.is_dir()
 assert OUT_DIR.is_dir()

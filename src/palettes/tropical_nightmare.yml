@@ -1,6 +1,6 @@
 ---
-name: "Tropical Nightmare"
-author: "Jack Jiang (https://github.com/jackjyq/tropical_theme)" # 'Author Name (http://website.com)'
+name: "tropical_nightmare"
+author: "Jack Jiang (https://github.com/jackjyq/tropical-theme)" # 'Author Name (http://website.com)'
 variant: "Dark" # Dark or Light
 
 # Required Colors

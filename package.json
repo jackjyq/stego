@@ -1,5 +1,5 @@
 {
-  "name": "tropical_theme",
+  "name": "tropical-theme",
   "preview": true,
   "displayName": "Tropical Theme",
   "description": "A theme with consistent, readable syntax highlighting in both light and dark modes.",
@@ -10,20 +10,22 @@
   "categories": [
     "Themes"
   ],
-  "repository": "https://github.com/jackjyq/tropical_theme",
+  "repository": "https://github.com/jackjyq/tropical-theme",
   "publisher": "jackjyq",
-  "icon": "src/static/favicon.png",
+  "icon": "src/static/favicon/apple-touch-icon.png",
   "contributes": {
     "themes": [
       {
+        "id": "Bold and Sensual Dark Theme",
         "label": "Tropical Nightmare",
         "uiTheme": "vs-dark",
-        "path": "./build/vscode/nightmare.json"
+        "path": "./dist/vscode/tropical_nightmare.json"
       },
       {
-        "label": "Stego Daydream",
+        "id": "Clean and Elegant Light Theme",
+        "label": "Tropical Daydream",
         "uiTheme": "vs",
-        "path": "./build/vscode/daydream.json"
+        "path": "./dist/vscode/tropical_daydream.json"
       }
     ]
   }
