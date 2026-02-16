@@ -1,15 +1,10 @@
 # Tropical Time
 
-Sensual, tropical-inspired theme. 
+Sensual, tropical-inspired theme.
 
 ## Usage
 
-Please follow the links below to install the theme:
-
-- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time)
-- [Windows Terminal](./dist/windowsterminal)
-- [OpenCode](./dist/opencode)
-- [more...](./dist/)
+[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time) | [Windows Terminal](./dist/windowsterminal) | [OpenCode](./dist/opencode) | [More...](./dist/)
 
 ## Color Palattes
 
