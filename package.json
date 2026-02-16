@@ -3,7 +3,7 @@
   "preview": true,
   "displayName": "Tropical Time",
   "description": "Sensual, tropical-inspired palette.",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "engines": {
     "vscode": "^1.108.1"
   },
