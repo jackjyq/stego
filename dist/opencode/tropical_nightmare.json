@@ -27,6 +27,8 @@
     "textMuted": "hint",
     "background": "background",
     "backgroundElement": "none",
+    "diffAddedBg": "#9ccc2c33",
+    "diffRemovedBg": "#ff000033",
     "markdownText": "foreground",
     "markdownHeading": "green",
     "markdownLink": "foreground",
