@@ -18,11 +18,11 @@ clean and elegant light theme.
 
 ## Text and Background
 
-| Background            | Dark (#121212) | Light (#fafafa) |
-| :-------------------- | :------------- | :-------------- |
-| High-emphasis (87%)   | #E0E0E0        | #212121         |
-| Medium-emphasis (60%) | #A0A0A0        | #646464         |
-| Low-emphasis (38%)    | #6C6C6C        | #9B9B9B         |
+| Background            | Dark #121212 | Light #fafafa |
+| :-------------------- | :----------- | :------------ |
+| High-emphasis (87%)   | #E0E0E0      | #212121       |
+| Medium-emphasis (60%) | #A0A0A0      | #646464       |
+| Low-emphasis (38%)    | #6C6C6C      | #9B9B9B       |
 
 ## Acknowledgements
 

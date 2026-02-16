@@ -19,13 +19,13 @@
         "id": "Bold and Sensual",
         "label": "Tropical Nightmare",
         "uiTheme": "vs-dark",
-        "path": "./dist/vscode/tropical_nightmare.json"
+        "path": "./dist/vscode/Tropical Nightmare.json"
       },
       {
         "id": "Clean and Elegant ",
         "label": "Tropical Daydream",
         "uiTheme": "vs",
-        "path": "./dist/vscode/tropical_daydream.json"
+        "path": "./dist/vscode/Tropical Daydream.json"
       }
     ]
   }

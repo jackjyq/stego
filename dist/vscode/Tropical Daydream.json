@@ -300,20 +300,6 @@
       }
     },
     {
-      "name": "markdown heading",
-      "scope": ["punctuation.definition.heading.markdown"],
-      "settings": {
-        "foreground": "#c31c0e"
-      }
-    },
-    {
-      "name": "markdown puncuation",
-      "scope": ["punctuation.definition.markdown"],
-      "settings": {
-        "foreground": "#4159db"
-      }
-    },
-    {
       "name": "html id",
       "scope": "entity.other.attribute-name.id.html",
       "settings": {
@@ -440,6 +426,58 @@
       ],
       "settings": {
         "foreground": "#4159db"
+      }
+    },
+    {
+      "name": "Markdown punctuation",
+      "scope": ["punctuation.definition.heading.markdown",
+                "punctuation.definition.quote.begin.markdown",
+                "punctuation.definition.list.begin.markdown"],
+      "settings": {
+        "foreground": "#7e6301"
+      }
+    },
+    {
+      "name": "Markdown headings text",
+      "scope": "markup.heading.markdown entity.name.section.markdown",
+      "settings": {
+        "foreground": "#a830a2"
+      }
+    },
+    {
+      "name": "Markdown bold text",
+      "scope": "markup.bold.markdown",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown italic text",
+      "scope": "markup.italic.markdown",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markdown strikethrough text",
+      "scope": "markup.strikethrough.markdown",
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Markdown link text",
+      "scope": ["string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#4159db"
+      }
+    },
+    {
+      "name": "Markdown link url",
+      "scope": "markup.underline.link.markdown",
+      "settings": {
+        "foreground": "#646464",
+        "fontStyle": "underline"
       }
     }
   ],
