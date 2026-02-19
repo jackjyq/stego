@@ -2,7 +2,7 @@
   "name": "tropical-time",
   "preview": true,
   "displayName": "Tropical Time",
-  "description": "Sensual, tropical-inspired palette.",
+  "description": "A sensual, tropical-inspired color theme for developers.",
   "version": "0.10.0",
   "engines": {
     "vscode": "^1.108.1"
@@ -16,13 +16,13 @@
   "contributes": {
     "themes": [
       {
-        "id": "Bold and Sensual",
+        "id": "Tropical Nightmare",
         "label": "Tropical Nightmare",
         "uiTheme": "vs-dark",
         "path": "./dist/vscode/Tropical Nightmare.json"
       },
       {
-        "id": "Clean and Elegant ",
+        "id": "Tropical Daydream",
         "label": "Tropical Daydream",
         "uiTheme": "vs",
         "path": "./dist/vscode/Tropical Daydream.json"
