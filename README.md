@@ -25,23 +25,31 @@ Download pre-generated schemes from the [dist/](./dist/) directory:
 
 ### Tropical Nightmare
 
-A bold and sensual dark theme.
+A bold and sensual dark theme
 
-[View in Harmonizer](https://harmonizer.evilmartians.com/#VdHBTsMwDAbgd_l3jVDbCU3kuCJxYRfGBSEOXuqlEWkyJdkGqvruKAWtQT7Zn2U5zogLh2i8g6wFLF_YRsj3EY4GhkRH4RMCyrsUKCbIzV0joPrgB4KslqSl05xPHwL9mf8NeeEOAuS0Zch1NYmbvLG1_rrgQ4lPgdktVt-X2H5TYU1d2taeubBNaTvS7BIV-6yrvHPklIzTEXK8vXbnO7aQuCrSEOhMYJWMd7kOiaN-9dsMvxf4qw70BYGDbr314dnoPkFidaQcCzzmu0qs6ibHXJ9794lCmv9C5bb9iVQeGoM-YJp-AA)
+| Name                 | Color   | Comments                      |
+| :------------------- | :------ | :---------------------------- |
+| Background           | #121212 | off-black                     |
+| Text High-emphasis   | #E0E0E0 | equivalent to 87% transparent |
+| Text Medium-emphasis | #A0A0A0 | equivalent to 60% transparent |
+| Text Low-emphasis    | #6C6C6C | equivalent to 38% transparent |
+| Selection            | #264F78 | VSCode dark default           |
+
+[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#VdHBTsMwDAbgd_l3jVDbCU3kuCJxYRfGBSEOXuqlEWkyJdkGqvruKAWtQT7Zn2U5zogLh2i8g6wFLF_YRsj3EY4GhkRH4RMCyrsUKCbIzV0joPrgB4KslqSl05xPHwL9mf8NeeEOAuS0Zch1NYmbvLG1_rrgQ4lPgdktVt-X2H5TYU1d2taeubBNaTvS7BIV-6yrvHPklIzTEXK8vXbnO7aQuCrSEOhMYJWMd7kOiaN-9dsMvxf4qw70BYGDbr314dnoPkFidaQcCzzmu0qs6ibHXJ9794lCmv9C5bb9iVQeGoM-YJp-AA)
 
 ### Tropical Daydream
 
-A clean and elegant light theme.
+A clean and elegant light theme
 
-[View in Harmonizer](https://harmonizer.evilmartians.com/#XdHBasMwDAbgd_l3NSNpKWU-NoNe1svayxg7qI7qhDl2sN12I-Tdh8PaeMMn6ZOFLA-4sA-ts5ClgOELmwD5PsBSx5AwrW4iBJSz0VOIkOuVgGq86wiyeFzcgor6KR4_BJoz_2nyyjUEyGrDkMtiFHd5Y2PcdcanHLee2c5WrnKsvimzRZnbxpw5s3VuO9JsI2XzLIs0c-AYW6sD5HB_7M7VbCBBvUoX6taziq2zKQ-Jkz64jcZtA7_Zjr4gcNSVM86_TOuTeDhROjM8k__8l59q95F8nP5CpbJ9Tyo1DV4fMY4_)
+| Name                 | Color   | Comments                      |
+| :------------------- | :------ | :---------------------------- |
+| Background           | #fafafa | off-white                     |
+| Text High-emphasis   | #212121 | equivalent to 87% transparent |
+| Text Medium-emphasis | #646464 | equivalent to 60% transparent |
+| Text Low-emphasis    | #9B9B9B | equivalent to 38% transparent |
+| Selection            | #ADD6FF | VSCode light default          |
 
-## 📊 Text and Background Colors
-
-| Background            | Dark (#121212) | Light (#fafafa) |
-| :-------------------- | :------------- | :-------------- |
-| High-emphasis (87%)   | `#E0E0E0`      | `#212121`       |
-| Medium-emphasis (60%) | `#A0A0A0`      | `#646464`       |
-| Low-emphasis (38%)    | `#6C6C6C`      | `#9B9B9B`       |
+[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#XdHBasMwDAbgd_l3NSNpKWU-NoNe1svayxg7qI7qhDl2sN12I-Tdh8PaeMMn6ZOFLA-4sA-ts5ClgOELmwD5PsBSx5AwrW4iBJSz0VOIkOuVgGq86wiyeFzcgor6KR4_BJoz_2nyyjUEyGrDkMtiFHd5Y2PcdcanHLee2c5WrnKsvimzRZnbxpw5s3VuO9JsI2XzLIs0c-AYW6sD5HB_7M7VbCBBvUoX6taziq2zKQ-Jkz64jcZtA7_Zjr4gcNSVM86_TOuTeDhROjM8k__8l59q95F8nP5CpbJ9Tyo1DV4fMY4_)
 
 ## 🛠️ Development
 
@@ -52,7 +60,10 @@ A clean and elegant light theme.
 # install dependencies
 uv sync
 
-# see available tasks
+# [optional] install vsce if you want to build vscode theme
+npm install -g vsce
+
+# view available recipes
 just
 ```
 

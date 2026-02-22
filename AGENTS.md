@@ -1,4 +1,4 @@
-# Agent Guidelines for tropical-theme
+# Agent Guidelines for tropical-time
 
 A VS Code theme project with Python tooling for generating color schemes across multiple terminals.
 

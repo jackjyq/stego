@@ -25,7 +25,7 @@ build-mac-terminal: build-terminal
 
 build-vscode: build-terminal
     npx vsce package --out "{{ DIST_VSCODE }}/tropical-time.vsix"
-    @echo " * $(realpath {{ DIST_VSCODE }}/tropical-time.vsix)"
+    @echo "🌴 $(realpath {{ DIST_VSCODE }}/tropical-time.vsix)"
 
 build: build-mac-terminal build-vscode
 

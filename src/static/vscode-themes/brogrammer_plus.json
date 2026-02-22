@@ -39,6 +39,8 @@
     "statusBar.noFolderBackground": "#383838",
     "statusBar.noFolderForeground": "#ffffffde",
     "statusBar.noFolderBorder": "#ffffff00",
+    "statusBarItem.remoteBackground": "#E95420",
+    "statusBarItem.remoteForeground": "#ffffffde",
     // Debug Icons colors
     // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs
     "debugConsole.errorForeground": "#e74c3c",
@@ -69,8 +71,6 @@
     "activityBar.background": "#383838",
     "activityBar.foreground": "#ffffffde",
     "activityBar.inactiveForeground": "#ffffff99",
-    "activityBar.activeBorder": "#ffffffde",
-    "activityBarBadge.background": "#e74c3c",
     "activityBarBadge.foreground": "#ffffffde",
     // Panel Colors
     // https://code.visualstudio.com/api/references/theme-color#panel-colors
