@@ -1,5 +1,5 @@
 
-<div align="center">
+<div align="center" style="background-color: #6639ba; color: white; padding: 30px; border-radius: 10px;">
 
 <img src="./src/static/favicon/apple-touch-icon.png" alt="Tropical Time Icon" width="100">
 
@@ -9,8 +9,8 @@ A sensual, tropical-inspired color theme for developers.
 
 专为开发者打造, 动感撩人的热带风情配色主题
 
-![uv](https://img.shields.io/badge/uv-0.5%2B-purple)
-![Node.js](https://img.shields.io/badge/node.js-16%2B-green)
+[![uv](https://img.shields.io/badge/uv-0.9%2B-purple)](https://docs.astral.sh/uv/)
+[![Node.js](https://img.shields.io/badge/node.js-24%2B-green)](https://nodejs.org/en/)
 
 </div>
 
