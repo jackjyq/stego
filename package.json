@@ -14,7 +14,7 @@
   "icon": "src/static/favicon/apple-touch-icon.png",
   "galleryBanner": {
     "color": "#744da9",
-    "theme": "light"
+    "theme": "dark"
   },
   "contributes": {
     "themes": [
