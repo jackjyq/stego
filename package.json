@@ -1,6 +1,5 @@
 {
   "name": "tropical-time",
-  "preview": true,
   "displayName": "Tropical Time",
   "description": "A sensual, tropical-inspired color theme for developers.",
   "version": "0.15.0",
@@ -13,6 +12,10 @@
   "repository": "https://github.com/jackjyq/tropical-time",
   "publisher": "jackjyq",
   "icon": "src/static/favicon/apple-touch-icon.png",
+  "galleryBanner": {
+    "color": "#744da9",
+    "theme": "light"
+  },
   "contributes": {
     "themes": [
       {
