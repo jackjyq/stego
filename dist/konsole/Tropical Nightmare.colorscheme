@@ -16,7 +16,7 @@ Color=224,224,224
 Color=224,224,224
 
 [Color0]
-Color=18,18,18
+Color=0,0,0
 
 [Color1]
 Color=255,90,102
@@ -43,28 +43,28 @@ Color=224,224,224
 Color=69,69,69
 
 [Color1Intense]
-Color=255,90,102
+Color=255,161,160
 
 [Color2Intense]
-Color=101,210,75
+Color=135,245,110
 
 [Color3Intense]
-Color=242,174,2
+Color=254,215,148
 
 [Color4Intense]
-Color=83,148,255
+Color=148,188,255
 
 [Color5Intense]
-Color=209,108,232
+Color=237,157,255
 
 [Color6Intense]
-Color=2,206,214
+Color=5,243,252
 
 [Color7Intense]
-Color=224,224,224
+Color=255,255,255
 
 [Color0Faint]
-Color=18,18,18
+Color=0,0,0
 
 [Color1Faint]
 Color=255,90,102

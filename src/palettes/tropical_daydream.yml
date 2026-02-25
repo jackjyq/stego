@@ -1,33 +1,36 @@
 ---
 name: "Tropical Daydream"
-author: "Jack Jiang (https://github.com/jackjyq/tropical-time)" # 'Author Name (http://website.com)'
+author: "Jack Jiang (https://github.com/jackjyq/tropical-time)"
 variant: "Light" # Dark or Light
 
 # Required Colors
 # https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
-color_01: "#212121" # Black (Host)
-color_02: "#c31636" # Red (Syntax string)
-color_03: "#227601" # Green (Command)
-color_04: "#875f02" # Yellow (Command second)
-color_05: "#0e5ed8" # Blue (Path)
-color_06: "#9d37b3" # Magenta (Syntax var)
-color_07: "#067277" # Cyan (Prompt)
-color_08: "#fafafa" # White
+# Color Palette
+# https://harmonizer.evilmartians.com/#jZKxbsIwEIbf5e9qVUnAAXkEpC6wlC5V1eEIhxPV2MgxtBXi3SujQhwGWt923_2f7JOPOLBvG2ehcgHDBzYt1NsRlrYMhbGcQaByNnhqA9RYClS1d1uCyh6zkczSk1_glHaRFydxNZU3prJnymVZpK7BHdPwxjTsmYo7SSnnvaT8d3J0kxz9kXwXqPfcW-UzryFAVhuGKrJE_srGuM8OjlP45Jltx_JhCqffZFNpyiZmzwkrU7YgzTZQhwdFFu_ccgiN1S3U8frYhVuzgQLtqhhYN56r0Dgb-1DY6Bc30bhs4Le7pS8IrPTUGefnja4DFB42FKsDM_IfsZ8Xsc798-wykA9Q8RPEseWOqihtvV7hdPoB
+color_01: "#000000" # Black (Host)
+color_02: "#c31636" # Red (Syntax string) 75L
+color_03: "#227601" # Green (Command) 75L
+color_04: "#875f02" # Yellow (Command second) 75L
+color_05: "#0e5ed8" # Blue (Path) 75L
+color_06: "#9d37b3" # Magenta (Syntax var) 75L
+color_07: "#067277" # Cyan (Prompt) 75L
+color_08: "#fafafa" # White background
 
-color_09: "#424242" # Bright Black
-color_10: "#d63d4d" # Bright Red (Command error)
-color_11: "#2d9403" # Bright Green (Exec)
-color_12: "#9e7302" # Bright Yellow
-color_13: "#2979ff" # Bright Blue (Folder)
-color_14: "#b74dc9" # Bright Magenta
-color_15: "#009ba4" # Bright Cyan
+color_09: "#212121" # Bright Black foreground
+color_10: "#fa5662" # Bright Red (Command error) 55L
+color_11: "#37a610" # Bright Green (Exec) 55L
+color_12: "#be8808" # Bright Yellow 55L
+color_13: "#4c8fff" # Bright Blue (Folder) 55L
+color_14: "#cd67e4" # Bright Magenta 55L
+color_15: "#00a1a7" # Bright Cyan 55L
 color_16: "#ffffff" # Bright White
 
-background: "#fafafa" # Background
-foreground: "#263238" # Foreground (Text)
-hint: "#646464" # Hint (Text)
+background: "#fafafa" # off-white
+foreground: "#212121" # equivalent to 87% transparent to background
+hint: "#646464" # equivalent to 60% transparent to background
+disabled: "#9B9B9B" # equivalent to 38% transparent to background
 
-cursor: "#212121" # Cursor
+cursor: "#212121" # foreground
 
 # Optional Colors
 # https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/yaml
@@ -37,5 +40,5 @@ cursor: "#212121" # Cursor
 # cursor_text: # defaults to foreground
 # link:
 # selection_text:  # defaults to background
-selection: '#d6e8ff' # defaults to foreground
+selection: '#ADD6FF' # VSCode light theme default
 # tab:

@@ -5,12 +5,12 @@
   "colors": {
     // Editor colors
     "editor.background": "#fafafa",
-    "editor.foreground": "#263238",
+    "editor.foreground": "#212121",
     "editorCursor.foreground": "#212121",
     // Terminal Colors
-    "terminal.foreground": "#263238",
+    "terminal.foreground": "#212121",
     "terminal.background": "#fafafa",
-    "terminal.ansiBlack": "#212121",
+    "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "#0e5ed8",
     "terminal.ansiCyan": "#067277",
     "terminal.ansiGreen": "#227601",
@@ -18,15 +18,15 @@
     "terminal.ansiRed": "#c31636",
     "terminal.ansiWhite": "#bababa",
     "terminal.ansiYellow": "#875f02",
-    "terminal.ansiBrightBlack": "#424242",
-    "terminal.ansiBrightBlue": "#2979ff",
-    "terminal.ansiBrightCyan": "#009ba4",
-    "terminal.ansiBrightGreen": "#2d9403",
-    "terminal.ansiBrightMagenta": "#b74dc9",
-    "terminal.ansiBrightRed": "#d63d4d",
+    "terminal.ansiBrightBlack": "#212121",
+    "terminal.ansiBrightBlue": "#4c8fff",
+    "terminal.ansiBrightCyan": "#00a1a7",
+    "terminal.ansiBrightGreen": "#37a610",
+    "terminal.ansiBrightMagenta": "#cd67e4",
+    "terminal.ansiBrightRed": "#fa5662",
     "terminal.ansiBrightWhite": "#ffffff",
-    "terminal.ansiBrightYellow": "#9e7302",
-    "terminal.selectionBackground": "#d6e8ff",
+    "terminal.ansiBrightYellow": "#be8808",
+    "terminal.selectionBackground": "#add6ff",
     "terminalCursor.background": "#fafafa",
     "terminalCursor.foreground": "#212121"
   },
@@ -87,7 +87,7 @@
       "name": "Variable",
       "scope": "variable",
       "settings": {
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -131,7 +131,7 @@
       "name": "String variable",
       "scope": "string variable",
       "settings": {
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -201,7 +201,7 @@
         "meta.tag entity"
       ],
       "settings": {
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -273,7 +273,7 @@
       "scope": ["meta.diff", "meta.diff.header"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -319,7 +319,7 @@
         "punctuation.definition.tag"
       ],
       "settings": {
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -333,7 +333,7 @@
       "name": "LESS variables",
       "scope": "variable.other.less",
       "settings": {
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -392,7 +392,7 @@
       "name": "Coffee vars",
       "scope": "variable.assignment.coffee variable.assignment.coffee",
       "settings": {
-        "foreground": "#263238"
+        "foreground": "#212121"
       }
     },
     {
@@ -516,28 +516,28 @@
       "foreground": "#227601"
     },
     "variable": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     "variable.readonly": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     "variable.readonly:python": {
       "foreground": "#9d37b3"
     },
     "parameter": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     "property": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     "property.readonly": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     "enumMember": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     "event": {
-      "foreground": "#263238"
+      "foreground": "#212121"
     },
     //TypeHint Patch, keep it to the bottom
     "*.typeHint": "#646464"

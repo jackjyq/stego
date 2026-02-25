@@ -1,6 +1,6 @@
 [Scheme]
 Name=Tropical Daydream
-ColorForeground=#263238
+ColorForeground=#212121
 ColorBackground=#fafafa
 ColorCursor=#212121
-ColorPalette=#212121;#c31636;#227601;#875f02;#0e5ed8;#9d37b3;#067277;#bababa;#424242;#d63d4d;#2d9403;#9e7302;#2979ff;#b74dc9;#009ba4;#ffffff
+ColorPalette=#000000;#c31636;#227601;#875f02;#0e5ed8;#9d37b3;#067277;#bababa;#212121;#fa5662;#37a610;#be8808;#4c8fff;#cd67e4;#00a1a7;#ffffff

@@ -1,43 +1,43 @@
 !
 ! Tropical Daydream
 !
-*.foreground:  #263238
+*.foreground:  #212121
 *.background:  #fafafa
 *.cursorColor: #212121
 !
 ! Black
-*.color0:      #212121
-*.color8:      #424242
+*.color0:      #000000
+*.color8:      #212121
 !
 ! Red
 *.color1:      #c31636
-*.color9:      #d63d4d
+*.color9:      #fa5662
 !
 ! Green
 *.color2:      #227601
-*.color10:     #2d9403
+*.color10:     #37a610
 !
 ! Yellow
 *.color3:      #875f02
-*.color11:     #9e7302
+*.color11:     #be8808
 !
 ! Blue
 *.color4:      #0e5ed8
-*.color12:     #2979ff
+*.color12:     #4c8fff
 !
 ! Magenta
 *.color5:      #9d37b3
-*.color13:     #b74dc9
+*.color13:     #cd67e4
 !
 ! Cyan
 *.color6:      #067277
-*.color14:     #009ba4
+*.color14:     #00a1a7
 !
 ! White
 *.color7:      #bababa
 *.color15:     #ffffff
 !
 ! Bold, Italic, Underline
-*.colorBD:     #263238
+*.colorBD:     #212121
 !*.colorIT:
 !*.colorUL:

@@ -1,6 +1,6 @@
 {
   "name": "Tropical Daydream",
-  "black": "#212121",
+  "black": "#000000",
   "red": "#c31636",
   "green": "#227601",
   "yellow": "#875f02",
@@ -8,16 +8,16 @@
   "purple": "#9d37b3",
   "cyan": "#067277",
   "white": "#bababa",
-  "brightBlack": "#424242",
-  "brightRed": "#d63d4d",
-  "brightGreen": "#2d9403",
-  "brightYellow": "#9e7302",
-  "brightBlue": "#2979ff",
-  "brightPurple": "#b74dc9",
-  "brightCyan": "#009ba4",
+  "brightBlack": "#212121",
+  "brightRed": "#fa5662",
+  "brightGreen": "#37a610",
+  "brightYellow": "#be8808",
+  "brightBlue": "#4c8fff",
+  "brightPurple": "#cd67e4",
+  "brightCyan": "#00a1a7",
   "brightWhite": "#ffffff",
   "background": "#fafafa",
-  "foreground": "#263238",
+  "foreground": "#212121",
   "cursorColor": "#212121",
-  "selectionBackground": "#d6e8ff"
+  "selectionBackground": "#add6ff"
 }

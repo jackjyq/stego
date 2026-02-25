@@ -11,19 +11,19 @@ endif
 let g:colors_name = "Tropical-Daydream"
 
 " Normal colors
-hi Normal guifg=#263238 guibg=#fafafa
+hi Normal guifg=#212121 guibg=#fafafa
 
 " Syntax highlighting groups
-hi Comment guifg=#424242
+hi Comment guifg=#212121
 hi Constant guifg=#875f02
 hi Identifier guifg=#0e5ed8
-hi Statement guifg=#d63d4d
-hi PreProc guifg=#b74dc9
-hi Type guifg=#2d9403
-hi Special guifg=#009ba4
-hi Underlined guifg=#2979ff gui=underline
+hi Statement guifg=#fa5662
+hi PreProc guifg=#cd67e4
+hi Type guifg=#37a610
+hi Special guifg=#00a1a7
+hi Underlined guifg=#4c8fff gui=underline
 hi Error guifg=#c31636 guibg=#fafafa
-hi Todo guifg=#9e7302 guibg=#fafafa
+hi Todo guifg=#be8808 guibg=#fafafa
 
 " Additional groups for better compatibility
 hi String guifg=#227601
@@ -34,60 +34,60 @@ hi Float guifg=#875f02
 
 hi Function guifg=#0e5ed8
 
-hi Conditional guifg=#d63d4d
-hi Repeat guifg=#d63d4d
-hi Label guifg=#d63d4d
+hi Conditional guifg=#fa5662
+hi Repeat guifg=#fa5662
+hi Label guifg=#fa5662
 hi Operator guifg=#bababa
-hi Keyword guifg=#d63d4d
+hi Keyword guifg=#fa5662
 hi Exception guifg=#c31636
 
-hi Include guifg=#b74dc9
-hi Define guifg=#b74dc9
-hi Macro guifg=#b74dc9
-hi PreCondit guifg=#b74dc9
+hi Include guifg=#cd67e4
+hi Define guifg=#cd67e4
+hi Macro guifg=#cd67e4
+hi PreCondit guifg=#cd67e4
 
-hi StorageClass guifg=#2d9403
-hi Structure guifg=#2d9403
-hi Typedef guifg=#2d9403
+hi StorageClass guifg=#37a610
+hi Structure guifg=#37a610
+hi Typedef guifg=#37a610
 
-hi SpecialChar guifg=#009ba4
-hi Tag guifg=#009ba4
+hi SpecialChar guifg=#00a1a7
+hi Tag guifg=#00a1a7
 hi Delimiter guifg=#bababa
-hi SpecialComment guifg=#424242
-hi Debug guifg=#9e7302
+hi SpecialComment guifg=#212121
+hi Debug guifg=#be8808
 
 hi Ignore guifg=#fafafa
 
 " Cursor and line highlighting
 hi Cursor guifg=#fafafa guibg=#212121
-hi CursorLine guibg=#d6e8ff
-hi CursorColumn guibg=#d6e8ff
+hi CursorLine guibg=#add6ff
+hi CursorColumn guibg=#add6ff
 
 " Visual selection
-hi Visual guibg=#d6e8ff
+hi Visual guibg=#add6ff
 
 " Search highlighting
-hi Search guibg=#9e7302 guifg=#fafafa
-hi IncSearch guibg=#9e7302 guifg=#fafafa
+hi Search guibg=#be8808 guifg=#fafafa
+hi IncSearch guibg=#be8808 guifg=#fafafa
 
 " Line numbers
-hi LineNr guifg=#424242
-hi CursorLineNr guifg=#263238
+hi LineNr guifg=#212121
+hi CursorLineNr guifg=#212121
 
 " Status line
-hi StatusLine guifg=#263238 guibg=#424242
-hi StatusLineNC guifg=#424242 guibg=#fafafa
+hi StatusLine guifg=#212121 guibg=#212121
+hi StatusLineNC guifg=#212121 guibg=#fafafa
 
 " Tab line
-hi TabLine guifg=#424242 guibg=#fafafa
-hi TabLineSel guifg=#263238 guibg=#d6e8ff
+hi TabLine guifg=#212121 guibg=#fafafa
+hi TabLineSel guifg=#212121 guibg=#add6ff
 hi TabLineFill guibg=#fafafa
 
 " Popup menu
-hi Pmenu guifg=#263238 guibg=#424242
-hi PmenuSel guifg=#fafafa guibg=#d6e8ff
-hi PmenuSbar guibg=#424242
-hi PmenuThumb guibg=#263238
+hi Pmenu guifg=#212121 guibg=#212121
+hi PmenuSel guifg=#fafafa guibg=#add6ff
+hi PmenuSbar guibg=#212121
+hi PmenuThumb guibg=#212121
 
 " Diff highlighting
 hi DiffAdd guibg=#227601
@@ -96,8 +96,8 @@ hi DiffDelete guibg=#c31636
 hi DiffText guibg=#0e5ed8
 
 " Fold highlighting
-hi Folded guifg=#424242 guibg=#fafafa
-hi FoldColumn guifg=#424242 guibg=#fafafa
+hi Folded guifg=#212121 guibg=#fafafa
+hi FoldColumn guifg=#212121 guibg=#fafafa
 
 " Spell checking
 hi SpellBad gui=undercurl guisp=#c31636
@@ -121,7 +121,7 @@ hi Directory guifg=#0e5ed8
 hi Title guifg=#9d37b3
 
 " Match parenthesis
-hi MatchParen guibg=#424242
+hi MatchParen guibg=#212121
 
 " Sign column
-hi SignColumn guifg=#424242 guibg=#fafafa
+hi SignColumn guifg=#212121 guibg=#fafafa

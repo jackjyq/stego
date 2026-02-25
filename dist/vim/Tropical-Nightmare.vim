@@ -17,13 +17,13 @@ hi Normal guifg=#e0e0e0 guibg=#121212
 hi Comment guifg=#454545
 hi Constant guifg=#f2ae02
 hi Identifier guifg=#5394ff
-hi Statement guifg=#ff5a66
-hi PreProc guifg=#d16ce8
-hi Type guifg=#65d24b
-hi Special guifg=#02ced6
-hi Underlined guifg=#5394ff gui=underline
+hi Statement guifg=#ffa1a0
+hi PreProc guifg=#ed9dff
+hi Type guifg=#87f56e
+hi Special guifg=#05f3fc
+hi Underlined guifg=#94bcff gui=underline
 hi Error guifg=#ff5a66 guibg=#121212
-hi Todo guifg=#f2ae02 guibg=#121212
+hi Todo guifg=#fed794 guibg=#121212
 
 " Additional groups for better compatibility
 hi String guifg=#65d24b
@@ -34,32 +34,32 @@ hi Float guifg=#f2ae02
 
 hi Function guifg=#5394ff
 
-hi Conditional guifg=#ff5a66
-hi Repeat guifg=#ff5a66
-hi Label guifg=#ff5a66
+hi Conditional guifg=#ffa1a0
+hi Repeat guifg=#ffa1a0
+hi Label guifg=#ffa1a0
 hi Operator guifg=#e0e0e0
-hi Keyword guifg=#ff5a66
+hi Keyword guifg=#ffa1a0
 hi Exception guifg=#ff5a66
 
-hi Include guifg=#d16ce8
-hi Define guifg=#d16ce8
-hi Macro guifg=#d16ce8
-hi PreCondit guifg=#d16ce8
+hi Include guifg=#ed9dff
+hi Define guifg=#ed9dff
+hi Macro guifg=#ed9dff
+hi PreCondit guifg=#ed9dff
 
-hi StorageClass guifg=#65d24b
-hi Structure guifg=#65d24b
-hi Typedef guifg=#65d24b
+hi StorageClass guifg=#87f56e
+hi Structure guifg=#87f56e
+hi Typedef guifg=#87f56e
 
-hi SpecialChar guifg=#02ced6
-hi Tag guifg=#02ced6
+hi SpecialChar guifg=#05f3fc
+hi Tag guifg=#05f3fc
 hi Delimiter guifg=#e0e0e0
 hi SpecialComment guifg=#454545
-hi Debug guifg=#f2ae02
+hi Debug guifg=#fed794
 
 hi Ignore guifg=#121212
 
 " Cursor and line highlighting
-hi Cursor guifg=#121212 guibg=#ffffff
+hi Cursor guifg=#121212 guibg=#e0e0e0
 hi CursorLine guibg=#264f78
 hi CursorColumn guibg=#264f78
 
@@ -67,8 +67,8 @@ hi CursorColumn guibg=#264f78
 hi Visual guibg=#264f78
 
 " Search highlighting
-hi Search guibg=#f2ae02 guifg=#121212
-hi IncSearch guibg=#f2ae02 guifg=#121212
+hi Search guibg=#fed794 guifg=#121212
+hi IncSearch guibg=#fed794 guifg=#121212
 
 " Line numbers
 hi LineNr guifg=#454545

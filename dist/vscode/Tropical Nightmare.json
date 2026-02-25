@@ -7,11 +7,11 @@
     // Editor colors
     "editor.background": "#121212",
     "editor.foreground": "#e0e0e0",
-    "editorCursor.foreground": "#ffffff",
+    "editorCursor.foreground": "#e0e0e0",
     // Terminal Colors
     "terminal.foreground": "#e0e0e0",
     "terminal.background": "#121212",
-    "terminal.ansiBlack": "#121212",
+    "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "#5394ff",
     "terminal.ansiCyan": "#02ced6",
     "terminal.ansiGreen": "#65d24b",
@@ -20,16 +20,16 @@
     "terminal.ansiWhite": "#e0e0e0",
     "terminal.ansiYellow": "#f2ae02",
     "terminal.ansiBrightBlack": "#454545",
-    "terminal.ansiBrightBlue": "#5394ff",
-    "terminal.ansiBrightCyan": "#02ced6",
-    "terminal.ansiBrightGreen": "#65d24b",
-    "terminal.ansiBrightMagenta": "#d16ce8",
-    "terminal.ansiBrightRed": "#ff5a66",
-    "terminal.ansiBrightWhite": "#e0e0e0",
-    "terminal.ansiBrightYellow": "#f2ae02",
+    "terminal.ansiBrightBlue": "#94bcff",
+    "terminal.ansiBrightCyan": "#05f3fc",
+    "terminal.ansiBrightGreen": "#87f56e",
+    "terminal.ansiBrightMagenta": "#ed9dff",
+    "terminal.ansiBrightRed": "#ffa1a0",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#fed794",
     "terminal.selectionBackground": "#264f78",
     "terminalCursor.background": "#121212",
-    "terminalCursor.foreground": "#ffffff"
+    "terminalCursor.foreground": "#e0e0e0"
   },
   "tokenColors": [
     // Base Colors

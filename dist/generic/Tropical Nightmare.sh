@@ -25,7 +25,7 @@ else
 fi
 
 # 16 color space
-put_template 0  "12/12/12"
+put_template 0  "00/00/00"
 put_template 1  "ff/5a/66"
 put_template 2  "65/d2/4b"
 put_template 3  "f2/ae/02"
@@ -34,13 +34,13 @@ put_template 5  "d1/6c/e8"
 put_template 6  "02/ce/d6"
 put_template 7  "e0/e0/e0"
 put_template 8  "45/45/45"
-put_template 9  "ff/5a/66"
-put_template 10 "65/d2/4b"
-put_template 11 "f2/ae/02"
-put_template 12 "53/94/ff"
-put_template 13 "d1/6c/e8"
-put_template 14 "02/ce/d6"
-put_template 15 "e0/e0/e0"
+put_template 9  "ff/a1/a0"
+put_template 10 "87/f5/6e"
+put_template 11 "fe/d7/94"
+put_template 12 "94/bc/ff"
+put_template 13 "ed/9d/ff"
+put_template 14 "05/f3/fc"
+put_template 15 "ff/ff/ff"
 
 color_foreground="e0/e0/e0"
 color_background="12/12/12"
@@ -52,7 +52,7 @@ if [ -n "$ITERM_SESSION_ID" ]; then
   put_template_custom Pi "e0e0e0"
   put_template_custom Pj "264f78"
   put_template_custom Pk "121212"
-  put_template_custom Pl "ffffff"
+  put_template_custom Pl "e0e0e0"
   put_template_custom Pm "121212"
 else
   put_template_var 10 $color_foreground

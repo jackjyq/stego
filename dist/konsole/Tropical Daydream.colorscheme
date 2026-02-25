@@ -10,13 +10,13 @@ Color=250,250,250
 Color=250,250,250
 
 [Foreground]
-Color=38,50,56
+Color=33,33,33
 
 [ForegroundIntense]
-Color=38,50,56
+Color=33,33,33
 
 [Color0]
-Color=33,33,33
+Color=0,0,0
 
 [Color1]
 Color=195,22,54
@@ -40,31 +40,31 @@ Color=6,114,119
 Color=186,186,186
 
 [Color0Intense]
-Color=66,66,66
+Color=33,33,33
 
 [Color1Intense]
-Color=214,61,77
+Color=250,86,98
 
 [Color2Intense]
-Color=45,148,3
+Color=55,166,16
 
 [Color3Intense]
-Color=158,115,2
+Color=190,136,8
 
 [Color4Intense]
-Color=41,121,255
+Color=76,143,255
 
 [Color5Intense]
-Color=183,77,201
+Color=205,103,228
 
 [Color6Intense]
-Color=0,155,164
+Color=0,161,167
 
 [Color7Intense]
 Color=255,255,255
 
 [Color0Faint]
-Color=33,33,33
+Color=0,0,0
 
 [Color1Faint]
 Color=195,22,54
