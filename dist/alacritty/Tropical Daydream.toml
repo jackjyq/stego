@@ -1,33 +1,33 @@
 # Colors (Tropical Daydream)
 
 [colors.bright]
-black = '#212121'
-blue = '#4159db'
-cyan = '#06717f'
-green = '#027635'
-magenta = '#a830a2'
-red = '#c31c0e'
-white = '#fafafa'
-yellow = '#7e6301'
+black = '#424242'
+blue = '#2979ff'
+cyan = '#009ba4'
+green = '#2d9403'
+magenta = '#b74dc9'
+red = '#d63d4d'
+white = '#ffffff'
+yellow = '#9e7302'
 
 [colors.cursor]
-cursor = '#000000'
+cursor = '#212121'
 text = '#fafafa'
 
 [colors.normal]
 black = '#212121'
-blue = '#4159db'
-cyan = '#06717f'
-green = '#027635'
-magenta = '#a830a2'
-red = '#c31c0e'
+blue = '#0e5ed8'
+cyan = '#067277'
+green = '#227601'
+magenta = '#9d37b3'
+red = '#c31636'
 white = '#bababa'
-yellow = '#7e6301'
+yellow = '#875f02'
 
 [colors.primary]
 background = '#fafafa'
-foreground = '#212121'
+foreground = '#263238'
 
 [colors.selection]
-background = '#add6ff'
-text = '#949494'
+background = '#d6e8ff'
+text = '#adadad'

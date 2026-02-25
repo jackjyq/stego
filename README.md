@@ -51,7 +51,7 @@ A bold and sensual dark theme
 | Text Low-emphasis    | `#6C6C6C` | equivalent to 38% transparent |
 | Selection            | `#264F78` | VSCode dark default           |
 
-[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#ZZDNTsMwEITfZbhaKL-N8LFB4kIvlAtCHLbp1o1w7ch2C6jKuyNXtHHE7m2-3dHsnnFi53trIHMBzSfWHvL9DEMHhsSihkBnTXDkA-SiFuj2zh4IMrvPm7Iqmzq7VnGFLQ2RF6O4GVVzo2pm9H_xQ2B_5FmUF95CgIzSDFlmifcba22_JviQwifHbCaW1ylsfyhhRZ6ypT5ywpqUrUixCZTkKbOY2XMIvVEe8nw7dmW3rCFBQxcXtr3jLvTWRB0SO_VqlwrXD_ypB_qGwEa1Vlv33Kt9gMTdjmJP4JHcZ9TzIvZFv8yuA7kAGd8ax9YDddHUO7XBOP4C)
+[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#ZZDBTsMwDIbf5ecaobZrK5TjisSFXRgXhDh4rZdWpEmVZgNU9d1RJramIr79n_3J8YQzu7GzBjIV0HxmPUK-TzDUMyTKAgK1Nd7R6CHLQqBune0JMrlPizIrkuVtrrCiIfBsFjdRvhblK1H2b_BDoD3xapUXbiBARmmGzJLI_cZa268FPsTwyTGbhaV5DKsfMrE0Zlt94oiVMduRYuNpwZssCTuP7H1n1Ag53T67sw1rSNBQh4Gmc1z7zpqQQ-KoXu1W4XqBv7SnbwgcVGW1dc-daj0k7o4UagGP5D5DnmahLvmld-_Jechw1tC2H6gO0tGpA-b5Fw)
 
 ## Tropical Daydream
 
@@ -65,7 +65,7 @@ A clean and elegant light theme
 | Text Low-emphasis    | `#9B9B9B` | equivalent to 38% transparent |
 | Selection            | `#ADD6FF` | VSCode light default          |
 
-[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#XdHBasMwDAbgd_l3NSNpKWU-NoNe1svayxg7qI7qhDl2sN12I-Tdh8PaeMMn6ZOFLA-4sA-ts5ClgOELmwD5PsBSx5AwrW4iBJSz0VOIkOuVgGq86wiyeFzcgor6KR4_BJoz_2nyyjUEyGrDkMtiFHd5Y2PcdcanHLee2c5WrnKsvimzRZnbxpw5s3VuO9JsI2XzLIs0c-AYW6sD5HB_7M7VbCBBvUoX6taziq2zKQ-Jkz64jcZtA7_Zjr4gcNSVM86_TOuTeDhROjM8k__8l59q95F8nP5CpbJ9Tyo1DV4fMY4_)
+[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#XdE9T8MwEAbg__KyWigNLUUeGySWdqEsCDFcnasT4diR7RZQlP-OHNHGIE93z_mVPwac2YfWWciFgOEzmwD5NsBSx5BYryCgnI2eQoRcrwRU411HkMVteSkq6qd6fBdoTvwn4ZlrCJDVhiHLYhRXeWVj3OeMDzk-eWY722KZY_VNNg_NbWNOnNl9bjvSbCPNfFcW6cyBY2ytDpDD9bI7V7OBBPUqbahbzyq2zqY-JI76xW00Li_w2-3oCwIHXTnj_LbVTYTEzZHSmuGR_Me__jS7j-Tj9BEqje17Uik0eH3AOP4A)
 
 # 🛠️ Development
 

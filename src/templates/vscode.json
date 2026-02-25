@@ -65,7 +65,6 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "fontStyle": " bold",
         "foreground": "#{{ Ansi_1_Color.hex }}"
       }
     },
@@ -255,8 +254,7 @@
       "name": "css @at-rule",
       "scope": "meta.preprocessor.at-rule keyword.control.at-rule",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}",
-        "fontStyle": " bold"
+        "foreground": "#{{ Ansi_3_Color.hex }}"
       }
     },
     {
@@ -334,8 +332,7 @@
       "name": "CSS @import",
       "scope": "keyword.control.at-rule.import.css",
       "settings": {
-        "foreground": "#{{ Ansi_3_Color.hex }}",
-        "fontStyle": " bold"
+        "foreground": "#{{ Ansi_3_Color.hex }}"
       }
     },
     {

@@ -6,21 +6,21 @@ variant: "Dark" # Dark or Light
 # Required Colors
 # https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
 color_01: "#121212" # Black (Host)
-color_02: "#ff5d49" # Red (Syntax string)
-color_03: "#29d569" # Green (Command)
-color_04: "#e3b505" # Yellow (Command second)
-color_05: "#708ffe" # Blue (Path)
-color_06: "#de66d7" # Magenta (Syntax var)
-color_07: "#0acce4" # Cyan (Prompt)
+color_02: "#ff5a66" # Red (Syntax string)
+color_03: "#65d24b" # Green (Command)
+color_04: "#f2ae02" # Yellow (Command second)
+color_05: "#5394ff" # Blue (Path)
+color_06: "#d16ce8" # Magenta (Syntax var)
+color_07: "#02ced6" # Cyan (Prompt)
 color_08: "#E0E0E0" # White
 
 color_09: "#121212" # Bright Black
-color_10: "#ff5d49" # Bright Red (Command error)
-color_11: "#29d569" # Bright Green (Exec)
-color_12: "#e3b505" # Bright Yellow
-color_13: "#708ffe" # Bright Blue (Folder)
-color_14: "#de66d7" # Bright Magenta
-color_15: "#0acce4" # Bright Cyan
+color_10: "#ff5a66" # Bright Red (Command error)
+color_11: "#65d24b" # Bright Green (Exec)
+color_12: "#f2ae02" # Bright Yellow
+color_13: "#5394ff" # Bright Blue (Folder)
+color_14: "#d16ce8" # Bright Magenta
+color_15: "#02ced6" # Bright Cyan
 color_16: "#E0E0E0" # Bright White
 
 background: "#121212" # Background

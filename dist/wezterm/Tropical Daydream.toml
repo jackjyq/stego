@@ -1,12 +1,12 @@
 # Tropical Daydream
 [colors]
-foreground = "#212121"
+foreground = "#263238"
 background = "#fafafa"
-cursor_bg = "#000000"
-cursor_border = "#000000"
+cursor_bg = "#212121"
+cursor_border = "#212121"
 cursor_fg = "#fafafa"
-selection_bg = "#add6ff"
-selection_fg = "#949494"
+selection_bg = "#d6e8ff"
+selection_fg = "#adadad"
 
-ansi = ["#212121","#c31c0e","#027635","#7e6301","#4159db","#a830a2","#06717f","#bababa"]
-brights = ["#212121","#c31c0e","#027635","#7e6301","#4159db","#a830a2","#06717f","#fafafa"]
+ansi = ["#212121","#c31636","#227601","#875f02","#0e5ed8","#9d37b3","#067277","#bababa"]
+brights = ["#424242","#d63d4d","#2d9403","#9e7302","#2979ff","#b74dc9","#009ba4","#ffffff"]
