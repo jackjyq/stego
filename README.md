@@ -51,7 +51,7 @@ A bold and sensual dark theme
 | Text Low-emphasis    | `#6C6C6C` | equivalent to 38% transparent |
 | Selection            | `#264F78` | VSCode dark default           |
 
-[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#VdHBTsMwDAbgd_l3jVDbCU3kuCJxYRfGBSEOXuqlEWkyJdkGqvruKAWtQT7Zn2U5zogLh2i8g6wFLF_YRsj3EY4GhkRH4RMCyrsUKCbIzV0joPrgB4KslqSl05xPHwL9mf8NeeEOAuS0Zch1NYmbvLG1_rrgQ4lPgdktVt-X2H5TYU1d2taeubBNaTvS7BIV-6yrvHPklIzTEXK8vXbnO7aQuCrSEOhMYJWMd7kOiaN-9dsMvxf4qw70BYGDbr314dnoPkFidaQcCzzmu0qs6ibHXJ9794lCmv9C5bb9iVQeGoM-YJp-AA)
+[Syntax Highlight - View in Harmonizer](https://harmonizer.evilmartians.com/#ZZDNTsMwEITfZbhaKL-N8LFB4kIvlAtCHLbp1o1w7ch2C6jKuyNXtHHE7m2-3dHsnnFi53trIHMBzSfWHvL9DEMHhsSihkBnTXDkA-SiFuj2zh4IMrvPm7Iqmzq7VnGFLQ2RF6O4GVVzo2pm9H_xQ2B_5FmUF95CgIzSDFlmifcba22_JviQwifHbCaW1ylsfyhhRZ6ypT5ywpqUrUixCZTkKbOY2XMIvVEe8nw7dmW3rCFBQxcXtr3jLvTWRB0SO_VqlwrXD_ypB_qGwEa1Vlv33Kt9gMTdjmJP4JHcZ9TzIvZFv8yuA7kAGd8ax9YDddHUO7XBOP4C)
 
 ## Tropical Daydream
 

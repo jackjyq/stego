@@ -24,7 +24,7 @@ build-mac-terminal: build-terminal
     uv run "./src/iterm2terminal.py" "{{ DIST_SCHEMES }}" "{{ DIST_MAC_TERMINAL }}"
 
 build-vscode: build-terminal
-    npx vsce package --out "{{ DIST_VSCODE }}/tropical-time.vsix"
+    npx @vscode/vsce package --out "{{ DIST_VSCODE }}/tropical-time.vsix"
     @echo "🌴 $(realpath {{ DIST_VSCODE }}/tropical-time.vsix)"
 
 build: build-mac-terminal build-vscode
@@ -34,4 +34,4 @@ install-opencode: build-terminal
     rsync -av {{ DIST_OPENCODE }}/ {{ OPENCODE_THEMES }}/
 
 publish-vscode: build-vscode
-    npx vsce publish minor && git push
+    npx @vscode/vsce publish minor && git push
