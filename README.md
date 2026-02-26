@@ -58,9 +58,13 @@ Download the [wallpaper](./src/static/wallpaper/) and set it as your desktop bac
 
 Disable the bold text rendering feature in your terminal application:
 
-**[VSCode Built-in Terminal](vscode://settings/terminal.integrated.drawBoldTextInBrightColors)**
+**VSCode Integrated Terminal**
 
-> Set the value to false
+```text
+vscode://settings/terminal.integrated.drawBoldTextInBrightColors
+
+Set the value to false
+```
 
 **Windows Terminal**
 
