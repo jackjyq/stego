@@ -47,6 +47,33 @@ Download theme for your terminals:
 
 Download the [wallpaper](./src/static/wallpaper/) and set it as your desktop background to complete the tropical vibe.
 
+## ℹ️ FAQ
+
+### The color appears oversaturated
+
+- adjust the monitor's lightness to a lower level
+- enable the Eye Care Mode (or Night Light/Night Shift) feature on your display.
+
+### Color rendering is inconsistent in the terminal
+
+Disable the bold text rendering feature in your terminal application:
+
+**[VSCode Built-in Terminal](vscode://settings/terminal.integrated.drawBoldTextInBrightColors)**
+
+> Set the value to false
+
+**Windows Terminal**
+
+```json
+{
+  "profiles": {
+    "defaults": {
+      "intenseTextStyle": "none"
+    }
+  }
+}
+```
+
 ## 🛠️ Development
 
 [![uv](https://img.shields.io/badge/uv-0.9%2B-purple)](https://docs.astral.sh/uv/)
