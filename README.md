@@ -14,7 +14,7 @@ A sensual, tropical-inspired color theme for developers.
 
 ### VS Code
 
-install directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time) or search for `Tropical Time` in the Extensions view.
+install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time) or search for `Tropical Time` in the Extensions view.
 
 ### OpenCode
 
@@ -39,7 +39,7 @@ download theme for your terminals:
 
 ### Wallpaper
 
-download the [wallpaper](./src/static/wallpaper/) and set it as your desktop background to complete the tropical vibe.
+download the desktop [wallpaper](./src/static/wallpaper/)
 
 ## 🎨 [Color Palettes](https://harmonizer.evilmartians.com/#jZE9b8IwEIb_y3WNqnw5Cd4KSF1AlUqXqupwhMNENTZyHNoK5b9XRoXYGRD2do-f9-zzCY5k2kYr4EkEko4kW-AfJ1C4J-BQsTlEUGtlDbYWeMUiqHdG7xF4_BizSVay-LqSC5zhwfG0j65JxSipCJKSdFJUJbvh5yM_D_z0hsnYIjDZ3WY5Msu7zcnInISvzfJgbmGS6qTsPyPYdRT8xSttIAJUQhLwNPa6vRhUggbIfPhOUurvAVY-fDZEamBJ7sPZLyq_o8-msvMapoXPlihIWRxwFtz2qVuTEY3y_IzF7sUtWdso0QI_XWe31BuSwAEPtUvcNIZq22jl6sBhK970VMBlgP_VPf5ABGsx01KbRSN2Fjg8bNHtAczRfLl6krp9rp_PriwaCzxzHyi1WR2wdqGtEWvo-z8)
 
@@ -52,11 +52,9 @@ download the [wallpaper](./src/static/wallpaper/) and set it as your desktop bac
 
 [![uv](https://img.shields.io/badge/uv-0.9%2B-purple)](https://docs.astral.sh/uv/)
 [![Node.js](https://img.shields.io/badge/node.js-24%2B-green)](https://nodejs.org/en/)
+[![just](https://img.shields.io/badge/just-1.34%2B-red)](https://github.com/casey/just)
 
-```bash
-# view available recipes
-➜ just
-```
+After install the above dependencies, run `just` to view available recipes
 
 ## 💡 FAQ
 
@@ -96,6 +94,9 @@ Set the value to false
 
 ## 🗺️ Roadmap
 
+<details>
+<summary><strong>Planned features</strong></summary>
+
 - [x] icon
 - [x] wallpaper
 - [x] VSCode theme
@@ -105,9 +106,11 @@ Set the value to false
 - [ ] zed theme
 - [ ] batcat theme
 
+</details>
+
 ## 📄 License
 
-this project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+this project is licensed under the [MIT License](LICENSE.txt)
 
 ## 🙏 Acknowledgements
 
