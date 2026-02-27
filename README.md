@@ -13,31 +13,24 @@ A sensual, tropical-inspired color theme for developers.
 
 ## 🎨 Color Palettes
 
-### [Tropical Nightmare](./src/palettes/tropical_nightmare.yml)
-
-A vibrant and juicy dark theme
-
-一款明艳饱满的暗黑主题
-
-### [Tropical Daydream](./src/palettes/tropical_daydream.yml)
-
-A graceful and paper-like light theme
-
-一款淡雅如纸的明亮主题
+| Theme | Description |
+|-------|-------------|
+| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml) | vibrant and juicy dark theme / 明艳饱满的暗黑主题 |
+| [Tropical Daydream](./src/palettes/tropical_daydream.yml) | graceful and paper-like light theme / 淡雅如纸的明亮主题 |
 
 ## 🚀 Quick Start
 
 ### VS Code
 
-Install directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time) or search for `Tropical Time` in the Extensions view.
+install directly from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time) or search for `Tropical Time` in the Extensions view.
 
 ### OpenCode
 
-Download [OpenCode Themes](./dist/opencode/) into `~/.config/opencode/themes/`
+download [OpenCode Themes](./dist/opencode/) into `~/.config/opencode/themes/`
 
 ### Terminals
 
-Download theme for your terminals:
+download theme for your terminals:
 
 - [Windows Terminal](./dist/windowsterminal)
 - [macOS Terminal](./dist/mac_terminal)
@@ -45,9 +38,9 @@ Download theme for your terminals:
 
 ### Wallpaper
 
-Download the [wallpaper](./src/static/wallpaper/) and set it as your desktop background to complete the tropical vibe.
+download the [wallpaper](./src/static/wallpaper/) and set it as your desktop background to complete the tropical vibe.
 
-## ℹ️ FAQ
+## 💡 FAQ
 
 ### The color appears oversaturated
 
@@ -56,7 +49,7 @@ Download the [wallpaper](./src/static/wallpaper/) and set it as your desktop bac
 
 ### Color rendering is inconsistent in the terminal
 
-Disable the bold text rendering feature in your terminal application:
+disable the bold text rendering feature in your terminal application:
 
 **VSCode Integrated Terminal**
 
@@ -90,11 +83,11 @@ Set the value to false
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
+this project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
 
 ## 🙏 Acknowledgements
 
-Inspired by and built upon:
+inspired by and built upon:
 
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - Terminal color scheme collection
 - [GitHub VSCode Themes](https://github.com/primer/github-vscode-theme) - GitHub's official VS Code theme
