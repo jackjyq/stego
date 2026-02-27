@@ -2,7 +2,7 @@
   "name": "tropical-time",
   "displayName": "Tropical Time",
   "description": "A sensual, tropical-inspired color theme for developers.",
-  "version": "0.25.0",
+  "version": "0.26.0",
   "engines": {
     "vscode": "^1.108.1"
   },
