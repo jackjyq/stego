@@ -14,46 +14,46 @@ let g:colors_name = "Tropical-Daydream"
 hi Normal guifg=#212121 guibg=#fafafa
 
 " Syntax highlighting groups
-hi Comment guifg=#212121
-hi Constant guifg=#875f02
-hi Identifier guifg=#0e5ed8
-hi Statement guifg=#fa5662
-hi PreProc guifg=#cd67e4
-hi Type guifg=#37a610
-hi Special guifg=#00a1a7
-hi Underlined guifg=#4c8fff gui=underline
-hi Error guifg=#c31636 guibg=#fafafa
-hi Todo guifg=#be8808 guibg=#fafafa
+hi Comment guifg=#646464
+hi Constant guifg=#9d37b3
+hi Identifier guifg=#227601
+hi Statement guifg=#c31636
+hi PreProc guifg=#9d37b3
+hi Type guifg=#227601
+hi Special guifg=#0e5ed8
+hi Underlined guifg=#0e5ed8 gui=underline
+hi Error guifg=#c31636
+hi Todo guifg=#be8808
 
 " Additional groups for better compatibility
-hi String guifg=#227601
-hi Character guifg=#227601
-hi Number guifg=#875f02
-hi Boolean guifg=#875f02
-hi Float guifg=#875f02
+hi String guifg=#875f02
+hi Character guifg=#875f02
+hi Number guifg=#9d37b3
+hi Boolean guifg=#9d37b3
+hi Float guifg=#9d37b3
 
-hi Function guifg=#0e5ed8
+hi Function guifg=#227601
 
-hi Conditional guifg=#fa5662
-hi Repeat guifg=#fa5662
-hi Label guifg=#fa5662
-hi Operator guifg=#bababa
-hi Keyword guifg=#fa5662
+hi Conditional guifg=#c31636
+hi Repeat guifg=#c31636
+hi Label guifg=#c31636
+hi Operator guifg=#c31636
+hi Keyword guifg=#c31636
 hi Exception guifg=#c31636
 
-hi Include guifg=#cd67e4
-hi Define guifg=#cd67e4
-hi Macro guifg=#cd67e4
-hi PreCondit guifg=#cd67e4
+hi Include guifg=#9d37b3
+hi Define guifg=#9d37b3
+hi Macro guifg=#9d37b3
+hi PreCondit guifg=#9d37b3
 
-hi StorageClass guifg=#37a610
-hi Structure guifg=#37a610
-hi Typedef guifg=#37a610
+hi StorageClass guifg=#227601
+hi Structure guifg=#227601
+hi Typedef guifg=#227601
 
-hi SpecialChar guifg=#00a1a7
-hi Tag guifg=#00a1a7
-hi Delimiter guifg=#bababa
-hi SpecialComment guifg=#212121
+hi SpecialChar guifg=#0e5ed8
+hi Tag guifg=#0e5ed8
+hi Delimiter guifg=#212121
+hi SpecialComment guifg=#646464
 hi Debug guifg=#be8808
 
 hi Ignore guifg=#fafafa

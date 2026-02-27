@@ -14,46 +14,46 @@ let g:colors_name = "{{ scheme_name_dashed }}"
 hi Normal guifg=#{{ Foreground_Color.hex }} guibg=#{{ Background_Color.hex }}
 
 " Syntax highlighting groups
-hi Comment guifg=#{{ Ansi_8_Color.hex }}
-hi Constant guifg=#{{ Ansi_3_Color.hex }}
-hi Identifier guifg=#{{ Ansi_4_Color.hex }}
-hi Statement guifg=#{{ Ansi_9_Color.hex }}
-hi PreProc guifg=#{{ Ansi_13_Color.hex }}
-hi Type guifg=#{{ Ansi_10_Color.hex }}
-hi Special guifg=#{{ Ansi_14_Color.hex }}
-hi Underlined guifg=#{{ Ansi_12_Color.hex }} gui=underline
-hi Error guifg=#{{ Ansi_1_Color.hex }} guibg=#{{ Background_Color.hex }}
-hi Todo guifg=#{{ Ansi_11_Color.hex }} guibg=#{{ Background_Color.hex }}
+hi Comment guifg=#{{ Hint_Text_Color.hex }}
+hi Constant guifg=#{{ Ansi_5_Color.hex }}
+hi Identifier guifg=#{{ Ansi_2_Color.hex }}
+hi Statement guifg=#{{ Ansi_1_Color.hex }}
+hi PreProc guifg=#{{ Ansi_5_Color.hex }}
+hi Type guifg=#{{ Ansi_2_Color.hex }}
+hi Special guifg=#{{ Ansi_4_Color.hex }}
+hi Underlined guifg=#{{ Ansi_4_Color.hex }} gui=underline
+hi Error guifg=#{{ Ansi_1_Color.hex }}
+hi Todo guifg=#{{ Ansi_11_Color.hex }}
 
 " Additional groups for better compatibility
-hi String guifg=#{{ Ansi_2_Color.hex }}
-hi Character guifg=#{{ Ansi_2_Color.hex }}
-hi Number guifg=#{{ Ansi_3_Color.hex }}
-hi Boolean guifg=#{{ Ansi_3_Color.hex }}
-hi Float guifg=#{{ Ansi_3_Color.hex }}
+hi String guifg=#{{ Ansi_3_Color.hex }}
+hi Character guifg=#{{ Ansi_3_Color.hex }}
+hi Number guifg=#{{ Ansi_5_Color.hex }}
+hi Boolean guifg=#{{ Ansi_5_Color.hex }}
+hi Float guifg=#{{ Ansi_5_Color.hex }}
 
-hi Function guifg=#{{ Ansi_4_Color.hex }}
+hi Function guifg=#{{ Ansi_2_Color.hex }}
 
-hi Conditional guifg=#{{ Ansi_9_Color.hex }}
-hi Repeat guifg=#{{ Ansi_9_Color.hex }}
-hi Label guifg=#{{ Ansi_9_Color.hex }}
-hi Operator guifg=#{{ Ansi_7_Color.hex }}
-hi Keyword guifg=#{{ Ansi_9_Color.hex }}
+hi Conditional guifg=#{{ Ansi_1_Color.hex }}
+hi Repeat guifg=#{{ Ansi_1_Color.hex }}
+hi Label guifg=#{{ Ansi_1_Color.hex }}
+hi Operator guifg=#{{ Ansi_1_Color.hex }}
+hi Keyword guifg=#{{ Ansi_1_Color.hex }}
 hi Exception guifg=#{{ Ansi_1_Color.hex }}
 
-hi Include guifg=#{{ Ansi_13_Color.hex }}
-hi Define guifg=#{{ Ansi_13_Color.hex }}
-hi Macro guifg=#{{ Ansi_13_Color.hex }}
-hi PreCondit guifg=#{{ Ansi_13_Color.hex }}
+hi Include guifg=#{{ Ansi_5_Color.hex }}
+hi Define guifg=#{{ Ansi_5_Color.hex }}
+hi Macro guifg=#{{ Ansi_5_Color.hex }}
+hi PreCondit guifg=#{{ Ansi_5_Color.hex }}
 
-hi StorageClass guifg=#{{ Ansi_10_Color.hex }}
-hi Structure guifg=#{{ Ansi_10_Color.hex }}
-hi Typedef guifg=#{{ Ansi_10_Color.hex }}
+hi StorageClass guifg=#{{ Ansi_2_Color.hex }}
+hi Structure guifg=#{{ Ansi_2_Color.hex }}
+hi Typedef guifg=#{{ Ansi_2_Color.hex }}
 
-hi SpecialChar guifg=#{{ Ansi_14_Color.hex }}
-hi Tag guifg=#{{ Ansi_14_Color.hex }}
-hi Delimiter guifg=#{{ Ansi_7_Color.hex }}
-hi SpecialComment guifg=#{{ Ansi_8_Color.hex }}
+hi SpecialChar guifg=#{{ Ansi_4_Color.hex }}
+hi Tag guifg=#{{ Ansi_4_Color.hex }}
+hi Delimiter guifg=#{{ Foreground_Color.hex }}
+hi SpecialComment guifg=#{{ Hint_Text_Color.hex }}
 hi Debug guifg=#{{ Ansi_11_Color.hex }}
 
 hi Ignore guifg=#{{ Background_Color.hex }}
