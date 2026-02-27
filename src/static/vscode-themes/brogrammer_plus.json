@@ -39,7 +39,7 @@
     "statusBar.noFolderBackground": "#383838",
     "statusBar.noFolderForeground": "#ffffffde",
     "statusBar.noFolderBorder": "#ffffff00",
-    "statusBarItem.remoteBackground": "#850256",
+    "statusBarItem.remoteBackground": "#60003d",
     "statusBarItem.remoteForeground": "#ffffffde",
     // Debug Icons colors
     // https://code.visualstudio.com/api/references/theme-color#editor-groups-tabs

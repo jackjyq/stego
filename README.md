@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./src/static/favicon/apple-touch-icon.png" alt="Tropical Time Icon" width="100">
+<img src="./src/static/favicon/android-chrome-192x192.png" alt="Tropical Time Icon" width="192">
 
 **Tropical Time | 热带时光**
 
@@ -9,14 +9,6 @@ A sensual, tropical-inspired color theme for developers.
 专为开发者打造, 富有质感的热带风情主题
 
 </div>
-
-
-## 🎨 Color Palettes
-
-| Theme | Description |
-|-------|-------------|
-| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml) | vibrant and juicy dark theme / 明艳饱满的暗黑主题 |
-| [Tropical Daydream](./src/palettes/tropical_daydream.yml) | graceful and paper-like light theme / 淡雅如纸的明亮主题 |
 
 ## 🚀 Quick Start
 
@@ -27,6 +19,15 @@ install directly from the [VS Code Marketplace](https://marketplace.visualstudio
 ### OpenCode
 
 download [OpenCode Themes](./dist/opencode/) into `~/.config/opencode/themes/`
+
+### Vim
+
+download [Vim Themes](./dist/vim/) into `~/.vim/colors/` and set `~/.vimrc` with:
+
+```shell
+:set termguicolors
+:colorscheme Tropical-<Variant>
+```
 
 ### Terminals
 
@@ -40,18 +41,38 @@ download theme for your terminals:
 
 download the [wallpaper](./src/static/wallpaper/) and set it as your desktop background to complete the tropical vibe.
 
+## 🎨 [Color Palettes](https://harmonizer.evilmartians.com/#jZE9b8IwEIb_y3WNqnw5Cd4KSF1AlUqXqupwhMNENTZyHNoK5b9XRoXYGRD2do-f9-zzCY5k2kYr4EkEko4kW-AfJ1C4J-BQsTlEUGtlDbYWeMUiqHdG7xF4_BizSVay-LqSC5zhwfG0j65JxSipCJKSdFJUJbvh5yM_D_z0hsnYIjDZ3WY5Msu7zcnInISvzfJgbmGS6qTsPyPYdRT8xSttIAJUQhLwNPa6vRhUggbIfPhOUurvAVY-fDZEamBJ7sPZLyq_o8-msvMapoXPlihIWRxwFtz2qVuTEY3y_IzF7sUtWdso0QI_XWe31BuSwAEPtUvcNIZq22jl6sBhK970VMBlgP_VPf5ABGsx01KbRSN2Fjg8bNHtAczRfLl6krp9rp_PriwaCzxzHyi1WR2wdqGtEWvo-z8)
+
+| Palettes                                                    | Description                         | 描述               |
+| ----------------------------------------------------------- | ----------------------------------- | ------------------ |
+| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml) | vibrant and juicy dark theme        | 明艳饱满的暗黑主题 |
+| [Tropical Daydream](./src/palettes/tropical_daydream.yml)   | graceful and paper-like light theme | 淡雅如纸的明亮主题 |
+
+## 🛠️ Development
+
+[![uv](https://img.shields.io/badge/uv-0.9%2B-purple)](https://docs.astral.sh/uv/)
+[![Node.js](https://img.shields.io/badge/node.js-24%2B-green)](https://nodejs.org/en/)
+
+```bash
+# view available recipes
+➜ just
+```
+
 ## 💡 FAQ
 
-### The color appears oversaturated
+<details>
+<summary><strong>The color appears too harsh</strong></summary>
 
 - adjust the monitor's lightness to a lower level
-- enable the Eye Care Mode (or Night Light/Night Shift) feature on your display.
+- enable the Eye Care Mode (or Night Shift) feature on your device.
+</details>
 
-### Color rendering is inconsistent in the terminal
+<details>
+<summary><strong>Color rendering is inconsistent in the terminal</strong></summary>
 
 disable the bold text rendering feature in your terminal application:
 
-**VSCode Integrated Terminal**
+- VSCode Integrated Terminal
 
 ```text
 vscode://settings/terminal.integrated.drawBoldTextInBrightColors
@@ -59,7 +80,7 @@ vscode://settings/terminal.integrated.drawBoldTextInBrightColors
 Set the value to false
 ```
 
-**Windows Terminal**
+- Windows Terminal
 
 ```json
 {
@@ -71,15 +92,18 @@ Set the value to false
 }
 ```
 
-## 🛠️ Development
+</details>
 
-[![uv](https://img.shields.io/badge/uv-0.9%2B-purple)](https://docs.astral.sh/uv/)
-[![Node.js](https://img.shields.io/badge/node.js-24%2B-green)](https://nodejs.org/en/)
+## 🗺️ Roadmap
 
-```bash
-# view available recipes
-➜ just
-```
+- [x] icon
+- [x] wallpaper
+- [x] VSCode theme
+- [x] Vim theme
+- [x] Terminal theme
+- [x] OpenCode theme
+- [ ] zed theme
+- [ ] batcat theme
 
 ## 📄 License
 
