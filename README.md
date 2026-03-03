@@ -72,10 +72,11 @@ disable the bold text rendering feature in your terminal application:
 
 - VSCode Integrated Terminal
 
-```text
-vscode://settings/terminal.integrated.drawBoldTextInBrightColors
-
-Set the value to false
+```json
+{
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.fontWeightBold": "normal"
+}
 ```
 
 - Windows Terminal
