@@ -45,19 +45,21 @@ download theme for your terminals:
 - [macOS Terminal](./dist/mac_terminal)
 - [more...](./dist/)
 
-## 🎨 Color Palettes
+## 🎨 Color Design
+
+### Palettes
 
 - [Nightmare & Daydream Palette](https://harmonizer.evilmartians.com/#jZE9b8IwEIb_y3WNqnw5Cd4KSF1AlUqXqupwhMNENTZyHNoK5b9XRoXYGRD2do-f9-zzCY5k2kYr4EkEko4kW-AfJ1C4J-BQsTlEUGtlDbYWeMUiqHdG7xF4_BizSVay-LqSC5zhwfG0j65JxSipCJKSdFJUJbvh5yM_D_z0hsnYIjDZ3WY5Msu7zcnInISvzfJgbmGS6qTsPyPYdRT8xSttIAJUQhLwNPa6vRhUggbIfPhOUurvAVY-fDZEamBJ7sPZLyq_o8-msvMapoXPlihIWRxwFtz2qVuTEY3y_IzF7sUtWdso0QI_XWe31BuSwAEPtUvcNIZq22jl6sBhK970VMBlgP_VPf5ABGsx01KbRSN2Fjg8bNHtAczRfLl6krp9rp_PriwaCzxzHyi1WR2wdqGtEWvo-z8)
 - [Morning & Twilight Palette](https://harmonizer.evilmartians.com/#jZFBb8IgFMe_y9uVLJSKttymS3aZWTJ3McsOWF-xGYKh1G0x_e4LZrPQg5Hj-73_7_HgBEd0bWMNiIyAxiPqFsT7CYzcIwgo-BwIVNZ4J1sPouAEqp2zewmC3lNe5jNOLyf7hwt5CJz15GKajkzTxJSxImORiV0xTUamSWK6luR8nST5zcnZKDm7OVmOkmW6d54unicm02ndfxDYdZj8yitugYA0SiMIRqNpL04ahQPkMVyj1vZrgEUMnxyiGVg2ieHiR5p4YszmuosGsmnMllKh8XLAeXLbh26DTjUmyuecho1b9L4xqgVxurzd0m5RgwB5qIJx2zisfGNNqIOAWr3ZuYL_B_yr7uU3ENiohdXWPTdq50HAXV3XZZ0N4FG6z1CnlNY5O9fPvSsvnQcRfiW0rQ6yCtLWqQ30_S8)
 
-### Theme Variants
+### Themes
 
 | Palettes                                                    | Description                         | 描述               |
 | ----------------------------------------------------------- | ----------------------------------- | ------------------ |
 | [Tropical Morning](./src/palettes/tropical_morning.yml) | fresh and golden light theme | 清亮柔和的暖金主题 |
-| [Tropical Daydream](./src/palettes/tropical_daydream.yml)   | graceful and paper-like light theme | 淡雅如纸的明亮主题 |
+| [Tropical Daydream](./src/palettes/tropical_daydream.yml)   | graceful and paper-like light theme | 淡雅如纸的白昼主题 |
 | [Tropical Twilight](./src/palettes/tropical_twilight.yml) | ethereal and deep blue dark theme          | 空灵深邃的深蓝主题 |
-| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml) | vibrant and juicy dark theme        | 明艳饱满的暗黑主题 |
+| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml) | vibrant and juicy dark theme        | 明艳饱满的暗夜主题 |
 
 ## 🛠️ Development
 
