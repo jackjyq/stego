@@ -17,6 +17,9 @@ build:
     @uv run "./src/generate_schemes.py"
     @uv run "./src/iterm2terminal.py" "{{ DIST_SCHEMES }}" "{{ DIST_MAC_TERMINAL }}"
 
+test:
+    @npx colortest
+
 install-vscode: build
     @npx @vscode/vsce package --out "{{ DIST_VSCODE }}/tropical-time.vsix"
     @code --install-extension $(realpath {{ DIST_VSCODE }}/tropical-time.vsix)

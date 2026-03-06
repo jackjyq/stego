@@ -1,0 +1,43 @@
+!
+! Tropical Morning
+!
+*.foreground:  #212121
+*.background:  #fff9f1
+*.cursorColor: #212121
+!
+! Black
+*.color0:      #000000
+*.color8:      #212121
+!
+! Red
+*.color1:      #c31636
+*.color9:      #fa5662
+!
+! Green
+*.color2:      #227601
+*.color10:     #37a610
+!
+! Yellow
+*.color3:      #875f01
+*.color11:     #be8705
+!
+! Blue
+*.color4:      #0e5ed8
+*.color12:     #4c8fff
+!
+! Magenta
+*.color5:      #9d37b3
+*.color13:     #cd67e3
+!
+! Cyan
+*.color6:      #067277
+*.color14:     #00a1a7
+!
+! White
+*.color7:      #bfb9b1
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline
+*.colorBD:     #212121
+!*.colorIT:
+!*.colorUL:

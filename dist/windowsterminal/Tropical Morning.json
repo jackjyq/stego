@@ -1,0 +1,23 @@
+{
+  "name": "Tropical Morning",
+  "black": "#000000",
+  "red": "#c31636",
+  "green": "#227601",
+  "yellow": "#875f01",
+  "blue": "#0e5ed8",
+  "purple": "#9d37b3",
+  "cyan": "#067277",
+  "white": "#bfb9b1",
+  "brightBlack": "#212121",
+  "brightRed": "#fa5662",
+  "brightGreen": "#37a610",
+  "brightYellow": "#be8705",
+  "brightBlue": "#4c8fff",
+  "brightPurple": "#cd67e3",
+  "brightCyan": "#00a1a7",
+  "brightWhite": "#ffffff",
+  "background": "#fff9f1",
+  "foreground": "#212121",
+  "cursorColor": "#212121",
+  "selectionBackground": "#add6ff"
+}

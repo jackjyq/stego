@@ -12,10 +12,6 @@
   "repository": "https://github.com/jackjyq/tropical-time",
   "publisher": "jackjyq",
   "icon": "src/static/favicon/apple-touch-icon.png",
-  "galleryBanner": {
-    "color": "#744da9",
-    "theme": "dark"
-  },
   "contributes": {
     "themes": [
       {
@@ -29,6 +25,18 @@
         "label": "Tropical Daydream",
         "uiTheme": "vs",
         "path": "./dist/vscode/Tropical Daydream.json"
+      },
+      {
+        "id": "Tropical Twilight",
+        "label": "Tropical Twilight",
+        "uiTheme": "vs-dark",
+        "path": "./dist/vscode/Tropical Twilight.json"
+      },
+      {
+        "id": "Tropical Morning",
+        "label": "Tropical Morning",
+        "uiTheme": "vs",
+        "path": "./dist/vscode/Tropical Morning.json"
       }
     ]
   }

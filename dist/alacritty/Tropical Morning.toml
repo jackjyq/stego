@@ -1,0 +1,33 @@
+# Colors (Tropical Morning)
+
+[colors.bright]
+black = '#212121'
+blue = '#4c8fff'
+cyan = '#00a1a7'
+green = '#37a610'
+magenta = '#cd67e3'
+red = '#fa5662'
+white = '#ffffff'
+yellow = '#be8705'
+
+[colors.cursor]
+cursor = '#212121'
+text = '#fff9f1'
+
+[colors.normal]
+black = '#000000'
+blue = '#0e5ed8'
+cyan = '#067277'
+green = '#227601'
+magenta = '#9d37b3'
+red = '#c31636'
+white = '#bfb9b1'
+yellow = '#875f01'
+
+[colors.primary]
+background = '#fff9f1'
+foreground = '#212121'
+
+[colors.selection]
+background = '#add6ff'
+text = '#99938b'

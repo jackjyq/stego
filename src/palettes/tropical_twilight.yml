@@ -1,0 +1,44 @@
+---
+name: "Tropical Twilight"
+author: "Jack Jiang (https://github.com/jackjyq/tropical-time)"
+variant: "Dark" # Dark or Light
+
+# Required Colors
+# https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
+# Color Palette
+# https://harmonizer.evilmartians.com/#jZKxbsIwEIbf5e9qVUnAAXkEpC6wlC5V1eEIhxPV2MgxtBXi3SujQhwGWt923_2f7JOPOLBvG2ehcgHDBzYt1NsRlrYMhbGcQaByNnhqA9RYClS1d1uCyh6zkczSk1_glHaRFydxNZU3prJnymVZpK7BHdPwxjTsmYo7SSnnvaT8d3J0kxz9kXwXqPfcW-UzryFAVhuGKrJE_srGuM8OjlP45Jltx_JhCqffZFNpyiZmzwkrU7YgzTZQhwdFFu_ccgiN1S3U8frYhVuzgQLtqhhYN56r0Dgb-1DY6Bc30bhs4Le7pS8IrPTUGefnja4DFB42FKsDM_IfsZ8Xsc798-wykA9Q8RPEseWOqihtvV7hdPoB
+color_01: "#000000" # Black (Host)
+color_02: "#ff5b66" # Red (Syntax string) 45B
+color_03: "#65d24b" # Green (Command) 65B
+color_04: "#f3ae04" # Yellow (Command second) 65B
+color_05: "#5595ff" # Blue (Path) 45B
+color_06: "#d26ce8" # Magenta (Syntax var) 45B
+color_07: "#01ced6" # Cyan (Prompt) 65B
+color_08: "#E0E0E0" # White foreground
+
+color_09: "#000f32" # Bright Black background
+color_10: "#ffa2a1" # Bright Red (Command error) 65B
+color_11: "#88f56f" # Bright Green (Exec) 85B
+color_12: "#ffd794" # Bright Yellow 85B
+color_13: "#95bdfe" # Bright Blue (Folder) 65B
+color_14: "#ed9eff" # Bright Magenta 65B
+color_15: "#05f3fc" # Bright Cyan 85B
+color_16: "#ffffff" # Bright White
+
+background: "#000f32" # dark-blue with the same lightness of off-black
+foreground: "#E0E0E0" # equivalent to 87% transparent to background
+hint: "#A0A0A0" # equivalent to 60% transparent to background
+disabled: "#6C6C6C" # equivalent to 38% transparent to background
+
+cursor: "#E0E0E0" # foreground
+
+# Optional Colors
+# https://github.com/mbadolato/iTerm2-Color-Schemes/tree/master/yaml
+# badge:
+# bold: # defaults to foreground
+# cursor_guide: # defaults to cursor
+# cursor_text: # defaults to foreground
+# link:
+# selection_text:  # defaults to background
+selection: '#264F78' # VSCode dark theme default
+# tab:

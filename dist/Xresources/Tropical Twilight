@@ -1,0 +1,43 @@
+!
+! Tropical Twilight
+!
+*.foreground:  #e0e0e0
+*.background:  #000f32
+*.cursorColor: #e0e0e0
+!
+! Black
+*.color0:      #000000
+*.color8:      #334265
+!
+! Red
+*.color1:      #ff5b66
+*.color9:      #ffa2a1
+!
+! Green
+*.color2:      #65d24b
+*.color10:     #88f56f
+!
+! Yellow
+*.color3:      #f3ae04
+*.color11:     #ffd794
+!
+! Blue
+*.color4:      #5595ff
+*.color12:     #95bdfe
+!
+! Magenta
+*.color5:      #d26ce8
+*.color13:     #ed9eff
+!
+! Cyan
+*.color6:      #01ced6
+*.color14:     #05f3fc
+!
+! White
+*.color7:      #e0e0e0
+*.color15:     #ffffff
+!
+! Bold, Italic, Underline
+*.colorBD:     #e0e0e0
+!*.colorIT:
+!*.colorUL:

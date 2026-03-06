@@ -5,8 +5,6 @@ variant: "Dark" # Dark or Light
 
 # Required Colors
 # https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
-# Color Palette
-# https://harmonizer.evilmartians.com/#jZKxbsIwEIbf5e9qVUnAAXkEpC6wlC5V1eEIhxPV2MgxtBXi3SujQhwGWt923_2f7JOPOLBvG2ehcgHDBzYt1NsRlrYMhbGcQaByNnhqA9RYClS1d1uCyh6zkczSk1_glHaRFydxNZU3prJnymVZpK7BHdPwxjTsmYo7SSnnvaT8d3J0kxz9kXwXqPfcW-UzryFAVhuGKrJE_srGuM8OjlP45Jltx_JhCqffZFNpyiZmzwkrU7YgzTZQhwdFFu_ccgiN1S3U8frYhVuzgQLtqhhYN56r0Dgb-1DY6Bc30bhs4Le7pS8IrPTUGefnja4DFB42FKsDM_IfsZ8Xsc798-wykA9Q8RPEseWOqihtvV7hdPoB
 color_01: "#000000" # Black (Host)
 color_02: "#ff5a66" # Red (Syntax string) 45D
 color_03: "#65d24b" # Green (Command) 65D

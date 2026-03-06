@@ -1,0 +1,33 @@
+# Colors (Tropical Twilight)
+
+[colors.bright]
+black = '#334265'
+blue = '#95bdfe'
+cyan = '#05f3fc'
+green = '#88f56f'
+magenta = '#ed9eff'
+red = '#ffa2a1'
+white = '#ffffff'
+yellow = '#ffd794'
+
+[colors.cursor]
+cursor = '#e0e0e0'
+text = '#000f32'
+
+[colors.normal]
+black = '#000000'
+blue = '#5595ff'
+cyan = '#01ced6'
+green = '#65d24b'
+magenta = '#d26ce8'
+red = '#ff5b66'
+white = '#e0e0e0'
+yellow = '#f3ae04'
+
+[colors.primary]
+background = '#000f32'
+foreground = '#e0e0e0'
+
+[colors.selection]
+background = '#264f78'
+text = '#000f32'

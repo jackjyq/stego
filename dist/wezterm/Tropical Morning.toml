@@ -1,0 +1,12 @@
+# Tropical Morning
+[colors]
+foreground = "#212121"
+background = "#fff9f1"
+cursor_bg = "#212121"
+cursor_border = "#212121"
+cursor_fg = "#fff9f1"
+selection_bg = "#add6ff"
+selection_fg = "#99938b"
+
+ansi = ["#000000","#c31636","#227601","#875f01","#0e5ed8","#9d37b3","#067277","#bfb9b1"]
+brights = ["#212121","#fa5662","#37a610","#be8705","#4c8fff","#cd67e3","#00a1a7","#ffffff"]

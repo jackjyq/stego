@@ -1,29 +1,29 @@
 ---
-name: "Tropical Daydream"
+name: "Tropical Morning"
 author: "Jack Jiang (https://github.com/jackjyq/tropical-time)"
 variant: "Light" # Dark or Light
 
 # Required Colors
 # https://github.com/Gogh-Co/Gogh/?tab=readme-ov-file#theme-yml-template
 color_01: "#000000" # Black (Host)
-color_02: "#c31636" # Red (Syntax string) 75L
-color_03: "#227601" # Green (Command) 75L
-color_04: "#875f02" # Yellow (Command second) 75L
-color_05: "#0e5ed8" # Blue (Path) 75L
-color_06: "#9d37b3" # Magenta (Syntax var) 75L
-color_07: "#067277" # Cyan (Prompt) 75L
-color_08: "#fafafa" # White background
+color_02: "#c31636" # Red (Syntax string) 75Y
+color_03: "#227601" # Green (Command) 75Y
+color_04: "#875f01" # Yellow (Command second) 75Y
+color_05: "#0e5ed8" # Blue (Path) 75Y
+color_06: "#9d37b3" # Magenta (Syntax var) 75Y
+color_07: "#067277" # Cyan (Prompt) 75Y
+color_08: "#fff9f1" # White background
 
 color_09: "#212121" # Bright Black foreground
-color_10: "#fa5662" # Bright Red (Command error) 55L
-color_11: "#37a610" # Bright Green (Exec) 55L
-color_12: "#be8808" # Bright Yellow 55L
-color_13: "#4c8fff" # Bright Blue (Folder) 55L
-color_14: "#cd67e4" # Bright Magenta 55L
-color_15: "#00a1a7" # Bright Cyan 55L
+color_10: "#fa5662" # Bright Red (Command error) 55Y
+color_11: "#37a610" # Bright Green (Exec) 55Y
+color_12: "#be8705" # Bright Yellow 55Y
+color_13: "#4c8fff" # Bright Blue (Folder) 55Y
+color_14: "#cd67e3" # Bright Magenta 55Y
+color_15: "#00a1a7" # Bright Cyan 55Y
 color_16: "#ffffff" # Bright White
 
-background: "#fafafa" # off-white
+background: "#fff9f1" # light-yellow with the same lightness of off-white
 foreground: "#212121" # equivalent to 87% transparent to background
 hint: "#646464" # equivalent to 60% transparent to background
 disabled: "#9B9B9B" # equivalent to 38% transparent to background

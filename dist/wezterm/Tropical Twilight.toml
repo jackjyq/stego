@@ -1,0 +1,12 @@
+# Tropical Twilight
+[colors]
+foreground = "#e0e0e0"
+background = "#000f32"
+cursor_bg = "#e0e0e0"
+cursor_border = "#e0e0e0"
+cursor_fg = "#000f32"
+selection_bg = "#264f78"
+selection_fg = "#000f32"
+
+ansi = ["#000000","#ff5b66","#65d24b","#f3ae04","#5595ff","#d26ce8","#01ced6","#e0e0e0"]
+brights = ["#334265","#ffa2a1","#88f56f","#ffd794","#95bdfe","#ed9eff","#05f3fc","#ffffff"]

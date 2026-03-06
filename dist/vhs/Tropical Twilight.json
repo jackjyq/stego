@@ -1,0 +1,23 @@
+{
+  "name": "Tropical Twilight",
+  "black": "#000000",
+  "red": "#ff5b66",
+  "green": "#65d24b",
+  "yellow": "#f3ae04",
+  "blue": "#5595ff",
+  "purple": "#d26ce8",
+  "cyan": "#01ced6",
+  "white": "#e0e0e0",
+  "brightBlack": "#334265",
+  "brightRed": "#ffa2a1",
+  "brightGreen": "#88f56f",
+  "brightYellow": "#ffd794",
+  "brightBlue": "#95bdfe",
+  "brightPurple": "#ed9eff",
+  "brightCyan": "#05f3fc",
+  "brightWhite": "#ffffff",
+  "background": "#000f32",
+  "foreground": "#e0e0e0",
+  "cursor": "#e0e0e0",
+  "selection": "#264f78"
+}
