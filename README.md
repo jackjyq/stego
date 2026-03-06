@@ -2,7 +2,7 @@
 
 <img src="./src/static/favicon/android-chrome-192x192.png" alt="Tropical Time Icon" width="192">
 
-**Tropical Time | 热带时光**
+# Tropical Time | 热带时光
 
 A sensual, tropical-inspired color theme for developers.
 
