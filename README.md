@@ -119,8 +119,8 @@ disable the bold text rendering feature in your terminal application:
 - [x] Vim theme
 - [x] Terminal theme
 - [x] OpenCode theme
-- [ ] dark variant palette
-- [ ] light variant palette
+- [x] dark variant palette
+- [x] light variant palette
 - [ ] zed theme
 - [ ] batcat theme
 
