@@ -33,10 +33,10 @@
         "path": "./dist/vscode/Tropical Twilight.json"
       },
       {
-        "id": "Tropical Morning",
-        "label": "Tropical Morning",
+        "id": "Tropical Morninglight",
+        "label": "Tropical Morninglight",
         "uiTheme": "vs",
-        "path": "./dist/vscode/Tropical Morning.json"
+        "path": "./dist/vscode/Tropical Morninglight.json"
       }
     ]
   }

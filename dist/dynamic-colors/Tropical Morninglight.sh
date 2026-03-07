@@ -1,5 +1,5 @@
 #!/bin/sh
-# Tropical Morning
+# Tropical Morninglight
 printf "\033]4;0;#000000;1;#c31636;2;#227601;3;#875f01;4;#0e5ed8;5;#9d37b3;6;#067277;7;#bfb9b1;8;#212121;9;#fa5662;10;#37a610;11;#be8705;12;#4c8fff;13;#cd67e3;14;#00a1a7;15;#ffffff\007"
 printf "\033]10;#212121;#fff9f1;#212121\007"
 printf "\033]17;#add6ff\007"

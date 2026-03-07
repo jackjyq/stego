@@ -1,5 +1,5 @@
 #!/bin/sh
-# Tropical Morning
+# Tropical Morninglight
 
 # source for these helper functions:
 # https://github.com/chriskempson/base16-shell/blob/master/templates/default.mustache

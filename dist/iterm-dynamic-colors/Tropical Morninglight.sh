@@ -1,5 +1,5 @@
 #!/bin/sh
-# Tropical Morning
+# Tropical Morninglight
 printf "\033]P0000000\033\\"
 printf "\033]P1c31636\033\\"
 printf "\033]P2227601\033\\"

@@ -1,6 +1,6 @@
 {
 	"$schema": "vscode://schemas/color-theme",
-  "name": "Tropical Morning",  
+  "name": "Tropical Morninglight",  
 	"include": "../../src/static/vscode-themes/github_light_default.json",
   "colors": {
     // Editor colors

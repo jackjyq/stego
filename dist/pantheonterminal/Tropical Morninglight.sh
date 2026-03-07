@@ -1,7 +1,7 @@
 #!/bin/bash
 dconf load /org/pantheon/terminal/settings/ <<COLORS
 [/]
-name='Tropical Morning'
+name='Tropical Morninglight'
 cursor-color='#212121'
 foreground='#212121'
 background='rgba(255,249,241,.95)'

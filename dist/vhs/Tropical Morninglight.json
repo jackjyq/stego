@@ -1,5 +1,5 @@
 {
-  "name": "Tropical Morning",
+  "name": "Tropical Morninglight",
   "black": "#000000",
   "red": "#c31636",
   "green": "#227601",
@@ -18,6 +18,6 @@
   "brightWhite": "#ffffff",
   "background": "#fff9f1",
   "foreground": "#212121",
-  "cursorColor": "#212121",
-  "selectionBackground": "#add6ff"
+  "cursor": "#212121",
+  "selection": "#add6ff"
 }

@@ -1,5 +1,5 @@
 
-themeName=Tropical Morning
+themeName=Tropical Morninglight
 main=#ededed
 main-dark=#cccccc
 main-light=#fefefe
