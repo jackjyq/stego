@@ -29,6 +29,7 @@ A sensual, tropical-inspired color theme for developers.
 
 - [Icon](./src/static/favicon/)
 - [Wallpaper](./src/static/wallpaper/)
+- [Wallpaper for E-ink](./src/static/wallpaper-eink/)
 
 ## 🎨 Color Design
 
