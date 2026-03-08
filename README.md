@@ -2,7 +2,7 @@
 
 <img src="./src/static/favicon/android-chrome-192x192.png" alt="Tropical Time Icon" width="192">
 
-# Tropical Time | 热带时光
+# Tropical Time ｜ 热带时光
 
 A sensual, tropical-inspired color theme for developers.
 
@@ -12,38 +12,23 @@ A sensual, tropical-inspired color theme for developers.
 
 ## 🚀 Quick Start
 
-### Wallpaper
 
-download the [wallpaper](./src/static/wallpaper/) and set it as your background.
+### Editors
 
-### VS Code
-
-install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time) or search for `Tropical Time`.
-
-### OpenCode
-
-download [OpenCode Themes](./dist/opencode/) into `~/.config/opencode/themes/`.
-
-### Vim
-
-download [Vim Themes](./dist/vim/) into `~/.vim/colors/` and set:
-
-<details>
-<summary><i>~/.vim/colors/</i></summary>
-
-```shell
-:set termguicolors
-:colorscheme Tropical-<Variant>
-```
-</details>
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time)
+- [OpenCode](./dist/opencode/)
+- [Vim](./dist/vim/)
 
 ### Terminals
-
-download theme for your terminals:
 
 - [Windows Terminal](./dist/windowsterminal)
 - [macOS Terminal](./dist/mac_terminal)
 - [more...](./dist/)
+
+### Artworks
+
+- [Icon](./src/static/favicon/)
+- [Wallpaper](./src/static/wallpaper/)
 
 ## 🎨 Color Design
 
@@ -132,8 +117,11 @@ this project is licensed under the [MIT License](LICENSE.txt).
 
 ## 🙏 Acknowledgements
 
-inspired by and built upon:
+<details>
+<summary><strong>Inspired by and built upon</strong></summary>
 
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - Terminal color scheme collection
 - [GitHub VSCode Themes](https://github.com/primer/github-vscode-theme) - GitHub's official VS Code theme
 - [Brogrammer Plus](https://github.com/jackjyq/vscode-theme-brogrammer-plus) - Brogrammer theme variant
+
+</details>
