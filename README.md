@@ -12,7 +12,6 @@ A sensual, tropical-inspired color theme for developers.
 
 ## 🚀 Quick Start
 
-
 ### Editors
 
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time)
@@ -35,18 +34,18 @@ A sensual, tropical-inspired color theme for developers.
 
 ### Palettes
 
-- [Nightmare & Daydream Palette](https://harmonizer.evilmartians.com/#jZI9b8IwEIb_y3WNqnw5Id4KSF1ArQpLVXUw4TARjh05Di1C_PfKqMAlA8Le7snz2rnzEfZo28po4FEACveoWuBfR9CiRuAwYlMIoDTaWdE64CMWQLm1phbAw-eQFUnOwuuKLnAiGs_jU3BNygZJWS8piotslLM7fjrw054f3zEZm_VM9rCZD8z8YbMYmEX_b5O017d-ku6UOn0HsO2wN4sPXEMAQkuFwOOQnPZmhZZ4g4zCT1TK_NzgiMJZVRMviih7tYiawJTCJQpFWE7Z5CA0vSlli92BoISiserIXeKMsvfONorSgtK5kKiduOGk156XboVWVpr4CQt9i1t0rtKyBX68Dmtu1qiAg2hKn7iuLJauMtrXgcNGLs1YwmVi_9Va_EIAKzkxythZJbcOODxthN83MBV25-tR7Pe5fv524YR1wBP_YpSxi0aUPrS1cgWn0x8)
-- [Morninglight & Twilight Palette](https://harmonizer.evilmartians.com/#jZI9b8IwEIb_y3WNqnxgkngrVOoCalVYUNXBhIuJcOzIcWgRyn-vggq5ZEB4vMfv47PPZziirQujgQceKDyiqoF_nUGLEoFDwmbgQWa0s6J2wBPmQba3phTA_WefpVHM_NsKrnAuqo6HrXczTUem6cAUhEkQElN4xzQZmSYD070kY5tBkj2cjEfJ-OFkOkqmw3tHw4tHA5NulGq_Pdg3OJjKJ-7AA6GlQuChT057t0JL7CGjcINKmZ8eJhQuipLkgoCyN4uoCZxQuEahCIspm5-Epp1StjqcCIoomqmG9BJOKftobKUoTSldConaiR5Hg-d5abZoZaFJPmJ-98Q1OldoWQM_34a1NDtUwEFUWWfcFRYzVxjd1YFDLtdmJuE6sf9qKX7Bg62cG2XsopB7Bxye8jxP86AHr8Ieurrv-3kUXuqXvSsnrAPefYNu26oSWSetrdxC2_4B)
-- [E-ink Grey Scale](https://huetone.ardov.me/?palette=N4IgdghgtgpiBcICiBLMBrEAaEALArjAM4IDaoksCIADNiAMYD2ANkwE4nykgDENAwSAC6AXywVocRAEZ6zNpzJ8ZqtSPGSqiAEzzWHLj147TZjRPBTqAZn2KjfG85cWt0kABZ7h5b08BgW5W2iAArD5K3HxhsXHBlB4AbJGOvEkZmQnWiADsqX65RcXZoQAcBdG8ZTW1pR4AnJXGDa1t9dQAgs18EH39HYgAQj28AEYTk4MgAMKjDAuL0wAiowAmG5vTSKMwe-vTAGKjAGZn5xrCOAAuTGDEygDi7DAAnhpAA)
+- [Nightmare & Daydream Palette](https://harmonizer.evilmartians.com/#jZI9b8IwEIb_y3WNqnw5IR4BqQuoqLBUVQcTjIlw7MhxaBHKf6-MCjlnQNjbPXleO3e-wImbttIKaBSA5CcuW6BfF1Cs5kBhQuYQQKmVNay1QCckgPJgdM2Ahq8hKZKchPcV3eCMNY7HfXBPykZJmZcUxUU2yckDPx35qefHD0xCFp5JnjbzkZk_bRYjs_D_Nkm9vvlJqpOy_w7g0HFvFh98BwEwJSQHGofotHfDlOADJBh-cin1zwAnGC6qGnlRhNmb4VwhmGK44UwilmM2OzOFb4rZ-nhGKMFoKjt0lzjDbNWZRmJaYLpkgivLBpx47VlV6ogYCV13W25tpUQL9HKf01LvuAQKrCld2K4yvLSVVq4OFPZio6cCbsP6r9bsFwLYipmW2iwqcbBA4WXP3B7AnJmjq0ex29f69du1ZcYCTdxjkdqsG1a60NaILfT9Hw)
+- [Morninglight & Twilight Palette](https://harmonizer.evilmartians.com/#jZJBb8IgFMe_y9u1WWgrtuWoS3bRzEwvZtkBK8VGCg2lbsb0uy-YaV97MHJ8P_4_HjwucBK2KY0GFgagxEmoBtjXBTSvBDBI6QwCyI12ljcOWEoDyA_WVBwYeSU0ixNK7iu8wTmvPY-64G6ajkzTgSmM0jBCpuiBaTIyTQamR0lKt4MkfTqZjJLJ08lslMyG946HF48HJt0q1X0HcGjFYCqfYg8BcC2VABYRdNqH5VqKHlIMt0Ip89PDFMNFWaFcGGL2boXQCE4w3AiuEEswm5-5xp1itj6eEYoxmqkW9RJNMVu1tlaYZpguuRTa8R7Hg-dZlfqIGCX-dRvhXKllA-xyn9PS7IUCBrzOvWxfWpG70mhfBwaF3JiZhNuw_qsV_4UAdnJulLGLUh4cMHgpiiIrwh68cXv0dUJIEUfX-nXv2nHrgPkf4Leta557aWPlDrruDw)
+- [E-ink Grey Scale Palette](https://huetone.ardov.me/?palette=N4IgdghgtgpiBcICiBLMBrEAaEALArjAM4IDaoksCIADNiAMYD2ANkwE4nykgDENAwSAC6AXywVocRAEZ6zNpzJ8ZqtSPGSqiAEzzWHLj147TZjRPBTqAZn2KjfG85cWt0kABZ7h5b08BgW5W2iAArD5K3HxhsXHBlB4AbJGOvEkZmQnWiADsqX65RcXZoQAcBdG8ZTW1pR4AnJXGDa1t9dQAgs18EH39HYgAQj28AEYTk4MgAMKjDAuL0wAiowAmG5vTSKMwe-vTAGKjAGZn5xrCOAAuTGDEygDi7DAAnhpAA)
 
 ### Themes
 
-| Palettes                                                    | Description                         | 描述               |
-| ----------------------------------------------------------- | ----------------------------------- | ------------------ |
-| [Tropical Morninglight](./src/palettes/tropical_morninglight.yml) | fresh and golden light theme | 清亮柔和的淡金主题 |
-| [Tropical Daydream](./src/palettes/tropical_daydream.yml)   | graceful and paper-like light theme | 淡雅如纸的白昼主题 |
-| [Tropical Twilight](./src/palettes/tropical_twilight.yml) | ethereal and deep blue dark theme          | 空灵深邃的深蓝主题 |
-| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml) | vibrant and juicy dark theme        | 明艳饱满的暗夜主题 |
+| Palettes                                                          | Description                         | 描述               |
+| ----------------------------------------------------------------- | ----------------------------------- | ------------------ |
+| [Tropical Morninglight](./src/palettes/tropical_morninglight.yml) | fresh and golden light theme        | 清亮柔和的淡金主题 |
+| [Tropical Daydream](./src/palettes/tropical_daydream.yml)         | graceful and paper-like light theme | 淡雅如纸的白昼主题 |
+| [Tropical Twilight](./src/palettes/tropical_twilight.yml)         | ethereal and deep blue dark theme   | 空灵深邃的深蓝主题 |
+| [Tropical Nightmare](./src/palettes/tropical_nightmare.yml)       | vibrant and juicy dark theme        | 明艳饱满的暗夜主题 |
 
 ## 🛠️ Development
 
@@ -56,21 +55,23 @@ A sensual, tropical-inspired color theme for developers.
 
 After install the above dependencies, run `just` to view available recipes.
 
-## 💡 FAQ
+## 💡 Tips
+
+The theme works best with the following settings:
 
 <details>
-<summary><strong>The color appears too harsh</strong></summary>
+<summary><strong>monitor & display</strong></summary>
 
-- adjust the monitor's lightness to a lower level
-- enable the Eye Care Mode (or Night Shift) feature on your device.
+- enable Eye Care Mode (or Night Shift) feature
+- reduce the monitor's lightness
 </details>
 
 <details>
-<summary><strong>Color rendering is inconsistent in the terminal</strong></summary>
+<summary><strong>bold text rendering</strong></summary>
 
-disable the bold text rendering feature in your terminal application:
+disable the bold text rendering feature in your terminal
 
-- VSCode Integrated Terminal
+VSCode Integrated Terminal
 
 ```json
 {
@@ -79,7 +80,7 @@ disable the bold text rendering feature in your terminal application:
 }
 ```
 
-- Windows Terminal
+Windows Terminal
 
 ```json
 {
@@ -90,6 +91,18 @@ disable the bold text rendering feature in your terminal application:
   }
 }
 ```
+
+</details>
+
+<details>
+<summary><strong>coding font</strong></summary>
+
+| Font / Feature                                                                | SC Dual-width | Nerd Symbol | Compact Spacing |
+| ----------------------------------------------------------------------------- | ------------- | ----------- | --------------- |
+| [MapleMonoNL-NF-CN](https://github.com/subframe7536/maple-font/releases)      | ✅            | ✅          | ❌              |
+| [SarasaTermSC-Nerd](https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases) | ✅            | ✅          | ✅              |
+| [IosevkaTermNerdFont](https://www.nerdfonts.com/font-downloads)               | ❌            | ✅          | ✅              |
+| [DejaVuSansMonoNerdFont](https://www.nerdfonts.com/font-downloads)            | ❌            | ✅          | ❌              |
 
 </details>
 
