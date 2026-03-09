@@ -12,27 +12,24 @@ A sensual, tropical-inspired color theme for developers.
 
 ## 🚀 Quick Start
 
-### Editors
+### Syntax Highlighting
 
-- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time)
-- [OpenCode](./dist/opencode/)
-- [Vim](./dist/vim/)
-
-### Terminals
-
+- [Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=jackjyq.tropical-time)
 - [Windows Terminal](./dist/windowsterminal)
-- [macOS Terminal](./dist/mac_terminal)
+- [OpenCode](./dist/opencode/) -> `~/.config/opencode/themes/`
+- [Notepad++ Markdown](./dist/npp-markdown/) -> `%AppData%\Notepad++\userDefineLangs`
+- [Vim](./dist/vim/) -> `~/.vim/colors/`
 - [more...](./dist/)
 
 ### Artworks
 
 - [Icon](./src/static/favicon/)
-- [Wallpaper](./src/static/wallpaper/)
-- [Wallpaper for E-ink](./src/static/wallpaper-eink/)
+- [Wallpaper](./src/static/wallpaper/) -> `for Desktop & Mobile Phone`
+- [Wallpaper for E-ink](./src/static/wallpaper-eink/) -> `for Kindle & BOOX`
 
-## 🎨 Color Design
+## 🎨 Design
 
-### Palettes
+### Color Palettes
 
 - [Nightmare & Daydream Palette](https://harmonizer.evilmartians.com/#jZI9b8IwEIb_y3WNqnw5IR4BqQuoqLBUVQcTjIlw7MhxaBHKf6-MCjlnQNjbPXleO3e-wImbttIKaBSA5CcuW6BfF1Cs5kBhQuYQQKmVNay1QCckgPJgdM2Ahq8hKZKchPcV3eCMNY7HfXBPykZJmZcUxUU2yckDPx35qefHD0xCFp5JnjbzkZk_bRYjs_D_Nkm9vvlJqpOy_w7g0HFvFh98BwEwJSQHGofotHfDlOADJBh-cin1zwAnGC6qGnlRhNmb4VwhmGK44UwilmM2OzOFb4rZ-nhGKMFoKjt0lzjDbNWZRmJaYLpkgivLBpx47VlV6ogYCV13W25tpUQL9HKf01LvuAQKrCld2K4yvLSVVq4OFPZio6cCbsP6r9bsFwLYipmW2iwqcbBA4WXP3B7AnJmjq0ex29f69du1ZcYCTdxjkdqsG1a60NaILfT9Hw)
 - [Morninglight & Twilight Palette](https://harmonizer.evilmartians.com/#jZJBb8IgFMe_y9u1WWgrtuWoS3bRzEwvZtkBK8VGCg2lbsb0uy-YaV97MHJ8P_4_HjwucBK2KY0GFgagxEmoBtjXBTSvBDBI6QwCyI12ljcOWEoDyA_WVBwYeSU0ixNK7iu8wTmvPY-64G6ajkzTgSmM0jBCpuiBaTIyTQamR0lKt4MkfTqZjJLJ08lslMyG946HF48HJt0q1X0HcGjFYCqfYg8BcC2VABYRdNqH5VqKHlIMt0Ip89PDFMNFWaFcGGL2boXQCE4w3AiuEEswm5-5xp1itj6eEYoxmqkW9RJNMVu1tlaYZpguuRTa8R7Hg-dZlfqIGCX-dRvhXKllA-xyn9PS7IUCBrzOvWxfWpG70mhfBwaF3JiZhNuw_qsV_4UAdnJulLGLUh4cMHgpiiIrwh68cXv0dUJIEUfX-nXv2nHrgPkf4Leta557aWPlDrruDw)
@@ -60,14 +57,14 @@ After install the above dependencies, run `just` to view available recipes.
 The theme works best with the following settings:
 
 <details>
-<summary><strong>monitor & display</strong></summary>
+<summary>monitor & display</summary>
 
 - enable Eye Care Mode (or Night Shift) feature
 - reduce the monitor's lightness
 </details>
 
 <details>
-<summary><strong>bold text rendering</strong></summary>
+<summary>bold text rendering</summary>
 
 disable the bold text rendering feature in your terminal
 
@@ -95,21 +92,17 @@ Windows Terminal
 </details>
 
 <details>
-<summary><strong>coding font</strong></summary>
+<summary>coding font</summary>
 
-| Font / Feature                                                                | SC Dual-width | Nerd Symbol | Compact Spacing |
-| ----------------------------------------------------------------------------- | ------------- | ----------- | --------------- |
-| [MapleMonoNL-NF-CN](https://github.com/subframe7536/maple-font/releases)      | ✅            | ✅          | ❌              |
-| [SarasaTermSC-Nerd](https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases) | ✅            | ✅          | ✅              |
-| [IosevkaTermNerdFont](https://www.nerdfonts.com/font-downloads)               | ❌            | ✅          | ✅              |
-| [DejaVuSansMonoNerdFont](https://www.nerdfonts.com/font-downloads)            | ❌            | ✅          | ❌              |
+- [MapleMonoNL-NF-CN](https://github.com/subframe7536/maple-font/releases)
+- [SarasaTermSC-Nerd](https://github.com/laishulu/Sarasa-Term-SC-Nerd/releases)
 
 </details>
 
 ## 🗺️ Roadmap
 
 <details>
-<summary><strong>Features</strong></summary>
+<summary>List of features</summary>
 
 - [x] dark palette
 - [x] light palette
@@ -133,10 +126,11 @@ this project is licensed under the [MIT License](LICENSE.txt).
 ## 🙏 Acknowledgements
 
 <details>
-<summary><strong>Inspired by and built upon</strong></summary>
+<summary>Inspired by and built upon</summary>
 
 - [iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes) - Terminal color scheme collection
 - [GitHub VSCode Themes](https://github.com/primer/github-vscode-theme) - GitHub's official VS Code theme
 - [Brogrammer Plus](https://github.com/jackjyq/vscode-theme-brogrammer-plus) - Brogrammer theme variant
+- [Edditoria](https://github.com/Edditoria/markdown-plus-plus) - Notepad++ markdown syntax highlighting support
 
 </details>
